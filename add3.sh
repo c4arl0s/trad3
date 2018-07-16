@@ -1,7 +1,5 @@
 #!/bin/bash
-# script para agregar una palabra nueva a nuestro diccionario de ingles.
-# variables que definen una secuencia de caracteres correspondientes a una impresion en color
-# con un beeb en cada transicion
+# script para agregar una palabra nueva a nuestro diccionario de inglés.
 
 VERDE="\033[47m\033[0;32m\a"
 ROJO="\033[47m\033[0;31m\a"
