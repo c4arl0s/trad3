@@ -11,9 +11,9 @@ ROSAFONDONEGRO="\033[40m\033[1;35m"
 AMARILLO="\033[47m\033[0;33m\a"
 BLANCO="\033[1;37m"
 
-directorio_ingles='/Users/carlossantiagocruz/Documents/BASH-PROGRAMMING/DICT-EN-ES/VOCABULARY/ENGLISH'
-directorio_espanol='/Users/Carlossantiagocruz/Documents/BASH-PROGRAMMING/DICT-EN-ES/VOCABULARY/SPANISH'
-directorio_comodin='/Users/carlossantiagocruz/Documents/BASH-PROGRAMMING/DICT-EN-ES/VOCABULARY'
+directorio_ingles='/Users/carlossantiagocruz/Documents/BASH-PROGRAMMING/DictEnEsScript/VOCABULARY/ENGLISH'
+directorio_espanol='/Users/Carlossantiagocruz/Documents/BASH-PROGRAMMING/DictEnEsScript/VOCABULARY/SPANISH'
+directorio_comodin='/Users/carlossantiagocruz/Documents/BASH-PROGRAMMING/DictEnEsScript/VOCABULARY'
 
 imprimir_titulo()
 {
