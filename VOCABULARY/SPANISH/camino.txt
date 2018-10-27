@@ -1,0 +1,2 @@
+camino : way :  :  :  :  : 
+camino : waterway :  :  :  :  : 

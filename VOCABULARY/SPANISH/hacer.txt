@@ -1,0 +1,2 @@
+hacer : make :  : made : made : making : 
+hacer : do :  : did : done : doing : 

@@ -1,0 +1,2 @@
+help : ayudar :  : helped : helped : helping : 
+help : ayuda :  :  :  :  : 

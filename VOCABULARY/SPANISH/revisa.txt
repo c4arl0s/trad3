@@ -1,0 +1,2 @@
+revisa : check-out :  :  :  :  : 
+revisa : chek-out :  :  :  :  : 

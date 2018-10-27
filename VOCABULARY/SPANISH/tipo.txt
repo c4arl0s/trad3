@@ -1,0 +1,2 @@
+tipo : kind :  :  :  :  : 
+tipo : type :  :  :  :  : 

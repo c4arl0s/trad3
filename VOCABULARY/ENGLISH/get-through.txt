@@ -1,0 +1,4 @@
+get-through : aprobar : un examen :  :  :  : 
+get-through : pasar : una mala experiencia :  :  :  : 
+get-through : acabar : terminar :  :  :  : I will never get through all this work
+get-through : comunicar : una idea :  :  :  : 

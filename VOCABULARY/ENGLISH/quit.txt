@@ -1,0 +1,1 @@
+quit : abandonar :  : quit-quitted : quit-quitted : quitting : 
