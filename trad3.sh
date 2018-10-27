@@ -1,5 +1,5 @@
 #!/bin/bash
-. /Users/Carlossantiagocruz/Documents/BASH-PROGRAMMING/DICT-EN-ES/funciones.sh
+. /Users/Carlossantiagocruz/Documents/BASH-PROGRAMMING/DictEnEsScript/funciones.sh
 #at the front of your main script (after the #!/bin/bash) the dot (in bash) is the same as the include directive in c, you don't have to export the functions as the file will be included in the main script, dont miss the space betwwen the dot and the filename
 ## INICIA PROGRAMA PRINCIPAL ###
 # mientras todos los parametros $* que le pones al script sea igual a vacio,, haz lo que hay acontinuacion.
