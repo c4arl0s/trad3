@@ -5,7 +5,7 @@
 # mientras todos los parametros $* que le pones al script sea igual a vacio,, haz lo que hay acontinuacion.
 while [ "$*" == "" ]
 	do
-		imprimir-titulo
+		printTitle
 		read palabra
 		prueba-palabra-ingles $palabra
         if [ "$?" = 0 ]
