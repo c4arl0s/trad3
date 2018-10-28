@@ -1,5 +1,5 @@
 #!/bin/bash
-imprimir-titulo()
+printTitle()
 {
 echo -e "$BLANCO"
 echo -e ""

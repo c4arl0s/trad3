@@ -5,7 +5,7 @@
 # mientras todos los parametros $* que le pones al script sea igual a vacio,, haz lo que hay acontinuacion.
 while [ "$*" == "" ]
 	do
-		imprimir-titulo
+		printTitle
 		read palabra
 		prueba-palabra-ingles $palabra
         if [ "$?" = 0 ]
@@ -13,8 +13,8 @@ while [ "$*" == "" ]
                 #=================================
                 if [[ -z $palabra ]];
                 then
-                                echo "User pressed ENTER with no input text, i will reproduce last word found ...";
-                                reproduce-audio $INGLES
+                    echo "User pressed ENTER with no input text, i will reproduce last word found ...";
+                    reproduce-audio $INGLES
                 else
                     echo -e "$BLANCO existe $ROSA $palabra $BLANCO en base de datos ingles"
                     prueba-palabra-audio $palabra

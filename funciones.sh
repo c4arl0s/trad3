@@ -1,5 +1,5 @@
 #!/bin/bash
-. /Users/Carlossantiagocruz/Documents/BASH-PROGRAMMING/DictEnEsScript/imprimir-titulo.sh
+. /Users/Carlossantiagocruz/Documents/BASH-PROGRAMMING/DictEnEsScript/printTitle.sh
 . /Users/Carlossantiagocruz/Documents/BASH-PROGRAMMING/DictEnEsScript/prueba-palabra-audio.sh
 . /Users/Carlossantiagocruz/Documents/BASH-PROGRAMMING/DictEnEsScript/prueba-palabra-espanol.sh
 . /Users/Carlossantiagocruz/Documents/BASH-PROGRAMMING/DictEnEsScript/prueba-palabra-ingles.sh
