@@ -18,7 +18,7 @@ directorio_comodin='/Users/carlossantiagocruz/Documents/BASH-PROGRAMMING/DictEnE
 imprimir_titulo()
 {
 	    echo ""
-        echo -e "$VERDE 		SCRIPT PARA AGREGAR PALABRAS INGLES-ESPANOL   $AMARILLO  teclea Ctrl-Z salir "
+        echo -e "$VERDE 	DictEnEsScript	SCRIPT PARA AGREGAR PALABRAS INGLES-ESPANOL   $AMARILLO  teclea Ctrl-Z salir "
       	echo -e "$ROJO ingrese uno y solo una palabra en INGLES para ingresar a la base de datos: "
       	echo -e "$BLANCO " 
 }
