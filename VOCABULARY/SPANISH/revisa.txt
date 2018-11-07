@@ -1,2 +1,3 @@
 revisa : check-out :  :  :  :  : 
 revisa : chek-out :  :  :  :  : 
+revisa : checkout :  :  :  :  : 
