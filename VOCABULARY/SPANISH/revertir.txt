@@ -1,0 +1,1 @@
+revertir : revert :  :  :  :  : In Git you can revert the changes made to a file if you haven?t committed them yet, as well as you can revert a file to any previous commit.
