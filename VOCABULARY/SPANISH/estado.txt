@@ -1,2 +1,3 @@
 estado : state :  :  :  :  : 
 estado : been :  :  :  :  : 
+estado : status :  :  :  :  : 
