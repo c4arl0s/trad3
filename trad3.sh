@@ -7,6 +7,7 @@ while [ "$*" == "" ]
 	do
 		printTitle
 		read palabra
+		echo ""
 		prueba-palabra-ingles $palabra
         if [ "$?" = 0 ]
 		    then
