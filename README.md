@@ -1,5 +1,5 @@
 # DictEnEsScript
 
 <p align="center">
-    <img src="https://github.com/giulio92/GLTableCollectionView/blob/master/GitHub%20Page/Images/logo.png" width="675">
+    <img src="https://github.com/carlos-santiago-2017/DictEnEsScript/blob/master/screenshotDictEnEs.png" width="675">
 </p>
