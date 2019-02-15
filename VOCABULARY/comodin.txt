@@ -1,1 +1,1 @@
-home : casa :  :  :  :  : 
+deploy : desplegar :  :  :  :  : 
