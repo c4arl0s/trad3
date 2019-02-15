@@ -5,6 +5,13 @@ It use my own database which come from my old days of school. When I just needed
 
 Next step would be to make an app and access all these words from a Firebase database. Lets make it.!
 
+![](https://github.com/carlos-santiago-2017/DictEnEsScript/blob/master/1.gif)
+
 <p align="center">
     <img src="https://github.com/carlos-santiago-2017/DictEnEsScript/blob/master/screenshotDictEnEs.png" width="675">
 </p>
+<p align="left">
+<img src="https://github.com/carlos-santiago-2017/RockScissorsPaper/blob/master/1.png">
+</p>
+
+
