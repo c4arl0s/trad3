@@ -1,0 +1,2 @@
+puerta : door :  :  :  :  : 
+puerta : gateway :  :  :  :  : 

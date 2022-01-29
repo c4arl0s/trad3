@@ -1,0 +1,2 @@
+
+close-run :  : ganar por un margen muy pequeño :  :  :  : 

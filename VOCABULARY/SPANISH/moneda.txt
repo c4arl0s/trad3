@@ -1,0 +1,2 @@
+moneda : coin :  :  :  :  : 
+moneda : currency :  :  :  :  : 

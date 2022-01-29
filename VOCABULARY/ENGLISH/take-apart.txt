@@ -1,0 +1,3 @@
+
+take-apart : desmontar :  :  :  :  : he took the engine apart, desmontó el motor.
+take-apart : desbaratar : un argumento :  :  :  : 

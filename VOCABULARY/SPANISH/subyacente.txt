@@ -1,0 +1,1 @@
+subyacente : underlying :  :  :  :  : To extract an underlying value from an optional.

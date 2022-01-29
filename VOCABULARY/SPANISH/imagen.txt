@@ -1,0 +1,2 @@
+imagen : picture :  :  :  :  : 
+imagen : image :  :  :  :  : 

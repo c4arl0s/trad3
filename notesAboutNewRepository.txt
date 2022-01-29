@@ -1,0 +1,2 @@
+I have to delete all links to trad3. I made it, but you have to close your session of the terminal to see the changes. 
+Now the .profile file is in charge of execute the script with a function. It is simpler because you dont have to create a link to /usr or /bin.

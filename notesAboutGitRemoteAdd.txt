@@ -1,0 +1,18 @@
+steps to correctly add my project to github
+
+first of all you have to create your repository, follow the next steps to be succesful, it works for me.
+
+into your gitHub account:
+
+1.- Give a name to the repository
+2.- create a LICENCE, suggestion: choose MIT
+3.- copy the url of the repository, you are going to use it later ..
+
+git init
+git add .
+git commit -m "Initial Commit"
+git remote add github <repository url>
+git pull origin master	// I have to add this, otherwise gives an error.
+git remote -v
+git push github master
+or git push origin master

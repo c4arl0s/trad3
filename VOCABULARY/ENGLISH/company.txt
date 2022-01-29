@@ -1,0 +1,2 @@
+company : empresa :  :  :  :  : 
+company : compañia :  :  :  :  : 

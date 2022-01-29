@@ -1,0 +1,1 @@
+delivery-time : tiempo-de-entrega : para ventas :  :  :  : delivery time=term of delivery [C] the amount of time that a company takes to get goods ready for delivery, for example the time it takes to obtain them or make them ->LONG He wants to make sure we maintain the quality and delivery time (how long it takes to make and deliver a product) -> OXF

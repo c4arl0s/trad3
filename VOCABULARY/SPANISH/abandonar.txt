@@ -1,0 +1,2 @@
+abandonar : quit :  : quit-quitted : quit-quitted : quitting : 
+abandonar : forsake :  : forsook : forsaken : forsaking : 
