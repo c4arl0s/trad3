@@ -1,8 +1,8 @@
 #!/bin/bash
 
-prueba-palabra-audio()
+isRetrievableEnglishAudio()
 {
-palabra=$1
-test -f $directorio_audio/$palabra.wav
+    WORD=$1
+    test -f $directorio_audio/$WORD.wav
 }
 

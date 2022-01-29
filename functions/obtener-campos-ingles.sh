@@ -1,13 +1,14 @@
 #!/bin/bash
-obtener-campos-ingles()
+
+getEnglishFields()
 {
     WORD=$1
-    i=$2
-    INGLES=`cat $directorio_ingles/$WORD.txt | tail -$i  | cut -f 1 -d ":"`
-    ESPANOL=`cat $directorio_ingles/$WORD.txt | tail -$i  | cut -f 2 -d ":"`
-    EXTRA=`cat $directorio_ingles/$WORD.txt | tail -$i  | cut -f 3 -d ":"`
-    P=`cat $directorio_ingles/$WORD.txt | tail -$i  | cut -f 4 -d ":"`
-    PP=`cat $directorio_ingles/$WORD.txt | tail -$i  | cut -f 5 -d ":"`
-    G=`cat $directorio_ingles/$WORD.txt | tail -$i  | cut -f 6 -d ":"`
-    E=`cat $directorio_ingles/$WORD.txt | tail -$i  | cut -f 7 -d ":"`
+    ROW=$2
+    INGLES=`cat $ENGLISHDIRECTORY_PATH/$WORD.txt | tail -$ROW | cut -f 1 -d ":"`
+    ESPANOL=`cat $ENGLISHDIRECTORY_PATH/$WORD.txt | tail -$ROW | cut -f 2 -d ":"`
+    EXTRA=`cat $ENGLISHDIRECTORY_PATH/$WORD.txt | tail -$ROW | cut -f 3 -d ":"`
+    P=`cat $ENGLISHDIRECTORY_PATH/$WORD.txt | tail -$ROW | cut -f 4 -d ":"`
+    PP=`cat $ENGLISHDIRECTORY_PATH/$WORD.txt | tail -$ROW | cut -f 5 -d ":"`
+    G=`cat $ENGLISHDIRECTORY_PATH/$WORD.txt | tail -$ROW | cut -f 6 -d ":"`
+    E=`cat $ENGLISHDIRECTORY_PATH/$WORD.txt | tail -$ROW | cut -f 7 -d ":"`
 }

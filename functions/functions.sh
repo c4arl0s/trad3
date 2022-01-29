@@ -1,6 +1,6 @@
 #!/bin/bash
 . ./functions/printTitle.sh
-. ./functions/prueba-palabra-audio.sh
+. ./functions/isRetrievableEnglishAudio.sh
 . ./functions/prueba-palabra-espanol.sh
 . ./functions/isRetrievableEnglishWord.sh
 . ./functions/configuracion-colores.sh
@@ -26,7 +26,7 @@
 . ./functions/desplegar-traduccion-espanol.sh
 . ./functions/displayEnglishTranslation.sh
 . ./functions/imprimir-campos-ingles.sh
-. ./functions/obtener-campos-ingles.sh
+. ./functions/getEnglishFields.sh
 . ./functions/imprimir-campos-espanol.sh
 . ./functions/obtener-campos-espanol.sh
 . ./functions/limpiar-archivo-espanol.sh
