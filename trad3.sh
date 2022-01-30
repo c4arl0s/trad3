@@ -30,7 +30,7 @@ do
                     reproduce-audio $WORD
                     sleep 1
             fi
-            limpiar-archivo-ingles $WORD
+            formatEnglishFile $WORD
             # clear
             displayEnglishTranslation $WORD
         fi

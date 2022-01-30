@@ -1,10 +1,12 @@
 #!/bin/bash
+
+. ./functions/directoryPaths.sh
+
 . ./functions/printTitle.sh
 . ./functions/isRetrievableEnglishAudio.sh
 . ./functions/prueba-palabra-espanol.sh
 . ./functions/isRetrievableEnglishWord.sh
 . ./functions/configuracion-colores.sh
-. ./functions/configuracion-directorios.sh
 . ./functions/imprimir-traduccion-ingresada.sh
 . ./functions/reproduce-audio.sh
 . ./functions/despliega-menu-de-decision.sh
@@ -30,5 +32,5 @@
 . ./functions/imprimir-campos-espanol.sh
 . ./functions/obtener-campos-espanol.sh
 . ./functions/limpiar-archivo-espanol.sh
-. ./functions/limpiar-archivo-ingles.sh
+. ./functions/formatEnglishFile.sh
 . ./functions/prueba-existencia.sh
