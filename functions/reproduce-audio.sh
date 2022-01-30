@@ -2,7 +2,7 @@
 
 reproduce-audio()
 {
-palabra=$1
-play $directorio_audio/$palabra.wav
+    WORD=$1
+    play $directorio_audio/$WORD.wav
 }
 
