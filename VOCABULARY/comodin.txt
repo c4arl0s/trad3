@@ -1,1 +1,1 @@
-spanish : Español :  :  :  :  : 
+word : palabra :  :  :  :  : 
