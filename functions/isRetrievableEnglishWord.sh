@@ -2,7 +2,7 @@
 
 isRetrievableEnglishWord()
 {
-    englishWord=$1
-    test -f $directorio_ingles/$englishWord.txt   #prueba si el archivo existe
+    WORD=$1
+    test -f $ENGLISH_DIRECTORY_PATH/$WORD.txt   #prueba si el archivo existe
 }
 
