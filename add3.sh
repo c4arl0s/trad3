@@ -11,16 +11,16 @@ ROSAFONDONEGRO="\033[40m\033[1;35m"
 AMARILLO="\033[47m\033[0;33m\a"
 BLANCO="\033[1;37m"
 
-directorio_ingles='/Users/carlossantiagocruz/Documents/BASH-PROGRAMMING/DictEnEsScript/VOCABULARY/ENGLISH'
-directorio_espanol='/Users/Carlossantiagocruz/Documents/BASH-PROGRAMMING/DictEnEsScript/VOCABULARY/SPANISH'
-directorio_comodin='/Users/carlossantiagocruz/Documents/BASH-PROGRAMMING/DictEnEsScript/VOCABULARY'
+directorio_ingles='~/Documents/DictEnEsScript/VOCABULARY/ENGLISH'
+directorio_espanol='/Documents/DictEnEsScript/VOCABULARY/SPANISH'
+directorio_comodin='/Documents/DictEnEsScript/VOCABULARY'
 
 imprimir_titulo()
 {
-	    echo ""
-        echo -e "$VERDE 	DictEnEsScript	SCRIPT PARA AGREGAR PALABRAS INGLES-ESPANOL   $AMARILLO  teclea Ctrl-Z salir "
-      	echo -e "$ROJO ingrese uno y solo una palabra en INGLES para ingresar a la base de datos: "
-      	echo -e "$BLANCO " 
+    echo ""
+    echo -e "$VERDE 	DictEnEsScript	SCRIPT PARA AGREGAR PALABRAS INGLES-ESPANOL   $AMARILLO  teclea Ctrl-Z salir "
+    echo -e "$ROJO ingrese uno y solo una palabra en INGLES para ingresar a la base de datos: "
+    echo -e "$BLANCO " 
 }
 
 obtener_traduccion()
@@ -32,53 +32,53 @@ obtener_traduccion()
     echo -e "$AMARILLO ingrese algo extra acerca de tu palabra:"
     echo -e " $VERDE "
     read algomas 
-	echo "" 
-	echo -e "$AMARILLO ingrese PASADO en caso de ser verbo:" 
-	echo -e " $VERDE " 
-	read p 
-	echo "" 
-	echo -e "$AMARILLO ingrese PASASO PARTICIPIO en caso de ser verbo:" 
-	echo -e " $VERDE " 
-	read pp 
-	echo "" 
-	echo -e "$AMARILLO ingrese GERUNDIO en caso de ser verbo:" 
-	echo -e " $VERDE " 
-	read gerundio 
-	echo "" 
-	echo -e "$AMARILLO ingrese un ejemplo de la palabra a agregar:" 
-	echo -e " $VERDE"
+    echo "" 
+    echo -e "$AMARILLO ingrese PASADO en caso de ser verbo:" 
+    echo -e " $VERDE " 
+    read p 
+    echo "" 
+    echo -e "$AMARILLO ingrese PASASO PARTICIPIO en caso de ser verbo:" 
+    echo -e " $VERDE " 
+    read pp 
+    echo "" 
+    echo -e "$AMARILLO ingrese GERUNDIO en caso de ser verbo:" 
+    echo -e " $VERDE " 
+    read gerundio 
+    echo "" 
+    echo -e "$AMARILLO ingrese un ejemplo de la palabra a agregar:" 
+    echo -e " $VERDE"
     read ejemplo
 }
 
 imprimir_traduccion_ingresada()
 {
-echo -e " $BLANCO ENGLISH :	$ROSAFONDONEGRO $ingles "
-echo -e " $BLANCO SPANISH :     $ROSAFONDONEGRO $espanol "
-echo -e " $BLANCO EXTRA :       $ROSAFONDONEGRO $algomas "
-echo -e " $BLANCO PAST :        $ROSAFONDONEGRO $p "
-echo -e " $BLANCO PAST PARTICIPE : $ROSAFONDONEGRO $pp "
-echo -e " $BLANCO GERUND :      $ROSAFONDONEGRO   $gerundio "
-echo -e " $BLANCO EXAMPLE : 	$ROSAFONDONEGRO   $ejemplo "
+    echo -e " $BLANCO ENGLISH :	$ROSAFONDONEGRO $ingles "
+    echo -e " $BLANCO SPANISH :     $ROSAFONDONEGRO $espanol "
+    echo -e " $BLANCO EXTRA :       $ROSAFONDONEGRO $algomas "
+    echo -e " $BLANCO PAST :        $ROSAFONDONEGRO $p "
+    echo -e " $BLANCO PAST PARTICIPE : $ROSAFONDONEGRO $pp "
+    echo -e " $BLANCO GERUND :      $ROSAFONDONEGRO   $gerundio "
+    echo -e " $BLANCO EXAMPLE : 	$ROSAFONDONEGRO   $ejemplo "
 }
 
 crear_archivo_ingles()
 {
-touch $directorio_ingles/$ingles.txt
+    touch $directorio_ingles/$ingles.txt
 }
 
 crear_archivo_espanol()
 {
-touch $directorio_espanol/$espanol.txt
+    touch $directorio_espanol/$espanol.txt
 }
 
 transfiere_traduccion_ingles()
 { 
-echo -e "$ingles : $espanol : $algomas : $p : $pp : $gerundio : $ejemplo" >> $directorio_ingles/$ingles.txt
+    echo -e "$ingles : $espanol : $algomas : $p : $pp : $gerundio : $ejemplo" >> $directorio_ingles/$ingles.txt
 }
 
 transfiere_traduccion_espanol()
 {
-echo -e "$espanol : $ingles : $algomas : $p : $pp : $gerundio : $ejemplo" >> $directorio_espanol/$espanol.txt
+    echo -e "$espanol : $ingles : $algomas : $p : $pp : $gerundio : $ejemplo" >> $directorio_espanol/$espanol.txt
 }
 
 #################################################################################################
