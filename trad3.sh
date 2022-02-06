@@ -16,17 +16,17 @@ do
             echo "User pressed ENTER with no input text, i will reproduce last word found ...";
             reproduce-audio $WORD
         else
-            echo -e "$BLANCO exist $ROSA $WORD $BLANCO into english data base"
+            echo -e "$WHITE exist $PINK $WORD $WHITE into english data base"
             if [ "isRetrievableEnglishAudio $WORD" ]
                 then
                     reproduce-audio $WORD
                     sleep 1
                 else
-                    echo -e "$AMARILLO audio does not exist ... I will use google"
+                    echo -e "$YELLOW audio does not exist ... I will use google"
                     descargar-mp3-google $WORD
-                    echo -e "$AMARILLO does exits ... converting to wav file"
+                    echo -e "$YELLOW does exits ... converting to wav file"
                     convierte-mp3-wav $WORD
-                    echo -e "$AMARILLO reproducing audio"
+                    echo -e "$YELLOW reproducing audio"
                     reproduce-audio $WORD
                     sleep 1
             fi
@@ -37,16 +37,16 @@ do
         #=================================
     else
         #=================================
-        echo -e "$ROSA $palabra $BLANCO does not exist on english data base .... now looking into spanish data base"
-        prueba-palabra-espanol $palabra
+        echo -e "$PINK $WORD $WHITE does not exist on english data base .... now looking into spanish data base"
+        prueba-palabra-espanol $WORD
         if [ "$?" = 0 ]
         then
-            existe-archivo-en-espanol $palabra
+            existe-archivo-en-espanol $WORD
             clear
-            desplegar-traduccion-espanol $palabra
+            desplegar-traduccion-espanol $WORD
             reproduce-audio $INGLES
         else
-            buscar-palabra-en-google $palabra
+            buscar-palabra-en-google $WORD
             sleep 1
             prueba-palabra-audio $ingles
             sleep 1
