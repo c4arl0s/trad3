@@ -3,11 +3,11 @@
 displayEnglishTranslation()
 {
     WORD=$1
-    ROWS=`cuenta-lineas-archivo-ingles $palabra`
+    ROWS=`cuenta-lineas-archivo-ingles $WORD`
+    echo -e "$ROWS"
     echo -e "$BLANCO Exist $ROWS meanings of $ROJO $WORD"
     for ROW in `seq $ROWS`
     do  
-        echo "$ROW"
         getEnglishFields $WORD $ROW
         imprimir-campos-ingles
     done

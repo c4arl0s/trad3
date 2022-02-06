@@ -2,13 +2,6 @@
 
 cuenta-lineas-archivo-ingles()
 {
-palabra=$1
-cat $directorio_ingles/$palabra.txt | wc -l | cut -f 8 -d " "
+    WORD=$1
+    cat $ENGLISH_DIRECTORY_PATH/$WORD.txt | wc -l | cut -f 8 -d " "
 }
-
-
-
-
-
-
-

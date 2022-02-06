@@ -31,7 +31,7 @@ do
                     sleep 1
             fi
             formatEnglishFile $WORD
-            # clear
+            clear
             displayEnglishTranslation $WORD
         fi
         #=================================

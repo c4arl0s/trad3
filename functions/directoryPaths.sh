@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COMODIN_DIRECTORY_PATH='~/iOSProjects/DictEnEsScript/VOCABULARY'
-ENGLISH_DIRECTORY_PATH='~/iOSProjects/DictEnEsScript/VOCABULARY/ENGLISH'
-directorio_espanol='~/iOSProjects/DictEnEsScript/VOCABULARY/SPANISH'
-directorio_audio='~/iOSProjects/DictEnEsScript/VOCABULARY/WORDS-AUDIO'
+COMODIN_DIRECTORY_PATH='./vocabulary'
+ENGLISH_DIRECTORY_PATH='./vocabulary/english'
+directorio_espanol='./vocabulary/spanish'
+directorio_audio='./vocabulary/audio-words'
