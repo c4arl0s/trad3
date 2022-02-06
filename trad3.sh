@@ -8,9 +8,10 @@ while [ "$*" = "" ]
 do
     printTitle
     read WORD
-    if [ "isRetrievableEnglishWord $WORD" ]
+    if [ "isRetrievableEnglishWord $WORD" = 0 ]
     then
-         #=================================
+        #=================================
+        echo -e "the word $WORD is found"
         if [[ -z $WORD ]];
         then
             echo "User pressed ENTER with no input text, i will reproduce last word found ...";
@@ -18,25 +19,26 @@ do
         else
             echo -e "$WHITE exist $PINK $WORD $WHITE into english data base"
             if [ "isRetrievableEnglishAudio $WORD" ]
-                then
-                    reproduce-audio $WORD
-                    sleep 1
-                else
-                    echo -e "$YELLOW audio does not exist ... I will use google"
-                    descargar-mp3-google $WORD
-                    echo -e "$YELLOW does exits ... converting to wav file"
-                    convierte-mp3-wav $WORD
-                    echo -e "$YELLOW reproducing audio"
-                    reproduce-audio $WORD
-                    sleep 1
+            then
+                reproduce-audio $WORD
+                sleep 1
+            else
+                echo -e "$YELLOW audio does not exist ... I will use google"
+                descargar-mp3-google $WORD
+                echo -e "$YELLOW does exits ... converting to wav file"
+                convierte-mp3-wav $WORD
+                echo -e "$YELLOW reproducing audio"
+                reproduce-audio $WORD
+                sleep 1
             fi
             formatEnglishFile $WORD
-            clear
+            # clear
             displayEnglishTranslation $WORD
         fi
         #=================================
     else
         #=================================
+        echo -e "the word $WORD is not found"
         echo -e "$PINK $WORD $WHITE does not exist on english data base .... now looking into spanish data base"
         prueba-palabra-espanol $WORD
         if [ "$?" = 0 ]
@@ -58,7 +60,7 @@ do
                 descargar-audio-de-google $ingles
                 sleep 1
             fi
-            clear
+            # clear
             despliega-opcion-agregar-palabra
             read decision
             despliega-menu-de-decision
