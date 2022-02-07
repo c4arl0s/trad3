@@ -6,9 +6,9 @@
 . ./functions/isRetrievableEnglishAudio.sh
 . ./functions/downloadAudioFromGoogle.sh
 . ./functions/convertMP3toWAV.sh
+. ./functions/isRetrievableSpanishWord.sh
 
 . ./functions/printTitle.sh
-. ./functions/prueba-palabra-espanol.sh
 . ./functions/configuracion-colores.sh
 . ./functions/imprimir-traduccion-ingresada.sh
 . ./functions/reproduce-audio.sh

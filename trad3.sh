@@ -20,7 +20,7 @@ do
         else
             echo -e "$YELLOW audio does not exist ... I will use google"
             downloadAudioFromGoogle $WORD
-            echo -e "$YELLOW does exits ... converting to wav file"
+            echo -e "$YELLOW does exits ... convert to wav file"
             convertMP3toWAV $WORD
             echo -e "$YELLOW reproducing audio"
             reproduce-audio $WORD
@@ -34,8 +34,7 @@ do
         #=================================
         echo -e "the word $WORD is not found"
         echo -e "$PINK $WORD $WHITE does not exist on english data base .... now looking into spanish data base"
-        # prueba-palabra-espanol $WORD
-        if [ "prueba-palabra-espanol $WORD" = 0 ]
+        if $(isRetrievableSpanishWord $WORD)
         then
             existe-archivo-en-espanol $WORD
             # clear
