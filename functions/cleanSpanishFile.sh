@@ -1,6 +1,6 @@
 #!/bin/bash
 
-limpiar-archivo-espanol()
+cleanSpanishFile()
 {
     WORD=$1
     #borrar lineas vacias

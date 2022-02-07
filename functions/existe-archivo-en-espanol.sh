@@ -1,10 +1,11 @@
 #!/bin/bash
+
 existe-archivo-en-espanol()
 {
-palabra=$1
-echo ""
-echo -e "$CYAN $palabra existe ..."
-echo ""
-limpiar-archivo-espanol $palabra
+    WORD=$1
+    echo ""
+    echo -e "$CYAN $WORD existe ..."
+    echo ""
+    limpiar-archivo-espanol $WORD
 }
 

@@ -11,7 +11,6 @@ do
     if $(isRetrievableEnglishWord $WORD)
     then
         #=================================
-        echo -e "the word $WORD is found"
         echo -e "$WHITE exist $PINK $WORD $WHITE into english data base" 
         if $(isRetrievableEnglishAudio $WORD)
         then
@@ -36,9 +35,10 @@ do
         echo -e "$PINK $WORD $WHITE does not exist on english data base .... now looking into spanish data base"
         if $(isRetrievableSpanishWord $WORD)
         then
-            existe-archivo-en-espanol $WORD
+            SPANISH_WORD=$WORD
+            cleanSpanishFile $SPANISH_WORD
             # clear
-            desplegar-traduccion-espanol $WORD
+            desplegar-traduccion-espanol $SPANISH_WORD
             reproduce-audio $INGLES
         else
             buscar-palabra-en-google $WORD
