@@ -32,6 +32,6 @@
 . ./functions/getEnglishFields.sh
 . ./functions/imprimir-campos-espanol.sh
 . ./functions/obtener-campos-espanol.sh
-. ./functions/limpiar-archivo-espanol.sh
+. ./functions/cleanSpanishFile.sh
 . ./functions/formatEnglishFile.sh
 . ./functions/prueba-existencia.sh
