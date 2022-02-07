@@ -12,29 +12,23 @@ do
     then
         #=================================
         echo -e "the word $WORD is found"
-        if [[ -z $WORD ]];
+        echo -e "$WHITE exist $PINK $WORD $WHITE into english data base" 
+        if $(isRetrievableEnglishAudio $WORD)
         then
-            echo "User pressed ENTER with no input text, i will reproduce last word found ...";
             reproduce-audio $WORD
+            sleep 1
         else
-            echo -e "$WHITE exist $PINK $WORD $WHITE into english data base"
-            if `isRetrievableEnglishAudio $WORD`
-            then
-                reproduce-audio $WORD
-                sleep 1
-            else
-                echo -e "$YELLOW audio does not exist ... I will use google"
-                descargar-mp3-google $WORD
-                echo -e "$YELLOW does exits ... converting to wav file"
-                convierte-mp3-wav $WORD
-                echo -e "$YELLOW reproducing audio"
-                reproduce-audio $WORD
-                sleep 1
-            fi
-            formatEnglishFile $WORD
-            # clear
-            displayEnglishTranslation $WORD
+            echo -e "$YELLOW audio does not exist ... I will use google"
+            descargar-mp3-google $WORD
+            echo -e "$YELLOW does exits ... converting to wav file"
+            convierte-mp3-wav $WORD
+            echo -e "$YELLOW reproducing audio"
+            reproduce-audio $WORD
+            sleep 1
         fi
+        formatEnglishFile $WORD
+        # clear
+        displayEnglishTranslation $WORD
         #=================================
     else
         #=================================
