@@ -8,7 +8,7 @@ while [ "$*" = "" ]
 do
     printTitle
     read WORD
-    if [ "isRetrievableEnglishWord $WORD" = 0 ]
+    if $(isRetrievableEnglishWord $WORD)
     then
         #=================================
         echo -e "the word $WORD is found"
@@ -18,7 +18,7 @@ do
             reproduce-audio $WORD
         else
             echo -e "$WHITE exist $PINK $WORD $WHITE into english data base"
-            if [ "isRetrievableEnglishAudio $WORD" ]
+            if `isRetrievableEnglishAudio $WORD`
             then
                 reproduce-audio $WORD
                 sleep 1
@@ -40,19 +40,17 @@ do
         #=================================
         echo -e "the word $WORD is not found"
         echo -e "$PINK $WORD $WHITE does not exist on english data base .... now looking into spanish data base"
-        prueba-palabra-espanol $WORD
-        if [ "$?" = 0 ]
+        # prueba-palabra-espanol $WORD
+        if [ "prueba-palabra-espanol $WORD" = 0 ]
         then
             existe-archivo-en-espanol $WORD
-            clear
+            # clear
             desplegar-traduccion-espanol $WORD
             reproduce-audio $INGLES
         else
             buscar-palabra-en-google $WORD
-            sleep 1
-            prueba-palabra-audio $ingles
-            sleep 1
-            if [ "$?" = 0 ]
+            sleep 1 
+            if [ "isRetrievableEnglishAudio $ingles" = 0 ]
             then
                 reproduce-audio $ingles
                 sleep 1
