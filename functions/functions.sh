@@ -5,6 +5,7 @@
 . ./functions/isRetrievableEnglishWord.sh
 . ./functions/isRetrievableEnglishAudio.sh
 . ./functions/downloadAudioFromGoogle.sh
+. ./functions/convertMP3toWAV.sh
 
 . ./functions/printTitle.sh
 . ./functions/prueba-palabra-espanol.sh
@@ -23,7 +24,6 @@
 . ./functions/transfiere-traduccion-ingles.sh
 . ./functions/crear-archivo-ingles.sh
 . ./functions/obtener-traduccion.sh
-. ./functions/convierte-mp3-wav.sh
 . ./functions/cuenta-lineas-archivo-ingles.sh
 . ./functions/cuenta-lineas-archivo-espanol.sh
 . ./functions/desplegar-traduccion-espanol.sh

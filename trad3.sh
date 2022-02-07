@@ -21,7 +21,7 @@ do
             echo -e "$YELLOW audio does not exist ... I will use google"
             downloadAudioFromGoogle $WORD
             echo -e "$YELLOW does exits ... converting to wav file"
-            convierte-mp3-wav $WORD
+            convertMP3toWAV $WORD
             echo -e "$YELLOW reproducing audio"
             reproduce-audio $WORD
             sleep 1
