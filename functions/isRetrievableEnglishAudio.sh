@@ -1,7 +1,7 @@
 #!/bin/bash
 
-isRetriavableEnglishAudio()
+isRetrievableEnglishAudio()
 {
     WORD=$1
-    test -f $directory_audio/$WORD.wav
+    test -f $AUDIO_DIRECTORY_PATH/$WORD.wav
 }

@@ -3,6 +3,6 @@
 isRetrievableEnglishAudio()
 {
     WORD=$1
-    test -f $directorio_audio/$WORD.wav
+    test -f $AUDIO_DIRECTORY_PATH/$WORD.wav
 }
 
