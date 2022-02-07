@@ -1,1 +1,2 @@
-traduccion : translation :  :  :  :  : 
+encontrado : Found :  :  :  :  : 
+encontrado : encountered :  :  :  :  : 
