@@ -2,10 +2,12 @@
 
 . ./functions/directoryPaths.sh
 
-. ./functions/printTitle.sh
-. ./functions/isRetrievableEnglishAudio.sh
-. ./functions/prueba-palabra-espanol.sh
 . ./functions/isRetrievableEnglishWord.sh
+. ./functions/isRetrievableEnglishAudio.sh
+. ./functions/downloadAudioFromGoogle.sh
+
+. ./functions/printTitle.sh
+. ./functions/prueba-palabra-espanol.sh
 . ./functions/configuracion-colores.sh
 . ./functions/imprimir-traduccion-ingresada.sh
 . ./functions/reproduce-audio.sh
@@ -22,7 +24,6 @@
 . ./functions/crear-archivo-ingles.sh
 . ./functions/obtener-traduccion.sh
 . ./functions/convierte-mp3-wav.sh
-. ./functions/descargar-mp3-google.sh
 . ./functions/cuenta-lineas-archivo-ingles.sh
 . ./functions/cuenta-lineas-archivo-espanol.sh
 . ./functions/desplegar-traduccion-espanol.sh

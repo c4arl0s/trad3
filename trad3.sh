@@ -19,7 +19,7 @@ do
             sleep 1
         else
             echo -e "$YELLOW audio does not exist ... I will use google"
-            descargar-mp3-google $WORD
+            downloadAudioFromGoogle $WORD
             echo -e "$YELLOW does exits ... converting to wav file"
             convierte-mp3-wav $WORD
             echo -e "$YELLOW reproducing audio"
