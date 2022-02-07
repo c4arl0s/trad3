@@ -38,7 +38,7 @@ do
             SPANISH_WORD=$WORD
             cleanSpanishFile $SPANISH_WORD
             # clear
-            desplegar-traduccion-espanol $SPANISH_WORD
+            displaySpanishTranslation $SPANISH_WORD
             reproduce-audio $INGLES
         else
             buscar-palabra-en-google $WORD
