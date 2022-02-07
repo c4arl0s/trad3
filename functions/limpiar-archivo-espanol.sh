@@ -2,8 +2,8 @@
 
 limpiar-archivo-espanol()
 {
-palabra=$1
-#borrar lineas vacias
-sed '/^ *$/d' $directorio_espanol/$palabra.txt > $directorio_comodin/comodin.txt
-cat $directorio_comodin/comodin.txt > $directorio_espanol/$palabra.txt
+    WORD=$1
+    #borrar lineas vacias
+    sed '/^ *$/d' $SPANISH_DIRECTORY_PATH/$WORD.txt > $COMODIN_DIRECTORY_PATH/comodin.txt
+    cat $COMODIN_DIRECTORY_PATH/comodin.txt > $SPANISH_DIRECTORY_PATH/$WORD.txt
 }

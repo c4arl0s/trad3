@@ -5,4 +5,5 @@ ENGLISH_DIRECTORY_PATH='./vocabulary/english'
 directorio_espanol='./vocabulary/spanish'
 directorio_audio='./vocabulary/audio-words'
 AUDIO_DIRECTORY_PATH='./vocabulary/audio-words'
+SPANISH_DIRECTORY_PATH='./vocabulary/spanish'
 
