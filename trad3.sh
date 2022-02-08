@@ -26,7 +26,7 @@ do
             sleep 1
         fi
         formatEnglishFile $WORD
-        # clear
+        clear
         displayEnglishTranslation $WORD
         #=================================
     else
@@ -37,7 +37,7 @@ do
         then
             SPANISH_WORD=$WORD
             cleanSpanishFile $SPANISH_WORD
-            # clear
+            clear
             displaySpanishTranslation $SPANISH_WORD
             reproduce-audio $INGLES
         else
@@ -48,13 +48,13 @@ do
                 reproduce-audio $ingles
                 sleep 1
             else
-                descargar-audio-de-google $ingles
+                downloadAudioFromGoogle $ingles
                 sleep 1
             fi
-            # clear
-            despliega-opcion-agregar-palabra
+            clear
+            displayOptionToAddNewWord
             read decision
-            despliega-menu-de-decision
+            displayMenu
         fi
         #==================================
 		fi

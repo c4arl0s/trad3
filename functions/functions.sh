@@ -15,12 +15,12 @@
 . ./functions/getSpanishFields.sh
 . ./functions/printSpanishFields.sh
 . ./functions/searchWordUsingGoogleScript.sh
+. ./functions/displayOptionToAddNewWord.sh
 
 . ./functions/configuracion-colores.sh
 . ./functions/imprimir-traduccion-ingresada.sh
 . ./functions/reproduce-audio.sh
-. ./functions/despliega-menu-de-decision.sh
-. ./functions/despliega-opcion-agregar-palabra.sh
+. ./functions/displayMenu.sh
 . ./functions/descargar-audio-de-google.sh
 . ./functions/existe-archivo-en-espanol.sh
 . ./functions/existe-archivo-en-ingles.sh
