@@ -1,2 +1,1 @@
-encontrado : Found :  :  :  :  : 
-encontrado : encountered :  :  :  :  : 
+duration : duración :  :  :  :  : 
