@@ -1,2 +1,1 @@
-run : correr :  : ran : run : running : 
-run es el pasado participio de run / correr : 
+base : base : data base :  :  :  : 
