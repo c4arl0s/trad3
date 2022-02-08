@@ -8,7 +8,7 @@ displayMenu()
             agregar-palabra $espanol $ingles ;;
     "no") 	echo ""
     		echo "dijiste NO" ;;
-    "add3") ./functions//add3 ;; 
+    "add3") ./add3 ;; 
     *) 	    echo "tecleaste ENTER"
     		echo "" 
             ;;
