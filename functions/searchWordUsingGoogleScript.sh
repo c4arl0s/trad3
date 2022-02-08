@@ -25,5 +25,3 @@ searchWordUsingGoogleScript()
         ingles=$WORD
     fi
 }
-
-buscar-palabra-en-google()

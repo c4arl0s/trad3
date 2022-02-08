@@ -43,7 +43,7 @@ do
         else
             searchWordUsingGoogleScript $WORD
             sleep 1 
-            if [ "isRetrievableEnglishAudio $ingles" = 0 ]
+            if $(isRetrievableEnglishAudio $ingles)
             then
                 reproduce-audio $ingles
                 sleep 1
