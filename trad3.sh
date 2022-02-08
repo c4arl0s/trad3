@@ -41,7 +41,7 @@ do
             displaySpanishTranslation $SPANISH_WORD
             reproduce-audio $INGLES
         else
-            buscar-palabra-en-google $WORD
+            searchWordUsingGoogleScript $WORD
             sleep 1 
             if [ "isRetrievableEnglishAudio $ingles" = 0 ]
             then

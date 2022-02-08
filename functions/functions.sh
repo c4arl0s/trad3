@@ -14,6 +14,7 @@
 . ./functions/countLinesSpanishFile.sh
 . ./functions/getSpanishFields.sh
 . ./functions/printSpanishFields.sh
+. ./functions/searchWordUsingGoogleScript.sh
 
 . ./functions/configuracion-colores.sh
 . ./functions/imprimir-traduccion-ingresada.sh
@@ -21,7 +22,6 @@
 . ./functions/despliega-menu-de-decision.sh
 . ./functions/despliega-opcion-agregar-palabra.sh
 . ./functions/descargar-audio-de-google.sh
-. ./functions/buscar-palabra-en-google.sh
 . ./functions/existe-archivo-en-espanol.sh
 . ./functions/existe-archivo-en-ingles.sh
 . ./functions/agregar-palabra.sh
