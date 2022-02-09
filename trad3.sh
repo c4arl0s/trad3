@@ -1,6 +1,7 @@
 #!/bin/bash
 
-. ./functions/functions.sh
+. ./trad-functions/functions.sh
+. ./add-functions/functions.sh
 
 # at the front of your main script (after the #!/bin/bash) the dot (in bash) is the same as the include directive in c, you don't have to export the functions as the file will be included in the main script, don´t miss the space between the dot and the filename
 
