@@ -1,7 +1,6 @@
 #!/bin/bash
 
-. ./trad-functions/directoryPaths.sh
-
+# new english version
 . ./trad-functions/printTitle.sh
 . ./trad-functions/isRetrievableEnglishWord.sh
 . ./trad-functions/isRetrievableEnglishAudio.sh
@@ -16,11 +15,13 @@
 . ./trad-functions/printSpanishFields.sh
 . ./trad-functions/searchWordUsingGoogleScript.sh
 . ./trad-functions/displayOptionToAddNewWord.sh
-
-. ./trad-functions/configuracion-colores.sh
-. ./trad-functions/imprimir-traduccion-ingresada.sh
-. ./trad-functions/reproduce-audio.sh
 . ./trad-functions/displayMenu.sh
+. ./trad-functions/getEnglishFields.sh
+. ./trad-functions/displayEnglishTranslation.sh
+. ./trad-functions/reproduce-audio.sh
+
+# old spanish version
+. ./trad-functions/imprimir-traduccion-ingresada.sh
 . ./trad-functions/descargar-audio-de-google.sh
 . ./trad-functions/existe-archivo-en-espanol.sh
 . ./trad-functions/existe-archivo-en-ingles.sh
@@ -31,7 +32,5 @@
 . ./trad-functions/crear-archivo-ingles.sh
 . ./trad-functions/obtener-traduccion.sh
 . ./trad-functions/cuenta-lineas-archivo-ingles.sh
-. ./trad-functions/displayEnglishTranslation.sh
 . ./trad-functions/imprimir-campos-ingles.sh
-. ./trad-functions/getEnglishFields.sh
 . ./trad-functions/prueba-existencia.sh

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Old spanish version
 VERDE="\033[47m\033[0;32m\a"
 ROJO="\033[47m\033[0;31m\a"
 ROJOCLARO="\033[47m\033[0;31m"
@@ -9,6 +10,7 @@ CYAN="\033[40m\033[36m"
 AMARILLO="\033[47m\033[0;33m\a"
 BLANCO="\033[1;37m"
 
+# new english version
 GREEN="\033[47m\033[0;32m\a"
 RED="\033[47m\033[0;31m\a"
 LIGHT_RED="\033[47m\033[0;31m"

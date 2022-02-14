@@ -3,13 +3,8 @@
 # variables que definen una secuencia de caracteres correspondientes a una impresion en color
 # con un beeb en cada transicion
 
-VERDE="\033[47m\033[0;32m\a"
-ROJO="\033[47m\033[0;31m\a"
-ROJOCLARO="\033[47m\033[0;31m"
-ROSA="\033[47m\033[0;35m"
-ROSAFONDONEGRO="\033[40m\033[1;35m"
-AMARILLO="\033[47m\033[0;33m\a"
-BLANCO="\033[1;37m"
+. ./helper-functions/colors.sh
+. ./helper-functions/directoryPaths.sh
 
 directorio_ingles='~/Documents/DictEnEsScript/VOCABULARY/ENGLISH'
 directorio_espanol='/Documents/DictEnEsScript/VOCABULARY/SPANISH'
