@@ -1,7 +1,5 @@
 #!/bin/bash
-# script para agregar una palabra nueva a nuestro diccionario de ingles.
-# variables que definen una secuencia de caracteres correspondientes a una impresion en color
-# con un beeb en cada transicion
+# script to add new english words to my personal dictionary
 
 . ./helper-functions/colors.sh
 . ./helper-functions/directoryPaths.sh
