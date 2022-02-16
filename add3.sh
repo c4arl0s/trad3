@@ -5,43 +5,16 @@
 . ./helper-functions/directoryPaths.sh
 . ./add-functions/functions.sh
 
-# obtener_traduccion()
+# printInputs()
 # {
-#     echo -e "$YELLOW ingrese palabra uno y solo una en ESPANOL:" 
-#     echo -e " $ROSAFONDONEGRO "
-#     read SPANISH 
-#     echo "" 
-#     echo -e "$YELLOW ingrese algo extra acerca de tu palabra:"
-#     echo -e " $GREEN "
-#     read SOMETHINGELSE 
-#     echo "" 
-#     echo -e "$YELLOW ingrese PASADO en caso de ser verbo:" 
-#     echo -e " $GREEN " 
-#     read PAST 
-#     echo "" 
-#     echo -e "$YELLOW ingrese PASASO PARTICIPIO en caso de ser verbo:" 
-#     echo -e " $GREEN " 
-#     read PASTPARTICIPE 
-#     echo "" 
-#     echo -e "$YELLOW ingrese GERUNDIO en caso de ser verbo:" 
-#     echo -e " $GREEN " 
-#     read GERUND 
-#     echo "" 
-#     echo -e "$YELLOW ingrese un ejemplo de la palabra a agregar:" 
-#     echo -e " $GREEN"
-#     read EXAMPLE
+#     echo -e " $WHITE ENGLISH :	$ROSAFONDONEGRO $ingles "
+#     echo -e " $WHITE SPANISH :     $ROSAFONDONEGRO $SPANISH "
+#     echo -e " $WHITE EXTRA :       $ROSAFONDONEGRO $SOMETHINGELSE "
+#     echo -e " $WHITE PAST :        $ROSAFONDONEGRO $PAST "
+#     echo -e " $WHITE PAST PARTICIPE : $ROSAFONDONEGRO $PASTPARTICIPE "
+#     echo -e " $WHITE GERUND :      $ROSAFONDONEGRO   $GERUND "
+#     echo -e " $WHITE EXAMPLE : 	$ROSAFONDONEGRO   $EXAMPLE "
 # }
-
-imprimir_traduccion_ingresada()
-{
-    echo -e " $WHITE ENGLISH :	$ROSAFONDONEGRO $ingles "
-    echo -e " $WHITE SPANISH :     $ROSAFONDONEGRO $SPANISH "
-    echo -e " $WHITE EXTRA :       $ROSAFONDONEGRO $SOMETHINGELSE "
-    echo -e " $WHITE PAST :        $ROSAFONDONEGRO $PAST "
-    echo -e " $WHITE PAST PARTICIPE : $ROSAFONDONEGRO $PASTPARTICIPE "
-    echo -e " $WHITE GERUND :      $ROSAFONDONEGRO   $GERUND "
-    echo -e " $WHITE EXAMPLE : 	$ROSAFONDONEGRO   $EXAMPLE "
-}
 
 crear_archivo_ingles()
 {
@@ -73,8 +46,6 @@ while [ "$*" = "" ]
         printHeader
       	read ingles
 
-#######################################################################################
-
 	if [ "$ingles" != "" ] #mientras lo que ingreses en la terminal sea vacio, entonces has lo siguiente	
 
 	then 
@@ -93,7 +64,7 @@ while [ "$*" = "" ]
 	    echo "confirmacion de la palabra: "
 	    echo -e " $WHITE "
         
-        imprimir_traduccion_ingresada
+        printInputs
 
 	    echo -e "es correcto ? (teclee ENTER) : "
         echo -e ""
@@ -107,7 +78,7 @@ while [ "$*" = "" ]
         crear_archivo_ingles
         transfiere_traduccion_ingles        
         crear_archivo_espanol
-	    transfiere_traduccion_espanol	
+	transfiere_traduccion_espanol	
 
 	                if [ "$PAST" = "" ]	# si la palabra no existe
                         then
