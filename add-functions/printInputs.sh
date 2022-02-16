@@ -1,0 +1,13 @@
+#!/bin/bash
+
+printInputs()
+{
+    echo -e " $WHITE ENGLISH :	$ROSAFONDONEGRO $ingles "
+    echo -e " $WHITE SPANISH :     $ROSAFONDONEGRO $SPANISH "
+    echo -e " $WHITE EXTRA :       $ROSAFONDONEGRO $SOMETHINGELSE "
+    echo -e " $WHITE PAST :        $ROSAFONDONEGRO $PAST "
+    echo -e " $WHITE PAST PARTICIPE : $ROSAFONDONEGRO $PASTPARTICIPE "
+    echo -e " $WHITE GERUND :      $ROSAFONDONEGRO   $GERUND "
+    echo -e " $WHITE EXAMPLE : 	$ROSAFONDONEGRO   $EXAMPLE "
+}
+
