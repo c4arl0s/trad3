@@ -5,22 +5,6 @@
 . ./helper-functions/directoryPaths.sh
 . ./add-functions/functions.sh
 
-# printInputs()
-# {
-#     echo -e " $WHITE ENGLISH :	$ROSAFONDONEGRO $ingles "
-#     echo -e " $WHITE SPANISH :     $ROSAFONDONEGRO $SPANISH "
-#     echo -e " $WHITE EXTRA :       $ROSAFONDONEGRO $SOMETHINGELSE "
-#     echo -e " $WHITE PAST :        $ROSAFONDONEGRO $PAST "
-#     echo -e " $WHITE PAST PARTICIPE : $ROSAFONDONEGRO $PASTPARTICIPE "
-#     echo -e " $WHITE GERUND :      $ROSAFONDONEGRO   $GERUND "
-#     echo -e " $WHITE EXAMPLE : 	$ROSAFONDONEGRO   $EXAMPLE "
-# }
-
-crear_archivo_ingles()
-{
-    touch $ENGLISH_DIRECTORY_PATH/$ingles.txt
-}
-
 crear_archivo_espanol()
 {
     touch $SPANISH_DIRECTORY_PATH/$SPANISH.txt
@@ -28,12 +12,12 @@ crear_archivo_espanol()
 
 transfiere_traduccion_ingles()
 { 
-    echo -e "$ingles : $SPANISH : $SOMETHINGELSE : $PAST : $PASTPARTICIPE : $GERUND : $EXAMPLE" >> $ENGLISH_DIRECTORY_PATH/$ingles.txt
+    echo -e "$ENGLISH : $SPANISH : $SOMETHINGELSE : $PAST : $PASTPARTICIPE : $GERUND : $EXAMPLE" >> $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
 }
 
 transfiere_traduccion_espanol()
 {
-    echo -e "$SPANISH : $ingles : $SOMETHINGELSE : $PAST : $PASTPARTICIPE : $GERUND : $EXAMPLE" >> $SPANISH_DIRECTORY_PATH/$SPANISH.txt
+    echo -e "$SPANISH : $ENGLISH : $SOMETHINGELSE : $PAST : $PASTPARTICIPE : $GERUND : $EXAMPLE" >> $SPANISH_DIRECTORY_PATH/$SPANISH.txt
 }
 
 #################################################################################################
@@ -44,13 +28,13 @@ while [ "$*" = "" ]
 
         do
         printHeader
-      	read ingles
+      	read ENGLISH
 
-	if [ "$ingles" != "" ] #mientras lo que ingreses en la terminal sea vacio, entonces has lo siguiente	
+	if [ "$ENGLISH" != "" ] #mientras lo que ingreses en la terminal sea vacio, entonces has lo siguiente	
 
 	then 
 
-      	test -f $ENGLISH_DIRECTORY_PATH/$ingles.txt 
+      	test -f $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt 
 
 	if [ "$?" = "1" ]	# prueba si la palabra no existe
 
@@ -73,9 +57,9 @@ while [ "$*" = "" ]
         if [ "$confirmacion" = "" ]
 
         then 
-		echo -e "$ROSA         agregando palabra $WHITE $ingles .... "
+		echo -e "$ROSA         agregando palabra $WHITE $ENGLISH .... "
 
-        crear_archivo_ingles
+        createEnglishFile
         transfiere_traduccion_ingles        
         crear_archivo_espanol
 	transfiere_traduccion_espanol	
@@ -85,7 +69,7 @@ while [ "$*" = "" ]
                         echo -e " - "    
                         else
                         touch $ENGLISH_DIRECTORY_PATH/$PAST.txt
-                        echo -e "$PAST es el pasado de $ingles / $SPANISH : " >> $ENGLISH_DIRECTORY_PATH/$PAST.txt
+                        echo -e "$PAST es el pasado de $ENGLISH / $SPANISH : " >> $ENGLISH_DIRECTORY_PATH/$PAST.txt
                         fi
 
                         
@@ -94,7 +78,7 @@ while [ "$*" = "" ]
                         echo -e " - "    
                         else
                         touch $ENGLISH_DIRECTORY_PATH/$PASTPARTICIPE.txt
-                        echo -e "$PASTPARTICIPE es el pasado participio de $ingles / $SPANISH : " >> $ENGLISH_DIRECTORY_PATH/$PASTPARTICIPE.txt
+                        echo -e "$PASTPARTICIPE es el pasado participio de $ENGLISH / $SPANISH : " >> $ENGLISH_DIRECTORY_PATH/$PASTPARTICIPE.txt
                         fi
 
 
@@ -103,10 +87,10 @@ while [ "$*" = "" ]
                         echo -e " - "    
                         else
                         touch $ENGLISH_DIRECTORY_PATH/$gerund.txt
-                        echo -e "$gerund es el gerundio de $ingles / $SPANISH : " >> $ENGLISH_DIRECTORY_PATH/$gerund.txt
+                        echo -e "$gerund es el gerundio de $ENGLISH / $SPANISH : " >> $ENGLISH_DIRECTORY_PATH/$gerund.txt
                     fi
 
-                cat $ENGLISH_DIRECTORY_PATH/$ingles.txt
+                cat $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
                 cat $SPANISH_DIRECTORY_PATH/$SPANISH.txt
 
                                 else
@@ -119,7 +103,7 @@ while [ "$*" = "" ]
 		echo -e "$GREEN"
       		echo "la palabra existe"
             echo -e "$WHITE"
-            cat $ENGLISH_DIRECTORY_PATH/$ingles.txt
+            cat $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
 		echo ""
         echo -e "$RED"
 		echo "¿ desea agregar otro signicado a la palabra [y/n]? "
@@ -166,7 +150,7 @@ while [ "$*" = "" ]
 
                                 echo -e " $WHITE "
 
-                                echo -e " $WHITE ENGLISH :     $GREEN $ingles "
+                                echo -e " $WHITE ENGLISH :     $GREEN $ENGLISH "
                                 echo -e " $WHITE SPANISH :     $GREEN $SPANISH "
                                 echo -e " $WHITE EXTRA :       $GREEN $SOMETHINGELSE "
                                 echo -e " $WHITE PAST :        $GREEN $PAST "
@@ -182,14 +166,14 @@ while [ "$*" = "" ]
 
 				then
 
-		echo -e "$ingles : $SPANISH : $SOMETHINGELSE : $PAST : $PASTPARTICIPE : $GERUND : $EXAMPLE" >> $ENGLISH_DIRECTORY_PATH/$ingles.txt
+		echo -e "$ENGLISH : $SPANISH : $SOMETHINGELSE : $PAST : $PASTPARTICIPE : $GERUND : $EXAMPLE" >> $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
 
 		chmod 777 $SPANISH_DIRECTORY_PATH/$SPANISH.txt
 		echo "" >> $SPANISH_DIRECTORY_PATH/$SPANISH.txt
 
-		echo -e "$SPANISH : $ingles : $SOMETHINGELSE : $PAST : $PASTPARTICIPE : $GERUND : $EXAMPLE" >> $SPANISH_DIRECTORY_PATH/$SPANISH.txt					
+		echo -e "$SPANISH : $ENGLISH : $SOMETHINGELSE : $PAST : $PASTPARTICIPE : $GERUND : $EXAMPLE" >> $SPANISH_DIRECTORY_PATH/$SPANISH.txt					
 		
-		sed '/^ *$/d' $ENGLISH_DIRECTORY_PATH/$ingles.txt
+		sed '/^ *$/d' $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
 		sed '/^ *$/d' $SPANISH_DIRECTORY_PATH/$SPANISH.txt
 				
 				else
@@ -202,7 +186,7 @@ while [ "$*" = "" ]
         "no") 	echo ""
 			echo "dijiste NO";;
 		"editar") 	echo ""
-			vim $ENGLISH_DIRECTORY_PATH/$ingles.txt
+			vim $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
 			vim $SPANISH_DIRECTORY_PATH/$SPANISH.txt
 			;;
 
