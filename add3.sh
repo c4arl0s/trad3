@@ -3,14 +3,7 @@
 
 . ./helper-functions/colors.sh
 . ./helper-functions/directoryPaths.sh
-
-imprimir_titulo()
-{
-    echo ""
-    echo -e "$GREEN 	DictEnEsScript	SCRIPT PARA AGREGAR PALABRAS INGLES-ESPANOL   $YELLOW  teclea Ctrl-Z salir "
-    echo -e "$RED ingrese uno y solo una palabra en INGLES para ingresar a la base de datos: "
-    echo -e "$WHITE " 
-}
+. ./add-functions/functions.sh
 
 obtener_traduccion()
 {
@@ -77,7 +70,7 @@ transfiere_traduccion_espanol()
 while [ "$*" = "" ]  
 
         do
-        imprimir_titulo
+        printHeader
       	read ingles
 
 #######################################################################################
