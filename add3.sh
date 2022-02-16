@@ -6,10 +6,6 @@
 . ./helper-functions/colors.sh
 . ./helper-functions/directoryPaths.sh
 
-directorio_ingles='~/Documents/DictEnEsScript/VOCABULARY/ENGLISH'
-directorio_espanol='/Documents/DictEnEsScript/VOCABULARY/SPANISH'
-directorio_comodin='/Documents/DictEnEsScript/VOCABULARY'
-
 imprimir_titulo()
 {
     echo ""
@@ -58,22 +54,22 @@ imprimir_traduccion_ingresada()
 
 crear_archivo_ingles()
 {
-    touch $directorio_ingles/$ingles.txt
+    touch $ENGLISH_DIRECTORY_PATH/$ingles.txt
 }
 
 crear_archivo_espanol()
 {
-    touch $directorio_espanol/$espanol.txt
+    touch $SPANISH_DIRECTORY_PATH/$espanol.txt
 }
 
 transfiere_traduccion_ingles()
 { 
-    echo -e "$ingles : $espanol : $algomas : $p : $pp : $gerundio : $ejemplo" >> $directorio_ingles/$ingles.txt
+    echo -e "$ingles : $espanol : $algomas : $p : $pp : $gerundio : $ejemplo" >> $ENGLISH_DIRECTORY_PATH/$ingles.txt
 }
 
 transfiere_traduccion_espanol()
 {
-    echo -e "$espanol : $ingles : $algomas : $p : $pp : $gerundio : $ejemplo" >> $directorio_espanol/$espanol.txt
+    echo -e "$espanol : $ingles : $algomas : $p : $pp : $gerundio : $ejemplo" >> $SPANISH_DIRECTORY_PATH/$espanol.txt
 }
 
 #################################################################################################
@@ -92,7 +88,7 @@ while [ "$*" = "" ]
 
 	then 
 
-      	test -f $directorio_ingles/$ingles.txt 
+      	test -f $ENGLISH_DIRECTORY_PATH/$ingles.txt 
 
 	if [ "$?" = "1" ]	# prueba si la palabra no existe
 
@@ -126,8 +122,8 @@ while [ "$*" = "" ]
                         then
                         echo -e " - "    
                         else
-                        touch $directorio_ingles/$p.txt
-                        echo -e "$p es el pasado de $ingles / $espanol : " >> $directorio_ingles/$p.txt
+                        touch $ENGLISH_DIRECTORY_PATH/$p.txt
+                        echo -e "$p es el pasado de $ingles / $espanol : " >> $ENGLISH_DIRECTORY_PATH/$p.txt
                         fi
 
                         
@@ -135,8 +131,8 @@ while [ "$*" = "" ]
                         then      
                         echo -e " - "    
                         else
-                        touch $directorio_ingles/$pp.txt
-                        echo -e "$pp es el pasado participio de $ingles / $espanol : " >> $directorio_ingles/$pp.txt
+                        touch $ENGLISH_DIRECTORY_PATH/$pp.txt
+                        echo -e "$pp es el pasado participio de $ingles / $espanol : " >> $ENGLISH_DIRECTORY_PATH/$pp.txt
                         fi
 
 
@@ -144,12 +140,12 @@ while [ "$*" = "" ]
                         then
                         echo -e " - "    
                         else
-                        touch $directorio_ingles/$gerund.txt
-                        echo -e "$gerund es el gerundio de $ingles / $espanol : " >> $directorio_ingles/$gerund.txt
+                        touch $ENGLISH_DIRECTORY_PATH/$gerund.txt
+                        echo -e "$gerund es el gerundio de $ingles / $espanol : " >> $ENGLISH_DIRECTORY_PATH/$gerund.txt
                     fi
 
-                cat $directorio_ingles/$ingles.txt
-                cat $directorio_espanol/$espanol.txt
+                cat $ENGLISH_DIRECTORY_PATH/$ingles.txt
+                cat $SPANISH_DIRECTORY_PATH/$espanol.txt
 
                                 else
                                         echo ""
@@ -161,7 +157,7 @@ while [ "$*" = "" ]
 		echo -e "$GREEN"
       		echo "la palabra existe"
             echo -e "$WHITE"
-            cat $directorio_ingles/$ingles.txt
+            cat $ENGLISH_DIRECTORY_PATH/$ingles.txt
 		echo ""
         echo -e "$RED"
 		echo "¿ desea agregar otro signicado a la palabra [y/n]? "
@@ -224,15 +220,15 @@ while [ "$*" = "" ]
 
 				then
 
-		echo -e "$ingles : $espanol : $algomas : $p : $pp : $gerundio : $ejemplo" >> $directorio_ingles/$ingles.txt
+		echo -e "$ingles : $espanol : $algomas : $p : $pp : $gerundio : $ejemplo" >> $ENGLISH_DIRECTORY_PATH/$ingles.txt
 
-		chmod 777 $directorio_espanol/$espanol.txt
-		echo "" >> $directorio_espanol/$espanol.txt
+		chmod 777 $SPANISH_DIRECTORY_PATH/$espanol.txt
+		echo "" >> $SPANISH_DIRECTORY_PATH/$espanol.txt
 
-		echo -e "$espanol : $ingles : $algomas : $p : $pp : $gerundio : $ejemplo" >> $directorio_espanol/$espanol.txt					
+		echo -e "$espanol : $ingles : $algomas : $p : $pp : $gerundio : $ejemplo" >> $SPANISH_DIRECTORY_PATH/$espanol.txt					
 		
-		sed '/^ *$/d' $directorio_ingles/$ingles.txt
-		sed '/^ *$/d' $directorio_espanol/$espanol.txt
+		sed '/^ *$/d' $ENGLISH_DIRECTORY_PATH/$ingles.txt
+		sed '/^ *$/d' $SPANISH_DIRECTORY_PATH/$espanol.txt
 				
 				else
 					echo ""
@@ -244,8 +240,8 @@ while [ "$*" = "" ]
         "no") 	echo ""
 			echo "dijiste NO";;
 		"editar") 	echo ""
-			vim $directorio_ingles/$ingles.txt
-			vim $directorio_espanol/$espanol.txt
+			vim $ENGLISH_DIRECTORY_PATH/$ingles.txt
+			vim $SPANISH_DIRECTORY_PATH/$espanol.txt
 			;;
 
 		*) 	echo "oprime tecla correcta"
