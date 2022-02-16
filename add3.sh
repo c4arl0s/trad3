@@ -13,47 +13,47 @@ directorio_comodin='/Documents/DictEnEsScript/VOCABULARY'
 imprimir_titulo()
 {
     echo ""
-    echo -e "$VERDE 	DictEnEsScript	SCRIPT PARA AGREGAR PALABRAS INGLES-ESPANOL   $AMARILLO  teclea Ctrl-Z salir "
-    echo -e "$ROJO ingrese uno y solo una palabra en INGLES para ingresar a la base de datos: "
-    echo -e "$BLANCO " 
+    echo -e "$GREEN 	DictEnEsScript	SCRIPT PARA AGREGAR PALABRAS INGLES-ESPANOL   $YELLOW  teclea Ctrl-Z salir "
+    echo -e "$RED ingrese uno y solo una palabra en INGLES para ingresar a la base de datos: "
+    echo -e "$WHITE " 
 }
 
 obtener_traduccion()
 {
-    echo -e "$AMARILLO ingrese palabra uno y solo una en ESPANOL:" 
+    echo -e "$YELLOW ingrese palabra uno y solo una en ESPANOL:" 
     echo -e " $ROSAFONDONEGRO "
     read espanol 
     echo "" 
-    echo -e "$AMARILLO ingrese algo extra acerca de tu palabra:"
-    echo -e " $VERDE "
+    echo -e "$YELLOW ingrese algo extra acerca de tu palabra:"
+    echo -e " $GREEN "
     read algomas 
     echo "" 
-    echo -e "$AMARILLO ingrese PASADO en caso de ser verbo:" 
-    echo -e " $VERDE " 
+    echo -e "$YELLOW ingrese PASADO en caso de ser verbo:" 
+    echo -e " $GREEN " 
     read p 
     echo "" 
-    echo -e "$AMARILLO ingrese PASASO PARTICIPIO en caso de ser verbo:" 
-    echo -e " $VERDE " 
+    echo -e "$YELLOW ingrese PASASO PARTICIPIO en caso de ser verbo:" 
+    echo -e " $GREEN " 
     read pp 
     echo "" 
-    echo -e "$AMARILLO ingrese GERUNDIO en caso de ser verbo:" 
-    echo -e " $VERDE " 
+    echo -e "$YELLOW ingrese GERUNDIO en caso de ser verbo:" 
+    echo -e " $GREEN " 
     read gerundio 
     echo "" 
-    echo -e "$AMARILLO ingrese un ejemplo de la palabra a agregar:" 
-    echo -e " $VERDE"
+    echo -e "$YELLOW ingrese un ejemplo de la palabra a agregar:" 
+    echo -e " $GREEN"
     read ejemplo
 }
 
 imprimir_traduccion_ingresada()
 {
-    echo -e " $BLANCO ENGLISH :	$ROSAFONDONEGRO $ingles "
-    echo -e " $BLANCO SPANISH :     $ROSAFONDONEGRO $espanol "
-    echo -e " $BLANCO EXTRA :       $ROSAFONDONEGRO $algomas "
-    echo -e " $BLANCO PAST :        $ROSAFONDONEGRO $p "
-    echo -e " $BLANCO PAST PARTICIPE : $ROSAFONDONEGRO $pp "
-    echo -e " $BLANCO GERUND :      $ROSAFONDONEGRO   $gerundio "
-    echo -e " $BLANCO EXAMPLE : 	$ROSAFONDONEGRO   $ejemplo "
+    echo -e " $WHITE ENGLISH :	$ROSAFONDONEGRO $ingles "
+    echo -e " $WHITE SPANISH :     $ROSAFONDONEGRO $espanol "
+    echo -e " $WHITE EXTRA :       $ROSAFONDONEGRO $algomas "
+    echo -e " $WHITE PAST :        $ROSAFONDONEGRO $p "
+    echo -e " $WHITE PAST PARTICIPE : $ROSAFONDONEGRO $pp "
+    echo -e " $WHITE GERUND :      $ROSAFONDONEGRO   $gerundio "
+    echo -e " $WHITE EXAMPLE : 	$ROSAFONDONEGRO   $ejemplo "
 }
 
 crear_archivo_ingles()
@@ -104,7 +104,7 @@ while [ "$*" = "" ]
         obtener_traduccion
 
 	    echo "confirmacion de la palabra: "
-	    echo -e " $BLANCO "
+	    echo -e " $WHITE "
         
         imprimir_traduccion_ingresada
 
@@ -115,7 +115,7 @@ while [ "$*" = "" ]
         if [ "$confirmacion" = "" ]
 
         then 
-		echo -e "$ROSA         agregando palabra $BLANCO $ingles .... "
+		echo -e "$ROSA         agregando palabra $WHITE $ingles .... "
 
         crear_archivo_ingles
         transfiere_traduccion_ingles        
@@ -158,63 +158,63 @@ while [ "$*" = "" ]
                                 fi
 
 	else			
-		echo -e "$VERDE"
+		echo -e "$GREEN"
       		echo "la palabra existe"
-            echo -e "$BLANCO"
+            echo -e "$WHITE"
             cat $directorio_ingles/$ingles.txt
 		echo ""
-        echo -e "$ROJO"
+        echo -e "$RED"
 		echo "¿ desea agregar otro signicado a la palabra [y/n]? "
 		echo "¿ o editar archivo [e] ? "
-		echo -e " $BLANCO "
+		echo -e " $WHITE "
 		read decision
 
 		case $decision in
 
-		"yes") 	echo -e " $ROJO "
+		"yes") 	echo -e " $RED "
 			echo "dijiste YES"
 
 				echo "" 
-				echo -e "$AMARILLO ingrese palabra uno y solo una en ESPANOL:" 
-				echo -e " $BLANCO " 
+				echo -e "$YELLOW ingrese palabra uno y solo una en ESPANOL:" 
+				echo -e " $WHITE " 
 				read espanol 
 
 				echo "" 
-				echo -e "$AMARILLO ingrese algo extra acerca de tu palabra:" 
-				echo -e " $BLANCO " 
+				echo -e "$YELLOW ingrese algo extra acerca de tu palabra:" 
+				echo -e " $WHITE " 
 				read algomas 
 
 				echo "" 
-				echo -e "$AMARILLO ingrese PASADO en caso de ser verbo:" 
-				echo -e " $BLANCO " 
+				echo -e "$YELLOW ingrese PASADO en caso de ser verbo:" 
+				echo -e " $WHITE " 
 				read p 
 
 				echo "" 
-				echo -e "$AMARILLO ingrese PASASO PARTICIPIO en caso de ser verbo:" 
-				echo -e " $BLANCO " 
+				echo -e "$YELLOW ingrese PASASO PARTICIPIO en caso de ser verbo:" 
+				echo -e " $WHITE " 
 				read pp 
 
 				echo "" 
-				echo -e "$AMARILLO ingrese GERUNDIO en caso de ser verbo:" 
-				echo -e " $BLANCO " 
+				echo -e "$YELLOW ingrese GERUNDIO en caso de ser verbo:" 
+				echo -e " $WHITE " 
 				read gerundio 
 
 				echo "" 
-				echo -e "$AMARILLO ingrese un ejemplo de la palabra a agregar:" 
-				echo -e " $BLANCO " 
+				echo -e "$YELLOW ingrese un ejemplo de la palabra a agregar:" 
+				echo -e " $WHITE " 
 				read ejemplo
 	 
 				echo "confirmacion de la palabra: "
 
-                                echo -e " $BLANCO "
+                                echo -e " $WHITE "
 
-                                echo -e " $BLANCO ENGLISH :     $VERDE $ingles "
-                                echo -e " $BLANCO SPANISH :     $VERDE $espanol "
-                                echo -e " $BLANCO EXTRA :       $VERDE $algomas "
-                                echo -e " $BLANCO PAST :        $VERDE $p "
-                                echo -e " $BLANCO PAST PARTICIPE : $VERDE $pp "
-                                echo -e " $BLANCO GERUND :      $VERDE   $gerundio "
-                                echo -e " $BLANCO EXAMPLE :     $VERDE   $ejemplo "
+                                echo -e " $WHITE ENGLISH :     $GREEN $ingles "
+                                echo -e " $WHITE SPANISH :     $GREEN $espanol "
+                                echo -e " $WHITE EXTRA :       $GREEN $algomas "
+                                echo -e " $WHITE PAST :        $GREEN $p "
+                                echo -e " $WHITE PAST PARTICIPE : $GREEN $pp "
+                                echo -e " $WHITE GERUND :      $GREEN   $gerundio "
+                                echo -e " $WHITE EXAMPLE :     $GREEN   $ejemplo "
 
 				echo -e "es correcto ? (y) [teclea ENTER ] : "
 				echo -e ""
@@ -236,7 +236,7 @@ while [ "$*" = "" ]
 				
 				else
 					echo ""
-				    echo	" $BLANCO !!! confirmacion nula : no se agregara la palabra ¡¡¡ "
+				    echo	" $WHITE !!! confirmacion nula : no se agregara la palabra ¡¡¡ "
 					
 				fi
 				;;      		     	
