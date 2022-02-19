@@ -5,11 +5,6 @@
 . ./helper-functions/directoryPaths.sh
 . ./add-functions/functions.sh
 
-transfiere_traduccion_espanol()
-{
-    echo -e "$SPANISH : $ENGLISH : $SOMETHINGELSE : $PAST : $PASTPARTICIPE : $GERUND : $EXAMPLE" >> $SPANISH_DIRECTORY_PATH/$SPANISH.txt
-}
-
 while [ "$*" = "" ]  
 do
     printHeader
@@ -35,7 +30,7 @@ do
         createEnglishFile
         saveEnglishTranslation
         createSpanishFile
-        transfiere_traduccion_espanol	
+        saveSpanishTranslation        
         if [ "$PAST" = "" ]
         then
             echo -e " - "    
