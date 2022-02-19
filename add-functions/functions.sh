@@ -4,3 +4,4 @@
 . ./add-functions/readInputs.sh
 . ./add-functions/printInputs.sh
 . ./add-functions/createEnglishFile.sh
+. ./add-functions/createSpanishFile.sh
