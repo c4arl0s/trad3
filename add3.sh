@@ -5,11 +5,6 @@
 . ./helper-functions/directoryPaths.sh
 . ./add-functions/functions.sh
 
-crear_archivo_espanol()
-{
-    touch $SPANISH_DIRECTORY_PATH/$SPANISH.txt
-}
-
 transfiere_traduccion_ingles()
 { 
     echo -e "$ENGLISH : $SPANISH : $SOMETHINGELSE : $PAST : $PASTPARTICIPE : $GERUND : $EXAMPLE" >> $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
@@ -44,7 +39,7 @@ do
         echo -e "$ROSA agregando palabra $WHITE $ENGLISH .... "
         createEnglishFile
         transfiere_traduccion_ingles        
-        crear_archivo_espanol
+        createSpanishFile
         transfiere_traduccion_espanol	
         if [ "$PAST" = "" ]
         then
