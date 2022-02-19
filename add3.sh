@@ -9,7 +9,7 @@ while [ "$*" = "" ]
 do
     printHeader
     read ENGLISH
-    if [ "$ENGLISH" != "" ] 
+    if [[ $ENGLISH ]]
     then 
         test -f $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt 
         if [ "$?" = "1" ]	# prueba si la palabra no existe
