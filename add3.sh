@@ -9,55 +9,55 @@ while [ "$*" = "" ]
 do
     printHeader
     read ENGLISH
-    if [ "$ENGLISH" != "" ] #mientras lo que ingreses en la terminal sea vacio, entonces has lo siguiente	
+    if [ "$ENGLISH" != "" ] 
     then 
         test -f $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt 
-    if [ "$?" = "1" ]	# prueba si la palabra no existe
-    then
-        echo ""
-        echo "archivo no existe ... se agregara ahora"
-        echo ""
-        readInputs
-        echo "confirmacion de la palabra: "
-        echo -e " $WHITE "
-        printInputs
-        echo -e "es correcto ? (teclee ENTER) : "
-        echo -e ""
-        read CONFIRMATION
-    if [ "$CONFIRMATION" = "" ]
-    then
-        echo -e "$ROSA agregando palabra $WHITE $ENGLISH .... "
-        createEnglishFile
-        saveEnglishTranslation
-        createSpanishFile
-        saveSpanishTranslation        
-        if [ "$PAST" = "" ]
+        if [ "$?" = "1" ]	# prueba si la palabra no existe
         then
-            echo -e " - "    
-        else
-            touch $ENGLISH_DIRECTORY_PATH/$PAST.txt
-            echo -e "$PAST es el pasado de $ENGLISH / $SPANISH : " >> $ENGLISH_DIRECTORY_PATH/$PAST.txt
-        fi
-        if [ "$PASTPARTICIPE" = "" ]
-        then      
-            echo -e " - "    
-        else
-           touch $ENGLISH_DIRECTORY_PATH/$PASTPARTICIPE.txt
-           echo -e "$PASTPARTICIPE es el pasado participio de $ENGLISH / $SPANISH : " >> $ENGLISH_DIRECTORY_PATH/$PASTPARTICIPE.txt
-        fi
-        if [ "$GERUND" = "" ]
-        then
-            echo -e " - "    
-        else
-            touch $ENGLISH_DIRECTORY_PATH/$GERUND.txt
-            echo -e "$GERUND es el gerundio de $ENGLISH / $SPANISH : " >> $ENGLISH_DIRECTORY_PATH/$GERUND.txt
-        fi
-        cat $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
-        cat $SPANISH_DIRECTORY_PATH/$SPANISH.txt
-    else
-        echo ""
-        echo "confirmacion nula : no se agregara la palabra"
-    fi
+            echo ""
+            echo "archivo no existe ... se agregara ahora"
+            echo ""
+            readInputs
+            echo "confirmacion de la palabra: "
+            echo -e "$WHITE"
+            printInputs
+            echo -e "es correcto ? (teclee ENTER) : "
+            echo -e ""
+            read CONFIRMATION
+            if [ "$CONFIRMATION" = "" ]
+            then
+                echo -e "$ROSA agregando palabra $WHITE $ENGLISH .... "
+                createEnglishFile
+                saveEnglishTranslation
+                createSpanishFile
+                saveSpanishTranslation        
+                if [ "$PAST" = "" ]
+                then
+                    echo -e " - "    
+                else
+                    touch $ENGLISH_DIRECTORY_PATH/$PAST.txt
+                    echo -e "$PAST es el pasado de $ENGLISH / $SPANISH : " >> $ENGLISH_DIRECTORY_PATH/$PAST.txt
+                fi
+                if [ "$PASTPARTICIPE" = "" ]
+                then      
+                    echo -e " - "    
+                else
+                   touch $ENGLISH_DIRECTORY_PATH/$PASTPARTICIPE.txt
+                   echo -e "$PASTPARTICIPE es el pasado participio de $ENGLISH / $SPANISH : " >> $ENGLISH_DIRECTORY_PATH/$PASTPARTICIPE.txt
+                fi
+                if [ "$GERUND" = "" ]
+                then
+                    echo -e " - "    
+                else
+                    touch $ENGLISH_DIRECTORY_PATH/$GERUND.txt
+                    echo -e "$GERUND es el gerundio de $ENGLISH / $SPANISH : " >> $ENGLISH_DIRECTORY_PATH/$GERUND.txt
+                fi
+                cat $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
+                cat $SPANISH_DIRECTORY_PATH/$SPANISH.txt
+            else
+                echo ""
+                echo "confirmacion nula : no se agregara la palabra"
+            fi
         else		
             echo -e "$GREEN"
             echo "la palabra existe"
@@ -70,47 +70,38 @@ do
             echo -e " $WHITE"
             read OPTION
             case $OPTION in
-            "yes")  echo -e "$RED"
-                    echo "dijiste YES"
-                    readInputs
-                    echo "confirmacion de la palabra: "
-                    echo -e "$WHITE"
-                    echo -e "$WHITE ENGLISH: $ENGLISH"
-                    echo -e "$WHITE SPANISH: $GREEN $SPANISH"
-                    echo -e "$WHITE EXTRA: $GREEN $SOMETHINGELSE"
-                    echo -e "$WHITE PAST: $GREEN $PAST"
-                    echo -e "$WHITE PAST PARTICIPE: $GREEN $PASTPARTICIPE"
-                    echo -e "$WHITE GERUND: $GREEN $GERUND"
-                    echo -e "$WHITE EXAMPLE: $GREEN $EXAMPLE"
-                    echo -e "es correcto ? (y) [teclea ENTER ] :"
-                    echo -e ""
-                    read OPTION
-                    if [ "$OPTION" = "" ]
-                    then
-                        echo -e "$ENGLISH : $SPANISH : $SOMETHINGELSE : $PAST : $PASTPARTICIPE : $GERUND : $EXAMPLE" >> $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
-                        chmod 777 $SPANISH_DIRECTORY_PATH/$SPANISH.txt
-                        echo "" >> $SPANISH_DIRECTORY_PATH/$SPANISH.txt
-                        echo -e "$SPANISH : $ENGLISH : $SOMETHINGELSE : $PAST : $PASTPARTICIPE : $GERUND : $EXAMPLE" >> $SPANISH_DIRECTORY_PATH/$SPANISH.txt
-                        sed '/^ *$/d' $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
-                        sed '/^ *$/d' $SPANISH_DIRECTORY_PATH/$SPANISH.txt
-                    else
-                        echo ""
-                        echo " $WHITE !!! confirmacion nula : no se agregara la palabra ¡¡¡ "
-                    fi
-                    ;;      		     	
-                "no") echo ""
-    	              echo "dijiste NO"
-                    ;;
-                "editar") echo ""
+            "yes") echo -e "$RED"
+                   echo "dijiste YES"
+                   readInputs
+                   echo "confirmacion de la palabra: "
+                   printInputs
+                   read OPTION
+                   if [ "$OPTION" = "" ]
+                   then
+                       echo -e "$ENGLISH : $SPANISH : $SOMETHINGELSE : $PAST : $PASTPARTICIPE : $GERUND : $EXAMPLE" >> $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
+                       chmod 777 $SPANISH_DIRECTORY_PATH/$SPANISH.txt
+                       echo "" >> $SPANISH_DIRECTORY_PATH/$SPANISH.txt
+                       echo -e "$SPANISH : $ENGLISH : $SOMETHINGELSE : $PAST : $PASTPARTICIPE : $GERUND : $EXAMPLE" >> $SPANISH_DIRECTORY_PATH/$SPANISH.txt
+                       sed '/^ *$/d' $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
+                       sed '/^ *$/d' $SPANISH_DIRECTORY_PATH/$SPANISH.txt
+                   else
+                       echo ""
+                       echo " $WHITE !!! confirmacion nula : no se agregara la palabra ¡¡¡ "
+                   fi
+                   ;;      		     	
+            "no") echo ""
+        	  echo "dijiste NO"
+                  ;;
+            "editar") echo ""
                       vim $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
                       vim $SPANISH_DIRECTORY_PATH/$SPANISH.txt
-    	            ;;
-                *) echo "oprime tecla correcta"
-    	           echo ""
-                   ;;
-	        esac
-	fi 
-	else
-            echo ""
-	fi	
+        	      ;;
+            *) echo "oprime tecla correcta"
+               echo ""
+               ;;
+            esac
+        fi
+    else
+        echo "Type a word"
+    fi	
 done
