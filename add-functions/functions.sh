@@ -6,3 +6,4 @@
 . ./add-functions/createEnglishFile.sh
 . ./add-functions/createSpanishFile.sh
 . ./add-functions/saveEnglishTranslation.sh
+. ./add-functions/saveSpanishTranslation.sh
