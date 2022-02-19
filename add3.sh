@@ -11,8 +11,7 @@ do
     read ENGLISH
     if [[ $ENGLISH ]]
     then 
-        test -f $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt 
-        if [ "$?" = "1" ]	# prueba si la palabra no existe
+        if [ -z $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt ]
         then
             echo ""
             echo "archivo no existe ... se agregara ahora"
