@@ -72,30 +72,7 @@ do
             case $OPTION in
             "yes")  echo -e "$RED"
                     echo "dijiste YES"
-                    echo "" 
-                    echo -e "$YELLOW ingrese palabra uno y solo una en ESPANOL:" 
-                    echo -e "$WHITE" 
-                    read SPANISH 
-                    echo "" 
-                    echo -e "$YELLOW ingrese algo extra acerca de tu palabra:" 
-                    echo -e "$WHITE" 
-                    read SOMETHINGELSE 
-                    echo "" 
-                    echo -e "$YELLOW ingrese PASADO en caso de ser verbo:" 
-                    echo -e "$WHITE" 
-                    read PAST 
-                    echo "" 
-                    echo -e "$YELLOW ingrese PASASO PARTICIPIO en caso de ser verbo:" 
-                    echo -e "$WHITE" 
-                    read PASTPARTICIPE 
-                    echo "" 
-                    echo -e "$YELLOW ingrese GERUNDIO en caso de ser verbo:" 
-                    echo -e "$WHITE" 
-                    read GERUND 
-                    echo "" 
-                    echo -e "$YELLOW ingrese un ejemplo de la palabra a agregar:" 
-                    echo -e "$WHITE" 
-                    read EXAMPLE
+                    readInputs
                     echo "confirmacion de la palabra: "
                     echo -e "$WHITE"
                     echo -e "$WHITE ENGLISH: $ENGLISH"
@@ -123,11 +100,11 @@ do
                     ;;      		     	
                 "no") echo ""
     	              echo "dijiste NO"
-                      ;;
+                    ;;
                 "editar") echo ""
                       vim $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
                       vim $SPANISH_DIRECTORY_PATH/$SPANISH.txt
-    	              ;;
+    	            ;;
                 *) echo "oprime tecla correcta"
     	           echo ""
                    ;;
