@@ -5,3 +5,4 @@
 . ./add-functions/printInputs.sh
 . ./add-functions/createEnglishFile.sh
 . ./add-functions/createSpanishFile.sh
+. ./add-functions/saveEnglishTranslation.sh
