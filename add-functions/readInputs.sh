@@ -4,11 +4,11 @@ readInputs()
 {
     echo -e "$YELLOW add a word in SPANISHL:" 
     echo -e " $ROSAFONDONEGRO "
-    read spanish 
+    read SPANISH
     echo "" 
     echo -e "$YELLOW add something extra about the word:"
     echo -e " $GREEN "
-    read somethingelse 
+    read SOMETHINGELSE
     echo "" 
     echo -e "$YELLOW if word is a verb add PAST:" 
     echo -e " $GREEN " 
