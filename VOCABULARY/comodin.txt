@@ -1,2 +1,2 @@
-play : jugar :  : played : played : playing : I am playing soccer
-play : reproducir :  :  :  :  : 
+ : apodo :  :  :  :  : 
+ : translate :  :  :  :  : 
