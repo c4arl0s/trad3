@@ -30,7 +30,7 @@ do
                    createSpanishFile
                    saveSpanishTranslation        
                    processVerb
-                   cat $EAriseNGLISH_DIRECTORY_PATH/$ENGLISH.txt
+                   cat $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
                    cat $SPANISH_DIRECTORY_PATH/$SPANISH.txt
                    ;;
             "no") echo "you said no";;
