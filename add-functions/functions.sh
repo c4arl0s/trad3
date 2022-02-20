@@ -7,3 +7,4 @@
 . ./add-functions/createSpanishFile.sh
 . ./add-functions/saveEnglishTranslation.sh
 . ./add-functions/saveSpanishTranslation.sh
+. ./add-functions/processVerb.sh
