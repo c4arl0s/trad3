@@ -1,2 +1,2 @@
-mistake : Error :  :  :  :  : 
-mistake : errar :  : Mistook : Mistaken : Mistaking : 
+play : jugar :  : played : played : playing : I am playing soccer
+play : reproducir :  :  :  :  : 
