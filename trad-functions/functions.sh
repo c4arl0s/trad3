@@ -8,7 +8,6 @@
 . ./trad-functions/convertMP3toWAV.sh
 . ./trad-functions/isRetrievableSpanishWord.sh
 . ./trad-functions/displaySpanishTranslation.sh
-. ./trad-functions/cleanSpanishFile.sh
 . ./trad-functions/formatEnglishFile.sh
 . ./trad-functions/countLinesSpanishFile.sh
 . ./trad-functions/getSpanishFields.sh

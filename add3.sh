@@ -3,6 +3,8 @@
 
 . ./helper-functions/colors.sh
 . ./helper-functions/directoryPaths.sh
+. ./helper-functions/cleanEnglishFile.sh
+. ./helper-functions/cleanSpanishFile.sh
 . ./add-functions/functions.sh
 
 while [ "$*" = "" ]  
@@ -57,7 +59,9 @@ do
                    if [ "$OPTION" = "" ]
                    then
                        saveEnglishTranslation
+                       cleaEnglishFile $ENGLISH
                        saveSpanishTranslation 
+                       cleanSpanishFile $SPANISH
                    else
                        echo ""
                        echo " $WHITE !!! confirmacion nula : no se agregara la palabra ¡¡¡ "
