@@ -56,12 +56,8 @@ do
                    read OPTION
                    if [ "$OPTION" = "" ]
                    then
-                       echo -e "$ENGLISH : $SPANISH : $SOMETHINGELSE : $PAST : $PASTPARTICIPE : $GERUND : $EXAMPLE" >> $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
-                       chmod 777 $SPANISH_DIRECTORY_PATH/$SPANISH.txt
-                       echo "" >> $SPANISH_DIRECTORY_PATH/$SPANISH.txt
-                       echo -e "$SPANISH : $ENGLISH : $SOMETHINGELSE : $PAST : $PASTPARTICIPE : $GERUND : $EXAMPLE" >> $SPANISH_DIRECTORY_PATH/$SPANISH.txt
-                       sed '/^ *$/d' $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
-                       sed '/^ *$/d' $SPANISH_DIRECTORY_PATH/$SPANISH.txt
+                       saveEnglishTranslation
+                       saveSpanishTranslation 
                    else
                        echo ""
                        echo " $WHITE !!! confirmacion nula : no se agregara la palabra ¡¡¡ "
