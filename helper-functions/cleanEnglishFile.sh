@@ -1,5 +1,5 @@
 
-cleanEnglishFile() i
+cleanEnglishFile()
 {
     WORD=$1
     #borrar lineas vacias
