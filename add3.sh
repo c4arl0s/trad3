@@ -28,20 +28,20 @@ do
             read OPTION
             case $OPTION in
             "yes") echo -e "$RED"
-                   echo "dijiste YES"
                    readInputs
-                   echo "confirmacion de la palabra: "
+                   echo "these are your changes: "
                    printInputs
+                   echo "Type ENTER to confirm"
                    read OPTION
-                   if [ "$OPTION" = "" ]
+                   if [[ $OPTION ]]
                    then
+                       echo ""
+                       echo "$WHITE you cancelled ! "
+                   else
                        saveEnglishTranslation
-                       cleaEnglishFile $ENGLISH
+                       cleanEnglishFile $ENGLISH
                        saveSpanishTranslation 
                        cleanSpanishFile $SPANISH
-                   else
-                       echo ""
-                       echo " $WHITE !!! confirmacion nula : no se agregara la palabra ¡¡¡ "
                    fi
                    ;;      		     	
             "no") echo ""

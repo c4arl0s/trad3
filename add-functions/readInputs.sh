@@ -2,7 +2,7 @@
 
 readInputs()
 {
-    echo -e "$YELLOW add a word in SPANISHL:" 
+    echo -e "$YELLOW add a word in SPANISH:" 
     echo -e " $ROSAFONDONEGRO "
     read SPANISH
     echo "" 
