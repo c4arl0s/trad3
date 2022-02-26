@@ -6,6 +6,7 @@
 . ./helper-functions/cleanEnglishFile.sh
 . ./helper-functions/cleanSpanishFile.sh
 . ./add-functions/functions.sh
+. ./trad-functions/isRetrievableEnglishWord.sh
 
 while [ "$*" = "" ]  
 do
@@ -13,16 +14,16 @@ do
     read ENGLISH
     if [[ $ENGLISH ]]
     then 
-        if [[ -f "$ENGLISH_DIRECTORY_PATH/$ENGLISH.txt" ]]
+        if $(isRetrievableEnglishWord $ENGLISH)
         then
             echo -e "$GREEN"
-            echo "la palabra existe"
+            echo "word exist"
             echo -e "$WHITE"
             cat $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
             echo ""
             echo -e "$RED"
-            echo "¿ desea agregar otro signicado a la palabra [y/n]? "
-            echo "¿ o editar archivo [e] ?"
+            echo "¿ desea agregar otro signicado a la palabra [yes/no]? "
+            echo "¿ o editar archivo [edit] ?"
             echo -e " $WHITE"
             read OPTION
             case $OPTION in
@@ -46,7 +47,7 @@ do
             "no") echo ""
         	  echo "dijiste NO"
                   ;;
-            "editar") echo ""
+            "edit") echo ""
                       vim $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
                       vim $SPANISH_DIRECTORY_PATH/$SPANISH.txt
         	      ;;
@@ -62,7 +63,7 @@ do
             echo "this information will be added: "
             echo -e "$WHITE"
             printInputs
-            echo -e "is correct? (type ENTER key) : "
+            echo -e "is correct? (type yes) : "
             echo -e ""
             read CONFIRMATION
             case $CONFIRMATION in

@@ -2,7 +2,7 @@
 
 printInputs()
 {
-    echo -e " $WHITE ENGLISH: $ROSAFONDONEGRO $english"
+    echo -e " $WHITE ENGLISH: $ROSAFONDONEGRO $ENGLISH"
     echo -e " $WHITE SPANISH: $ROSAFONDONEGRO $SPANISH "
     echo -e " $WHITE EXTRA: $ROSAFONDONEGRO $SOMETHINGELSE "
     echo -e " $WHITE PAST: $ROSAFONDONEGRO $PAST "
