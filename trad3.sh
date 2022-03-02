@@ -7,15 +7,12 @@
 . ./helper-functions/cleanEnglishFile.sh
 . ./helper-functions/cleanSpanishFile.sh
 
-# at the front of your main script (after the #!/bin/bash) the dot (in bash) is the same as the include directive in c, you don't have to export the functions as the file will be included in the main script, don´t miss the space between the dot and the filename
-
 while [ "$*" = "" ]
 do
     printTitle
     read WORD
     if $(isRetrievableEnglishWord $WORD)
     then
-        #=================================
         echo -e "$WHITE exist $PINK $WORD $WHITE into english data base" 
         if $(isRetrievableEnglishAudio $WORD)
         then
@@ -33,9 +30,7 @@ do
         formatEnglishFile $WORD
         clear
         displayEnglishTranslation $WORD
-        #=================================
     else
-        #=================================
         echo -e "the word $WORD is not found"
         echo -e "$PINK $WORD $WHITE does not exist on english data base .... now looking into spanish data base"
         if $(isRetrievableSpanishWord $WORD)
@@ -61,6 +56,5 @@ do
             read decision
             displayMenu
         fi
-        #==================================
-		fi
+    fi
 done
