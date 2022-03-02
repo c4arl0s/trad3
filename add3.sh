@@ -38,6 +38,7 @@ do
                        echo ""
                        echo "$WHITE you cancelled ! "
                    else
+                       echo -e "Saving $ENGLISH ..."
                        saveEnglishTranslation
                        cleanEnglishFile $ENGLISH
                        saveSpanishTranslation 

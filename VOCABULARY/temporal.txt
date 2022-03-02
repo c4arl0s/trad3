@@ -1,8 +1,2 @@
-   north : norte :  :  :  :  : 
-   north : norte :  :  :  :  : 
-     north : norte :  :  :  :  : 
-
-
-
-
-
+brillar : shine :  :  :  :  : 
+brillar : shine :  : shone : shone : shining :
