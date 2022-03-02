@@ -42,9 +42,10 @@ do
                        saveEnglishTranslation
                        cleanEnglishFile $ENGLISH
                        saveSpanishTranslation 
+                       saveVerb $PAST $PASTPARTICIPE $GERUND
                        cleanSpanishFile $SPANISH
                    fi
-                   ;;      		     	
+                   ;;	
             "no") echo ""
         	  echo "dijiste NO"
                   ;;

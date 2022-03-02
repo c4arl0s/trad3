@@ -1,1 +1,3 @@
 trabajar : work :  : worked : worked : working : it works for me
+trabajar : work :  : worked : worked : working : I worked at home, yesterday.
+trabajar : work :  : worked : worked : working : I worked at home, yesterday
