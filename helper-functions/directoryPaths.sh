@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # new english version
-COMODIN_DIRECTORY_PATH='./vocabulary'
+TEMPORAL_DIRECTORY_PATH='./vocabulary'
 ENGLISH_DIRECTORY_PATH='./vocabulary/english'
 AUDIO_DIRECTORY_PATH='./vocabulary/audio-words'
 SPANISH_DIRECTORY_PATH='./vocabulary/spanish'
@@ -14,4 +14,4 @@ directorio_audio='./vocabulary/audio-words'
 # do not erase until you complete to english translation
 directorio_ingles='./vocabulary/english'
 directorio_espanol='./vocabulary/spanish'
-directorio_comodin='./vocabulary'
+directorio_temporal='./vocabulary'
