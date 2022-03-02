@@ -72,7 +72,7 @@ do
                    saveEnglishTranslation
                    createSpanishFile
                    saveSpanishTranslation        
-                   processVerb
+                   saveVerb $PAST $PASTPARTICIPE $GERUND
                    cat $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
                    cat $SPANISH_DIRECTORY_PATH/$SPANISH.txt
                    ;;
