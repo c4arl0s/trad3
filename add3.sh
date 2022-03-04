@@ -17,13 +17,12 @@ do
         if $(isRetrievableEnglishWord $ENGLISH)
         then
             echo -e "$GREEN"
-            echo "word exist"
+            echo "$ENGLISH exist"
             echo -e "$WHITE"
             cat $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
             echo ""
             echo -e "$RED"
-            echo "¿ desea agregar otro signicado a la palabra [yes/no]? "
-            echo "¿ o editar archivo [edit] ?"
+            echo "¿ Do you wish to add another meaning? type: [yes/no/edit]? "
             echo -e " $WHITE"
             read OPTION
             case $OPTION in
@@ -31,31 +30,28 @@ do
                    readInputs
                    echo "these are your changes: "
                    printInputs
-                   echo "Type ENTER to confirm"
+                   echo "Type yes to confirm"
                    read OPTION
-                   if [[ $OPTION ]]
-                   then
-                       echo ""
-                       echo "$WHITE you cancelled ! "
-                   else
-                       echo -e "Saving $ENGLISH ..."
-                       saveEnglishTranslation
-                       cleanEnglishFile $ENGLISH
-                       saveSpanishTranslation 
-                       saveVerb $PAST $PASTPARTICIPE $GERUND
-                       cleanSpanishFile $SPANISH
-                   fi
-                   ;;	
+                   case $OPTION in 
+                       "yes") echo -e "$RED"
+                              echo -e "Saving $ENGLISH ..."
+                              saveEnglishTranslation
+                              cleanEnglishFile $ENGLISH
+                              saveSpanishTranslation 
+                              saveVerb $PAST $PASTPARTICIPE $GERUND
+                              cleanSpanishFile $SPANISH
+                              cat $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt;;
+                        "no") echo -e "$RED"
+                              echo "You cancelled operation";;
+                        *) echo "Type correct key";;
+                  esac;;
             "no") echo ""
-        	  echo "dijiste NO"
-                  ;;
+        	  echo "Create a task when you say no";;
             "edit") echo ""
-                      vim $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
-                      vim $SPANISH_DIRECTORY_PATH/$SPANISH.txt
-        	      ;;
-            *) echo "oprime tecla correcta"
-               echo ""
-               ;;
+                    vim $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
+                    vim $SPANISH_DIRECTORY_PATH/$SPANISH.txt;;
+            *) echo "type correct key"
+               echo "";;
             esac
         else
             echo ""
@@ -65,6 +61,7 @@ do
             echo "this information will be added: "
             echo -e "$WHITE"
             printInputs
+            echo -e ""
             echo -e "is correct? (type yes) : "
             echo -e ""
             read CONFIRMATION
@@ -76,8 +73,7 @@ do
                    saveSpanishTranslation        
                    saveVerb $PAST $PASTPARTICIPE $GERUND
                    cat $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
-                   cat $SPANISH_DIRECTORY_PATH/$SPANISH.txt
-                   ;;
+                   cat $SPANISH_DIRECTORY_PATH/$SPANISH.txt;;
             "no") echo "you said no";;
             *) echo "Wrong keys";;
             esac
