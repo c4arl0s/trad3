@@ -62,21 +62,25 @@ do
             echo -e "$WHITE"
             printInputs
             echo -e ""
-            echo -e "is correct? (type yes) : "
+            echo -e "Select a number: "
             echo -e ""
-            read CONFIRMATION
+            select CONFIRMATION in yes no quit; do
             case $CONFIRMATION in
-            "yes") echo -e "$ROSA adding word: $WHITE $ENGLISH .... "
+            yes) echo -e "$ROSA adding word: $WHITE $ENGLISH .... "
                    createEnglishFile
                    saveEnglishTranslation
                    createSpanishFile
                    saveSpanishTranslation        
                    saveVerb $PAST $PASTPARTICIPE $GERUND
                    cat $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
-                   cat $SPANISH_DIRECTORY_PATH/$SPANISH.txt;;
-            "no") echo "you said no";;
+                   cat $SPANISH_DIRECTORY_PATH/$SPANISH.txt
+                   break;;
+            no) echo "you said no"
+                break;;
+            quit) break;;
             *) echo "Wrong keys";;
             esac
+            done
         fi
     else
         echo "Type a word"

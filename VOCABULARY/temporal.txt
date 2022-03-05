@@ -1,1 +1,2 @@
-incomodar : concern :  :  :  :  : 
+llorar : cry :  :  :  :  : 
+llorar : cry :  : cried : cried : crying : 
