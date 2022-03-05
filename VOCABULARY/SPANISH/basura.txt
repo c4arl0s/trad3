@@ -1,1 +1,2 @@
 basura : junk :  :  :  :  : 
+basura : trash :  :  :  :  : 
