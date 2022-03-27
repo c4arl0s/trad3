@@ -27,7 +27,6 @@ do
             reproduce-audio $WORD
             sleep 1
         fi
-        formatEnglishFile $WORD
         clear
         displayEnglishTranslation $WORD
     else
