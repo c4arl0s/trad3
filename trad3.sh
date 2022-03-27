@@ -38,7 +38,7 @@ do
             cleanSpanishFile $SPANISH_WORD
             clear
             displaySpanishTranslation $SPANISH_WORD
-            reproduce-audio $INGLES
+            reproduce-audio $SPANISH_WORD
         else
             searchWordUsingGoogleScript $WORD
             sleep 1 

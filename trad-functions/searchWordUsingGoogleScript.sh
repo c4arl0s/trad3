@@ -6,7 +6,7 @@ searchWordUsingGoogleScript()
     echo -e "$PINK buscaré en google-translation script usando la opcion -breve ...$WHITE"
     #======================================================================
     echo -e "buscare $WORD traduciondo al espanol"
-    spanishWordUsingTrans=`trans -b :es $WORD | cut -f 1 -d " "`
+    spanishWordUsingTrans=`./trans -b :es $WORD | cut -f 1 -d " "`
     #======================================================================
     if [ $WORD = $spanishWordUsingTrans ]
     then
@@ -25,3 +25,7 @@ searchWordUsingGoogleScript()
         ingles=$WORD
     fi
 }
+
+# install trans script
+# wget git.io/trans
+# chmod +x ./trans
