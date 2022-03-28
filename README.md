@@ -6,6 +6,12 @@ It uses my own database which come from my old days of school. When I just neede
 
 # dependencies:
 
+gawk
+
+```console
+brew install gawk
+```
+
 trans script 
 
 ```console
