@@ -27,7 +27,13 @@ brew install sox
 
 # Using script
 
-You just execute the script as:
+First give permisions to execute script on your environment
+
+```console
+$ chmod +x trad.sh
+```
+
+You just execute the script by typing:
 
 ```console
 $ ./trad3.sh
