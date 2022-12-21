@@ -3,5 +3,7 @@
 cuenta-lineas-archivo-ingles()
 {
     WORD=$1
-    cat $ENGLISH_DIRECTORY_PATH/$WORD.txt | wc -l | cut -f 8 -d " "
+    FILE_NAME=$ENGLISH_DIRECTORY_PATH/$WORD.txt
+    NUMBER_OF_LINES=$(echo $(<$FILE_NAME) | wc -l | cut -f 8 -d " ")
+    echo "$NUMBER_OF_LINES"
 }

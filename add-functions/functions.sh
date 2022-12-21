@@ -1,10 +1,10 @@
 #!/bin/bash
 
-. ./add-functions/printHeader.sh
-. ./add-functions/readInputs.sh
-. ./add-functions/printInputs.sh
-. ./add-functions/createEnglishFile.sh
-. ./add-functions/createSpanishFile.sh
-. ./add-functions/saveEnglishTranslation.sh
-. ./add-functions/saveSpanishTranslation.sh
-. ./add-functions/saveVerb.sh
+. ~/iOS-Projects/DictEnEsScript/add-functions/printHeader.sh
+. ~/iOS-Projects/DictEnEsScript/add-functions/readInputs.sh
+. ~/iOS-Projects/DictEnEsScript/add-functions/printInputs.sh
+. ~/iOS-Projects/DictEnEsScript/add-functions/createEnglishFile.sh
+. ~/iOS-Projects/DictEnEsScript/add-functions/createSpanishFile.sh
+. ~/iOS-Projects/DictEnEsScript/add-functions/saveEnglishTranslation.sh
+. ~/iOS-Projects/DictEnEsScript/add-functions/saveSpanishTranslation.sh
+. ~/iOS-Projects/DictEnEsScript/add-functions/saveVerb.sh

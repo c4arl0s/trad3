@@ -1,35 +1,35 @@
 #!/bin/bash
 
 # new english version
-. ./trad-functions/printTitle.sh
-. ./trad-functions/isRetrievableEnglishWord.sh
-. ./trad-functions/isRetrievableEnglishAudio.sh
-. ./trad-functions/downloadAudioFromGoogle.sh
-. ./trad-functions/convertMP3toWAV.sh
-. ./trad-functions/isRetrievableSpanishWord.sh
-. ./trad-functions/displaySpanishTranslation.sh
-. ./trad-functions/formatEnglishFile.sh
-. ./trad-functions/countLinesSpanishFile.sh
-. ./trad-functions/getSpanishFields.sh
-. ./trad-functions/printSpanishFields.sh
-. ./trad-functions/searchWordUsingGoogleScript.sh
-. ./trad-functions/displayOptionToAddNewWord.sh
-. ./trad-functions/displayMenu.sh
-. ./trad-functions/getEnglishFields.sh
-. ./trad-functions/displayEnglishTranslation.sh
-. ./trad-functions/reproduce-audio.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/printTitle.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/isRetrievableEnglishWord.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/isRetrievableEnglishAudio.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/downloadAudioFromGoogle.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/convertMP3toWAV.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/isRetrievableSpanishWord.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/displaySpanishTranslation.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/formatEnglishFile.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/countLinesSpanishFile.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/getSpanishFields.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/printSpanishFields.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/searchWordUsingGoogleScript.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/displayOptionToAddNewWord.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/displayMenu.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/getEnglishFields.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/displayEnglishTranslation.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/reproduce-audio.sh
 
 # old spanish version
-. ./trad-functions/imprimir-traduccion-ingresada.sh
-. ./trad-functions/descargar-audio-de-google.sh
-. ./trad-functions/existe-archivo-en-espanol.sh
-. ./trad-functions/existe-archivo-en-ingles.sh
-. ./trad-functions/agregar-palabra.sh
-. ./trad-functions/transfiere-traduccion-espanol.sh
-. ./trad-functions/crear-archivo-espanol.sh
-. ./trad-functions/transfiere-traduccion-ingles.sh
-. ./trad-functions/crear-archivo-ingles.sh
-. ./trad-functions/obtener-traduccion.sh
-. ./trad-functions/cuenta-lineas-archivo-ingles.sh
-. ./trad-functions/imprimir-campos-ingles.sh
-. ./trad-functions/prueba-existencia.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/imprimir-traduccion-ingresada.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/descargar-audio-de-google.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/existe-archivo-en-espanol.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/existe-archivo-en-ingles.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/agregar-palabra.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/transfiere-traduccion-espanol.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/crear-archivo-espanol.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/transfiere-traduccion-ingles.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/crear-archivo-ingles.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/obtener-traduccion.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/cuenta-lineas-archivo-ingles.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/imprimir-campos-ingles.sh
+. ~/iOS-Projects/DictEnEsScript/trad-functions/prueba-existencia.sh
