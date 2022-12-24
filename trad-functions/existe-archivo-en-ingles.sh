@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # este script fue reinsertado en el programa principal, guardarlo.
 existe-archivo-en-ingles()
 {

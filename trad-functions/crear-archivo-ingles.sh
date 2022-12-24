@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 crear_archivo_ingles()
 {   

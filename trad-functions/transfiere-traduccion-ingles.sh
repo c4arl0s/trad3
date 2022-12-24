@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 transfiere-traduccion-ingles()
 {

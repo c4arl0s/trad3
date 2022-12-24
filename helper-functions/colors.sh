@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Old spanish version
 VERDE="\033[47m\033[0;32m\a"

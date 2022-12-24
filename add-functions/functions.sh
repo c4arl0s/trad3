@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 . ~/iOS-Projects/DictEnEsScript/add-functions/printHeader.sh
 . ~/iOS-Projects/DictEnEsScript/add-functions/readInputs.sh

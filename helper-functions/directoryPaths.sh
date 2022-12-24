@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # new english version
 TEMPORAL_DIRECTORY_PATH='~/iOS-Projects/DictEnEsScript/vocabulary'

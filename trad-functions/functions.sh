@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # new english version
 . ~/iOS-Projects/DictEnEsScript/trad-functions/printTitle.sh

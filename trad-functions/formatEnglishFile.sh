@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # sed '/^ *$/d' file
 # Borra todas las lineas que esten vacias o que contengan espacios en blanco.

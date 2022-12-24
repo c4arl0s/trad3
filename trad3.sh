@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 . ~/iOS-Projects/DictEnEsScript/trad-functions/functions.sh
 . ~/iOS-Projects/DictEnEsScript/add-functions/functions.sh

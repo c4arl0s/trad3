@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # script to add new english words to my personal dictionary
 
 . ~/iOS-Projects/DictEnEsScript/helper-functions/colors.sh

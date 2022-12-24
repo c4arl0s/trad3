@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 descargar-audio-de-google()
 {
