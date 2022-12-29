@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # script to add new english words to my personal dictionary
 
-. ~/iOS-Projects/DictEnEsScript/helper-functions/colors.sh
-. ~/iOS-Projects/DictEnEsScript/helper-functions/directoryPaths.sh
-. ~/iOS-Projects/DictEnEsScript/helper-functions/cleanEnglishFile.sh
-. ~/iOS-Projects/DictEnEsScript/helper-functions/cleanSpanishFile.sh
-. ~/iOS-Projects/DictEnEsScript/add-functions/functions.sh
-. ~/iOS-Projects/DictEnEsScript/trad-functions/isRetrievableEnglishWord.sh
+. $HOME/iOS-Projects/DictEnEsScript/helper-functions/colors.sh
+. $HOME/iOS-Projects/DictEnEsScript/helper-functions/directoryPaths.sh
+. $HOME/iOS-Projects/DictEnEsScript/helper-functions/cleanEnglishFile.sh
+. $HOME/iOS-Projects/DictEnEsScript/helper-functions/cleanSpanishFile.sh
+. $HOME/iOS-Projects/DictEnEsScript/add-functions/functions.sh
+. $HOME/iOS-Projects/DictEnEsScript/trad-functions/isRetrievableEnglishWord.sh
 
 while [ "$*" = "" ]  
 do

@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-. ~/iOS-Projects/DictEnEsScript/trad-functions/functions.sh
-. ~/iOS-Projects/DictEnEsScript/add-functions/functions.sh
-. ~/iOS-Projects/DictEnEsScript/helper-functions/colors.sh
-. ~/iOS-Projects/DictEnEsScript/helper-functions/directoryPaths.sh
-. ~/iOS-Projects/DictEnEsScript/helper-functions/cleanEnglishFile.sh
-. ~/iOS-Projects/DictEnEsScript/helper-functions/cleanSpanishFile.sh
+. $HOME/iOS-projects/DictEnEsScript/trad-functions/functions.sh
+. $HOME/iOS-Projects/DictEnEsScript/add-functions/functions.sh
+. $HOME/iOS-Projects/DictEnEsScript/helper-functions/colors.sh
+. $HOME/iOS-Projects/DictEnEsScript/helper-functions/directoryPaths.sh
+. $HOME/iOS-Projects/DictEnEsScript/helper-functions/cleanEnglishFile.sh
+. $HOME/iOS-Projects/DictEnEsScript/helper-functions/cleanSpanishFile.sh
 
 # initialise trap to call trap_ctrlc function
 # when signal 2 (SIGINT) is received
