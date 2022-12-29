@@ -28,7 +28,7 @@ while [ "$*" = "" ]
 do
     printTitle
     read WORD
-    if $(isRetrievableEnglishWord $WORD)
+    if ! $(isRetrievableEnglishWord $WORD)
     then
         echo -e "$WHITE exist $PINK $WORD $WHITE into english data base" 
         if $(isRetrievableEnglishAudio $WORD)
