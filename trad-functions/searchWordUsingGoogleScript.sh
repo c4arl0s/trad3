@@ -6,7 +6,7 @@ searchWordUsingGoogleScript()
     echo -e "$PINK buscaré en google-translation script usando la opcion -breve ...$WHITE"
     #======================================================================
     echo -e "buscare $WORD traduciondo al espanol"
-    spanishWordUsingTrans=`sh $HOME/iOS-Projects/DictEnEsScript/trans -b :es $WORD | cut -f 1 -d " "`
+    spanishWordUsingTrans=`bash $HOME/iOS-Projects/DictEnEsScript/trans -b :es $WORD | cut -f 1 -d " "`
     echo "output variable $spanishWordUsingTrans"
     #======================================================================
     if [ $WORD = $spanishWordUsingTrans ]
