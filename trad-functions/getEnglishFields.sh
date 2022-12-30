@@ -2,9 +2,10 @@
 
 getEnglishFields()
 {
+    echo "Getting English fields"
     WORD=$1
     ROW=$2
-    FILE_NAME="$("$ENGLISH_DIRECTORY_PATH/$WORD.txt")"
+    FILE_NAME="$ENGLISH_DIRECTORY_PATH/$WORD.txt"
 
     INGLES=`echo "$(<$FILE_NAME)" | tail -$ROW | cut -f 1 -d ":"`
     ESPANOL=`echo "$(<$FILE_NAME)" | tail -$ROW | cut -f 2 -d ":"`
