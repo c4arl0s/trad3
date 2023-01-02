@@ -1,14 +1,9 @@
 #!/usr/bin/env bash
 
-prueba-existencia()
+isAvailable()
 {
-    palabra=$1
-    test -f $directorio_ingles/$palabra.txt
-    bandera=$?
-    return $bandera
+    WORD=$1
+    test -f $ENGLISH_DIRECTORY_PATH/$WORD.txt
+    ANSWER=$?
+    return $ANSWER
 }
-
-
-
-
-
