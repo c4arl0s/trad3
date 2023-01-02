@@ -2,7 +2,6 @@
 
 printSpanishFields()
 {
-    echo -e "$ROSA==============================="
     echo -e "$ROJO $INGLES : $PINK $SPANISH_WORD"
     echo -e "$WHITE Extra: $GREEN $EXTRA"
     echo -e "$WHITE Past: $GREEN $P" 

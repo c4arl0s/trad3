@@ -20,5 +20,3 @@ agregar-palabra()
                 exit 0
         fi
 }
-
-
