@@ -2,9 +2,9 @@
 
 imprimir-traduccion-ingresada()
 {
-echo -e "$AMARILLO ================="
+echo -e "$AMARILLO"
 echo -e "$AMARILLO Datos ingresados:"
-echo -e "$AMARILLO ================="
+echo -e "$AMARILLO"
 echo -e "$BLANCO ENGLISH : $ROSAFONDONEGRO $ingles "
 echo -e "$BLANCO SPANISH : $ROSAFONDONEGRO $espanol "
 echo -e "$BLANCO extra : $ROSAFONDONEGRO $algomas "
