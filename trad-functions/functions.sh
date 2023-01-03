@@ -32,4 +32,4 @@
 . $HOME/iOS-Projects/DictEnEsScript/trad-functions/obtener-traduccion.sh
 . $HOME/iOS-Projects/DictEnEsScript/trad-functions/cuenta-lineas-archivo-ingles.sh
 . $HOME/iOS-Projects/DictEnEsScript/trad-functions/imprimir-campos-ingles.sh
-. $HOME/iOS-Projects/DictEnEsScript/trad-functions/prueba-existencia.sh
+. $HOME/iOS-Projects/DictEnEsScript/trad-functions/isAvailable.sh

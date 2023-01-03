@@ -2,8 +2,7 @@
 
 imprimir-campos-ingles()
 {
-    echo -e "$BLANCO"
-    echo -e "$VERDE $INGLES : $ROSA $ESPANOL"
+    echo -e "$VERDE$INGLES:$ROSA$ESPANOL"
     echo -e "$BLANCO" 
     echo -e "$BLANCO Extra: $VERDE $EXTRA"
     echo -e "$BLANCO Past: $VERDE $P" 

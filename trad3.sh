@@ -30,25 +30,26 @@ do
     read WORD
     if ! $(isRetrievableEnglishWord $WORD)
     then
-        echo -e "$WHITE exist $PINK $WORD $WHITE into english data base" 
+        echo "$WHITE"
+        echo "$WORD is available in english data base"
         if $(isRetrievableEnglishAudio $WORD)
         then
             reproduce-audio $WORD
-            sleep 1
+            sleep 2
         else
-            echo -e "$YELLOW audio does not exist ... I will use google"
+            echo -e "audio does not exist ... I will use google"
             downloadAudioFromGoogle $WORD
-            echo -e "$YELLOW does exits ... convert to wav file"
+            echo -e "it does exits ... convert to wav file"
             convertMP3toWAV $WORD
-            echo -e "$YELLOW reproducing audio"
+            echo -e "reproducing audio"
             reproduce-audio $WORD
-            sleep 1
+            sleep 2
         fi
         clear
         displayEnglishTranslation $WORD
     else
-        echo -e "the word $WORD is not found"
-        echo -e "$PINK $WORD $WHITE does not exist on english data base .... now looking into spanish data base"
+        echo -e "The word $WORD was not found"
+        echo -e "$WORD does not exist on english data base .... now looking into spanish data base"
         if $(isRetrievableSpanishWord $WORD)
         then
             SPANISH_WORD=$WORD
@@ -58,14 +59,14 @@ do
             reproduce-audio $WORD
         else
             searchWordUsingGoogleScript $WORD
-            sleep 1 
+            sleep 2 
             if $(isRetrievableEnglishAudio $ingles)
             then
                 reproduce-audio $ingles
-                sleep 1
+                sleep 2
             else
                 downloadAudioFromGoogle $ingles
-                sleep 1
+                sleep 2
             fi
             clear
             displayOptionToAddNewWord
