@@ -1,1 +1,2 @@
 noticias : breaking-news :  :  :  :  : 
+Noticias : news :  :  :  :  : 

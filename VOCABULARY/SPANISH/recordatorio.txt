@@ -1,1 +1,2 @@
 recordatorio : remainder :  :  :  :  : 
+recordatorio : reminder :  :  :  :  : 

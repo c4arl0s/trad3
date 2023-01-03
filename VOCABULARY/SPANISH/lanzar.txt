@@ -1,1 +1,2 @@
 lanzar : throw :  : threw : thrown : throwing : 
+lanzar : launch :  :  :  :  : 

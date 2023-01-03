@@ -2,3 +2,4 @@ difícil : hard :  :  :  :  :
 difícil : tough :  :  :  :  : 
 difícil : tricky :  :  :  :  : 
 difícil : difficult :  :  :  :  : 
+difícil : dificil :  :  :  :  : 

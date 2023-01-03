@@ -1,2 +1,3 @@
 fuera : out :  :  :  :  : 
 fuera : outside :  :  :  :  : 
+fuera : away :  :  :  :  : 

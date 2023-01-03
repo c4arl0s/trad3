@@ -1,1 +1,2 @@
 diplomático : diplomat :  :  :  :  : 
+diplomático : diplomatic :  :  :  :  : 
