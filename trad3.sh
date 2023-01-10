@@ -27,6 +27,7 @@ function trap_ctrlc ()
 while [ "$*" = "" ]
 do
     printTitle
+    echo "$CYAN"
     read WORD
     if ! $(isRetrievableEnglishWord $WORD)
     then
@@ -48,6 +49,7 @@ do
         clear
         displayEnglishTranslation $WORD
     else
+        echo -e "$RED"
         echo -e "The word $WORD was not found"
         echo -e "$WORD does not exist on english data base .... now looking into spanish data base"
         if $(isRetrievableSpanishWord $WORD)
