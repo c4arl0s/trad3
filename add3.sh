@@ -1,12 +1,7 @@
 #!/usr/bin/env bash
 # script to add new english words to my personal dictionary
 
-. $HOME/iOS-Projects/DictEnEsScript/helper-functions/colors.sh
-. $HOME/iOS-Projects/DictEnEsScript/helper-functions/directoryPaths.sh
-. $HOME/iOS-Projects/DictEnEsScript/helper-functions/cleanEnglishFile.sh
-. $HOME/iOS-Projects/DictEnEsScript/helper-functions/cleanSpanishFile.sh
-. $HOME/iOS-Projects/DictEnEsScript/add-functions/functions.sh
-. $HOME/iOS-Projects/DictEnEsScript/trad-functions/isRetrievableEnglishWord.sh
+. /Users/carlossantiagocruz/iOS-Projects/DictEnEsScript/directoryPaths.sh
 
 while [ "$*" = "" ]  
 do
@@ -14,7 +9,7 @@ do
     read ENGLISH
     if [[ $ENGLISH ]]
     then 
-        if $(isRetrievableEnglishWord $ENGLISH)
+        if ! $(isRetrievableEnglishWord $ENGLISH)
         then
             echo -e "$GREEN"
             echo "$ENGLISH exist"
