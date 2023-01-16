@@ -1,1 +1,2 @@
 barra : backslash :  :  :  :  : 
+barra : slash :  :  :  :  : 
