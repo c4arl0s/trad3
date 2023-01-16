@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-. /Users/carlossantiagocruz/iOS-Projects/DictEnEsScript/directoryPaths.sh
+. $HOME/iOS-Projects/DictEnEsScript/directoryPaths.sh
 
 while [ "$*" = "" ]
 do

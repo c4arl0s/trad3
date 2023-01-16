@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # script to add new english words to my personal dictionary
 
-. /Users/carlossantiagocruz/iOS-Projects/DictEnEsScript/directoryPaths.sh
+. $HOME/iOS-Projects/DictEnEsScript/directoryPaths.sh
 
 while [ "$*" = "" ]  
 do
