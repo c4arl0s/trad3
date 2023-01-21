@@ -28,7 +28,10 @@ do
         displayEnglishTranslation $WORD
     elif [ "$WORD" = "" ]
     then
-        echo "Empty word"
+        echo "Empty word" &&
+        lastWordFound=$(echo $INGLES | cut -d ":" -f 1 | tr -d "[:space:]") && 
+        [[ ! -z "$lastWordFound" ]] &&
+        reproduce-audio $lastWordFound
     else
         echo -e "$RED"
         echo -e "The word $WORD was not found"
@@ -38,7 +41,6 @@ do
             echo "$WORD existe en base de datos de espaniol"
             SPANISH_WORD=$WORD
             cleanSpanishFile $SPANISH_WORD
-            clear
             displaySpanishTranslation $SPANISH_WORD
             reproduce-audio $WORD
         else

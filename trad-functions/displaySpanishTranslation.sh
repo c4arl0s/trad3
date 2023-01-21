@@ -2,9 +2,9 @@
 
 displaySpanishTranslation()
 {
-    WORD=$1
-    ROWS=`countLinesSpanishFile $WORD`
-    # echo -e "$WORD file has $ROWS rows"
+    SPANISH_WORD=$1
+    ROWS=`countLinesSpanishFile $SPANISH_WORD`
+    echo -e "$WORD file has $ROWS rows"
     echo ""
     for ROW in `seq $ROWS`
     do
