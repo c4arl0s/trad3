@@ -1,2 +1,0 @@
-archivo : file :  :  :  :  : 
-archivo : archive :  :  :  :  : 
