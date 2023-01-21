@@ -31,6 +31,7 @@ do
         echo "Empty word" &&
         lastWordFound=$(echo $INGLES | cut -d ":" -f 1 | tr -d "[:space:]") && 
         [[ ! -z "$lastWordFound" ]] &&
+        [ -f $AUDIO_DIRECTORY_PATH/$lastWordFound.wav ] &&
         reproduce-audio $lastWordFound
     else
         echo -e "$RED"
