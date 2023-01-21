@@ -2,7 +2,7 @@
 
 crear-archivo-espanol()
 {
-touch $directorio_espanol/$espanol.txt
+    formattedSPANISH=$(echo $espanol | sed "y/āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ/aaaaeeeeiiiioooouuuuüüüüAAAAEEEEIIIIOOOOUUUUÜÜÜÜ/")
+    espanol=$formattedSPANISH
+    touch $SPANISH_DIRECTORY_PATH/$espanol.txt
 }
-
-
