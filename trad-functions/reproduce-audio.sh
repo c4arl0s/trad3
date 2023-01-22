@@ -3,6 +3,9 @@
 reproduce-audio()
 {
     WORD=$1
-    play $AUDIO_DIRECTORY_PATH/$WORD.wav
+    if [[ -f $AUDIO_DIRECTORY_PATH/$WORD.wav ]]; then 
+        play $AUDIO_DIRECTORY_PATH/$WORD.wav
+    else 
+        echo "I could not find $WORD file"
+    fi
 }
-
