@@ -3,5 +3,9 @@
 convertMP3toWAV()
 {
     WORD=$1
-    ffmpeg -i $AUDIO_DIRECTORY_PATH/$WORD.mp3 $AUDIO_DIRECTORY_PATH/$WORD.wav
+    if [ -f $AUDIO_DIRECTORY_PATH/$WORD.mp3 ] && ffmpeg -i $AUDIO_DIRECTORY_PATH/$WORD.mp3 $AUDIO_DIRECTORY_PATH/$WORD.wav; then
+        echo "I was able to conver file"
+    else 
+        echo "Conversion failed"
+    fi
 }
