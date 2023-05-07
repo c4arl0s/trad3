@@ -3,6 +3,7 @@
 isRetrievableEnglishWord()
 {
     WORD=$1
-    test ! -f $ENGLISH_DIRECTORY_PATH/$WORD.txt
+    # if WORD exist, returns 0
+    test -f $ENGLISH_DIRECTORY_PATH/$WORD.txt
 }
 

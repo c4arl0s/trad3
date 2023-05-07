@@ -7,7 +7,7 @@ do
     printTitle
     echo "$CYAN"
     read WORD
-    if ! $(isRetrievableEnglishWord $WORD)
+    if $(isRetrievableEnglishWord $WORD)
     then
         echo "$WHITE"
         echo "$WORD is available in english data base"
