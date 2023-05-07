@@ -34,7 +34,7 @@ do
         displayEnglishTranslation $WORD
     elif [ "$WORD" = "" ]
     then
-        echo "Empty word" &&
+        echo "Empty word"
         lastWordFound=$(echo $INGLES | cut -d ":" -f 1 | tr -d "[:space:]") && 
         [[ ! -z "$lastWordFound" ]] &&
         [ -f $AUDIO_DIRECTORY_PATH/$lastWordFound.wav ] && echo "\nReproducing last word found ..."
