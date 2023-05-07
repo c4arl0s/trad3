@@ -2,6 +2,24 @@
 
 . $HOME/iOS-Projects/DictEnEsScript/directoryPaths.sh
 
+function reproduceIfThereIsAudioFile() {
+    WORD=$1
+    if $(isRetrievableEnglishAudio $WORD)
+    then
+        reproduce-audio $WORD
+        sleep 2
+    else
+        echo -e "audio does not exist ... I will use google"
+        downloadAudioFromGoogle $WORD
+        echo -e "it does exits ... convert to wav file"
+        convertMP3toWAV $WORD
+        echo -e "reproducing audio"
+        reproduce-audio $WORD
+        sleep 2
+    fi
+    clear
+}
+
 while [ "$*" = "" ]
 do
     printTitle
@@ -11,19 +29,7 @@ do
     then
         echo "$WHITE"
         echo "$WORD is available in english data base"
-        if $(isRetrievableEnglishAudio $WORD)
-        then
-            reproduce-audio $WORD
-            sleep 2
-        else
-            echo -e "audio does not exist ... I will use google"
-            downloadAudioFromGoogle $WORD
-            echo -e "it does exits ... convert to wav file"
-            convertMP3toWAV $WORD
-            echo -e "reproducing audio"
-            reproduce-audio $WORD
-            sleep 2
-        fi
+        reproduceIfThereIsAudioFile $WORD
         clear
         displayEnglishTranslation $WORD
     elif [ "$WORD" = "" ]
