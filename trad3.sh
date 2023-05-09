@@ -35,9 +35,13 @@ do
     elif [ "$WORD" = "" ]
     then
         echo "Empty word"
-        lastWordFound=$(echo $INGLES | cut -d ":" -f 1 | tr -d "[:space:]") && 
+        
+        lastWordFound=$(echo $INGLES | cut -d ":" -f 1 | tr -d "[:space:]")
+
+        # (not_empty_string && file_exist && echo && reproduce)
         [[ ! -z "$lastWordFound" ]] &&
-        [ -f $AUDIO_DIRECTORY_PATH/$lastWordFound.wav ] && echo "\nReproducing last word found ..."
+        [ -f $AUDIO_DIRECTORY_PATH/$lastWordFound.wav ] && 
+        echo "\nReproducing last word found ..." && 
         reproduce-audio $lastWordFound
     else
         echo -e "$RED"
