@@ -20,6 +20,15 @@ function reproduceIfThereIsAudioFile() {
     clear
 }
 
+function reproduceLastWordFoundIfAvailable() {
+    lastWordFound=$1
+    # (not_empty_string && file_exist && echo && reproduce)
+    [[ ! -z "$lastWordFound" ]] &&
+    [ -f $AUDIO_DIRECTORY_PATH/$lastWordFound.wav ] && 
+    echo "\nReproducing last word found ..." && 
+    reproduce-audio $lastWordFound
+}
+
 while [ "$*" = "" ]
 do
     printTitle
@@ -36,13 +45,8 @@ do
     then
         echo "Empty word"
         
-        lastWordFound=$(echo $INGLES | cut -d ":" -f 1 | tr -d "[:space:]")
-
-        # (not_empty_string && file_exist && echo && reproduce)
-        [[ ! -z "$lastWordFound" ]] &&
-        [ -f $AUDIO_DIRECTORY_PATH/$lastWordFound.wav ] && 
-        echo "\nReproducing last word found ..." && 
-        reproduce-audio $lastWordFound
+        LAST_WORD_FOUND=$(echo $INGLES | cut -d ":" -f 1 | tr -d "[:space:]")
+        reproduceLastWordFoundIfAvailable $LAST_WORD_FOUND
     else
         echo -e "$RED"
         echo -e "The word $WORD was not found"
