@@ -2,7 +2,7 @@
 
 . $HOME/iOS-Projects/DictEnEsScript/directoryPaths.sh
 
-function reproduceIfThereIsAudioFile() {
+function reproduceEnglishAudioFileIfAvailable() {
     WORD=$1
     if $(isRetrievableEnglishAudio $WORD)
     then
@@ -38,7 +38,7 @@ do
     then
         echo "$WHITE"
         echo "$WORD is available in english data base"
-        reproduceIfThereIsAudioFile $WORD
+        reproduceEnglishAudioFileIfAvailable $WORD
         clear
         displayEnglishTranslation $WORD
     elif [ "$WORD" = "" ]
