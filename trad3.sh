@@ -21,12 +21,12 @@ function reproduceIfThereIsAudioFile() {
 }
 
 function reproduceLastWordFoundIfAvailable() {
-    lastWordFound=$1
+    LAST_WORD_FOUND=$1
     # (not_empty_string && file_exist && echo && reproduce)
-    [[ ! -z "$lastWordFound" ]] &&
-    [ -f $AUDIO_DIRECTORY_PATH/$lastWordFound.wav ] && 
+    [[ ! -z "$LAST_WORD_FOUND" ]] &&
+    [ -f $AUDIO_DIRECTORY_PATH/$LAST_WORD_FOUND.wav ] && 
     echo "\nReproducing last word found ..." && 
-    reproduce-audio $lastWordFound
+    reproduce-audio $LAST_WORD_FOUND
 }
 
 while [ "$*" = "" ]
