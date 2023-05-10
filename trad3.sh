@@ -57,13 +57,13 @@ do
             SPANISH_WORD=$WORD
             cleanSpanishFile $SPANISH_WORD
             displaySpanishTranslation $SPANISH_WORD
-            reproduce-audio $WORD
+            reproduceEnglishAudioFileIfAvailable  $WORD
         else
             searchWordUsingGoogleScript $WORD
             sleep 2 
             if $(isRetrievableEnglishAudio $ingles)
             then
-                reproduce-audio $ingles
+                reproduceEnglishAudioFileIfAvailable $ingles
                 sleep 2
             else
                 downloadAudioFromGoogle $ingles
