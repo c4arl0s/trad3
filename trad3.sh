@@ -35,23 +35,24 @@ do
     read WORD
     if $(isRetrievableEnglishWord $WORD)
     then
-        echo "$WHITE"
+        echo "$GREEN"
         echo "$WORD is available in english data base"
         reproduceEnglishAudioFileIfAvailable $WORD
         clear
         displayEnglishTranslation $WORD
+
     elif [ "$WORD" = "" ]
     then
-        echo "Empty word"
-        
+        echo "Empty word"        
         LAST_WORD_FOUND=$(echo $INGLES | cut -d ":" -f 1 | tr -d "[:space:]")
         reproduceLastWordFoundIfAvailable $LAST_WORD_FOUND
+
     else
         echo -e "$RED"
-        echo -e "The word $WORD was not found"
         echo -e "$WORD does not exist on english data base .... now looking into spanish data base"
         if $(isRetrievableSpanishWord $WORD)
         then
+            echo "$GREEN"
             echo "$WORD existe en base de datos de espaniol"
             SPANISH_WORD=$WORD
             cleanSpanishFile $SPANISH_WORD
