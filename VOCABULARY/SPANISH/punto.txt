@@ -1,1 +1,2 @@
 punto : point :  :  :  :  : 
+punto : dot :  :  :  :  : 
