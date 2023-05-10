@@ -17,7 +17,6 @@ function reproduceEnglishAudioFileIfAvailable() {
         reproduce-audio $WORD
         sleep 2
     fi
-    clear
 }
 
 function reproduceLastWordFoundIfAvailable() {
