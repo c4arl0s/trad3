@@ -12,6 +12,6 @@ imprimir-traduccion-ingresada()
     echo -e "$BLANCO past participe : $ROSAFONDONEGRO $pp "
     echo -e "$BLANCO gerund : $ROSAFONDONEGRO $gerundio "
     echo -e "$BLANCO example : $ROSAFONDONEGRO $ejemplo "
-    play $directorio_audio/$ingles.wav
+    reproduceEnglishAudioFileIfAvailable $ingles
     echo -e "$BLANCO"
 }

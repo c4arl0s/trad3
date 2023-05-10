@@ -2,6 +2,7 @@
 
 displayOptionToAddNewWord()
 {
+    echo "$GREEN"
     echo -e "es satisfactoria la busqueda?"
     echo -e "$WHITE"
     echo -e "$WHITE $espanol : $ingles"
