@@ -13,7 +13,6 @@ do
         echo "$ENGLISH exist"
         echo -e "$WHITE"
         cat $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
-        echo ""
         echo -e "$RED"
         echo "¿ Do you wish to add another meaning? type: [yes/no/edit]? "
         echo -e " $WHITE"
@@ -38,29 +37,22 @@ do
                           echo "You cancelled operation";;
                     *) echo "Type correct key";;
               esac;;
-        "no") echo ""
-    	  echo "Create a task when you say no";;
-        "edit") echo ""
-                vim $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
+        "no") echo "Create a task when you say no";;
+        "edit") vim $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
                 vim $SPANISH_DIRECTORY_PATH/$SPANISH.txt;;
-        *) echo "type correct key"
-           echo "";;
+        *) echo "type correct key";;
         esac
     elif [ "$ENGLISH" = "" ]
     then 
         echo "$CYAN"
         echo "Empty word"
     else
-        echo ""
         echo "file does not exist ... read inputs from standard input"
-        echo ""
         readInputs
         echo "this information will be added: "
         echo -e "$WHITE"
         printInputs
-        echo -e ""
         echo -e "Select a number: "
-        echo -e ""
         select CONFIRMATION in yes no quit; do
         case $CONFIRMATION in
         yes) echo -e "$ROSA adding word: $WHITE $ENGLISH .... "

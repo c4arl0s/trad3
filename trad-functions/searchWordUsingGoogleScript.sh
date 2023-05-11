@@ -3,19 +3,17 @@
 searchWordUsingGoogleScript()
 {
     WORD=$1
-    echo -e "Buscaré en google-translation script usando la opcion -breve ...$WHITE"
-    echo -e "Buscare $WORD traduciondo al espanol"
+    echo "$YELLOW"
+    echo "I´m gonna look using google-translation script, brief option"
     spanishWordUsingTrans=`bash $HOME/iOS-Projects/DictEnEsScript/trans -b :es $WORD | cut -f 1 -d " "`
-    # echo "output variable $spanishWordUsingTrans"
     if [ $WORD = $spanishWordUsingTrans ]
     then
-        echo -e "Si la palabra buscada es igual a la traduccion, puede ser una palabra en espanol"
-        echo -e "Al parecer es una palabra en espanol ... traduce palabra al ingles"
+        echo "It seems the word you are looking for It is the same as spanish word"
         englishWordUsingTrans=`trans -b :eng $WORD | cut -f 1 -d " "`
         espanol=$WORD
         ingles=$englishWordUsingTrans
     else
-        echo "como palabra y traduccion no son iguales, la palabra esta en inglés."
+        echo "It seems is an english word"
         espanol=$spanishWordUsingTrans
         ingles=$WORD
     fi

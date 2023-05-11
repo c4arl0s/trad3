@@ -3,10 +3,8 @@
 displayOptionToAddNewWord()
 {
     echo "$GREEN"
-    echo -e "es satisfactoria la busqueda?"
     echo -e "$WHITE"
     echo -e "$WHITE $espanol : $ingles"
-    echo -e ""
     echo -e "$CYAN Do you want to add this word?$PINK $WORD?"
     echo -e "$WHITEType$CYAN yes$WHITEto add."
     echo -e "Type enter to ignore"
@@ -16,5 +14,4 @@ displayOptionToAddNewWord()
     echo -e "$YELLOW"
     echo -e "type your choice [yes|add3], type enter to ignore"
     echo -e "$YELLOW"
-    echo ""
 }

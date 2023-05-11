@@ -6,12 +6,13 @@ agregar-palabra()
     ingles=$2
     obtener-traduccion $traduccion $ingles
     imprimir-traduccion-ingresada 
-    echo -e "  es correcto ? (Teclea ENTER) : "
+    echo -e "is this correct? (tap ENTER) : "
     echo -e ""
     read confirmacion 
     if [ "$confirmacion" = "" ]
         then
-            echo -e "$ROSA ... agregando palabra $BLANCO $ingles ..."
+            echo "$ROSA"
+            echo -e "adding word:$BLANCO $ingles ..."
             crear_archivo_ingles
             transfiere-traduccion-ingles
             crear-archivo-espanol
