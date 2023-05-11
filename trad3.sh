@@ -7,15 +7,11 @@ function reproduceEnglishAudioFileIfAvailable() {
     if $(isRetrievableEnglishAudio $WORD)
     then
         reproduce-audio $WORD
-        sleep 2
     else
         echo -e "audio does not exist ... I will use google"
         downloadAudioFromGoogle $WORD
-        echo -e "it does exits ... convert to wav file"
         convertMP3toWAV $WORD
-        echo -e "reproducing audio"
         reproduce-audio $WORD
-        sleep 2
     fi
 }
 
@@ -59,14 +55,11 @@ do
             reproduceEnglishAudioFileIfAvailable  $WORD
         else
             searchWordUsingGoogleScript $WORD
-            sleep 2 
             if $(isRetrievableEnglishAudio $ingles)
             then
                 reproduceEnglishAudioFileIfAvailable $ingles
-                sleep 2
             else
                 downloadAudioFromGoogle $ingles
-                sleep 2
             fi
             displayOptionToAddNewWord
             read decision
