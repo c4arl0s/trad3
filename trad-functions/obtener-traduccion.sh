@@ -30,5 +30,4 @@ obtener-traduccion()
     echo -e "$AMARILLO ingrese un ejemplo de la palabra a agregar:" 
     echo -e " $VERDE"
     read ejemplo
-    clear
 }

@@ -11,6 +11,5 @@ descargar-audio-de-google()
     play $AUDIO_DIRECTORY_PATH/$WORD.wav
     echo ""
     echo -e "... se descargo de internet $YELLOW $WORD"
-    clear
 }
 

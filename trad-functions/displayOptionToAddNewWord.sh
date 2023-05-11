@@ -13,8 +13,8 @@ displayOptionToAddNewWord()
     echo -e "Type add3 to start script"
     echo -e "$YELLOW"
     play $AUDIO_DIRECTORY_PATH/$ingles.wav
-    echo -e "$YELLOW ============="
+    echo -e "$YELLOW"
     echo -e "type your choice [yes|add3], type enter to ignore"
-    echo -e "$YELLOW ============="
+    echo -e "$YELLOW"
     echo ""
 }

@@ -38,7 +38,6 @@ do
         echo "$GREEN"
         echo "$WORD is available in english data base"
         reproduceEnglishAudioFileIfAvailable $WORD
-        clear
         displayEnglishTranslation $WORD
 
     elif [ "$WORD" = "" ]
@@ -69,7 +68,6 @@ do
                 downloadAudioFromGoogle $ingles
                 sleep 2
             fi
-            clear
             displayOptionToAddNewWord
             read decision
             displayMenu
