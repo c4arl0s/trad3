@@ -1,1 +1,2 @@
 salir : exit :  :  :  :  : 
+salir : depart :  :  :  :  : 

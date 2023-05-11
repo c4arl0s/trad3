@@ -1,1 +1,2 @@
-por-ejemplo : for-instance :  :  :  :  : 
+salir : exit :  :  :  :  : 
+salir : depart :  :  :  :  : 

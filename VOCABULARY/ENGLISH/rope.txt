@@ -1,1 +1,2 @@
 rope : cuerda :  :  :  :  : 
+rope : soga :  :  :  :  : 
