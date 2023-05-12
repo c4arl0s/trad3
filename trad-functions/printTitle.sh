@@ -2,7 +2,8 @@
 
 printTitle()
 {
-    echo -e "$BLANCO"
-    echo -e "Looking for a word: (type a word in english/spanish) [DictEnEsScript] $YELLOW"
-    echo -e "The last word found it ...$ROSA $INGLES"
+    ORIGINAL_BASENAME=$1
+    printf "\n${CYAN}Looking for a word: (type a word in english/spanish) %s\n" $ORIGINAL_BASENAME 
+    echo -e "The last word found it ...${ROSA} $INGLES"
+    echo "${BLANCO}"
 }

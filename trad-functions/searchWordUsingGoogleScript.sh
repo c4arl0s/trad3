@@ -3,8 +3,7 @@
 searchWordUsingGoogleScript()
 {
     WORD=$1
-    echo "$YELLOW"
-    echo "I´m gonna look using google-translation script, brief option"
+    echo "${YELLOW}I´m gonna look using google-translation script, brief option"
     spanishWordUsingTrans=`bash $HOME/iOS-Projects/DictEnEsScript/trans -b :es $WORD | cut -f 1 -d " "`
     if [ $WORD = $spanishWordUsingTrans ]
     then
