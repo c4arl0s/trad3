@@ -1,1 +1,1 @@
-clima : weather :  :  :  :  : 
+calidad : quality :  :  :  :  : 
