@@ -15,7 +15,7 @@ do
 
     elif [ "$WORD" = "" ]
     then
-        echo "Empty word"        
+        echo "${RED}Empty word"        
         LAST_WORD_FOUND=$(echo $INGLES | cut -d ":" -f 1 | tr -d "[:space:]")
         reproduceLastWordFoundIfAvailable $LAST_WORD_FOUND
 
