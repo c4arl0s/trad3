@@ -36,6 +36,8 @@ directorio_audio="$PROJECT_PATH/vocabulary/audio-words"
 . $PROJECT_PATH/trad-functions/getEnglishFields.sh
 . $PROJECT_PATH/trad-functions/displayEnglishTranslation.sh
 . $PROJECT_PATH/trad-functions/reproduce-audio.sh
+. $PROJECT_PATH/trad-functions/reproduceEnglishAudioFileIfAvailable.sh
+. $PROJECT_PATH/trad-functions/reproduceLastWordFoundIfAvailable.sh
 
 # old spanish version
 . $PROJECT_PATH/trad-functions/imprimir-traduccion-ingresada.sh

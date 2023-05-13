@@ -2,7 +2,7 @@
 
 getEnglishFields()
 {
-    echo "${GREEN}Getting English fields"
+    printf "\n${CYAN}Getting English fields\n\n"
     WORD=$1
     ROW=$2
     FILE_NAME="$ENGLISH_DIRECTORY_PATH/$WORD.txt"
