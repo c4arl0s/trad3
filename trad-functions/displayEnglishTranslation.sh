@@ -10,6 +10,6 @@ displayEnglishTranslation()
     for ROW in `seq $ROWS`
     do  
         getEnglishFields $WORD $ROW
-        imprimir-campos-ingles
+        printEnglishFields
     done
 }
