@@ -27,7 +27,7 @@ do
             SPANISH_WORD=$WORD
             cleanSpanishFile $SPANISH_WORD
             displaySpanishTranslation $SPANISH_WORD
-            reproduceEnglishAudioFileIfAvailable  $WORD
+            reproduceEnglishAudioFileIfAvailable  $ingles
         else
             searchWordUsingGoogleScript $WORD
             if $(isRetrievableEnglishAudio $ingles)
