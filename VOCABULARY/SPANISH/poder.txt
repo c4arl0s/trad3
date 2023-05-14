@@ -1,2 +1,3 @@
 poder : can :  :  :  :  : 
 poder : power :  :  :  :  : 
+poder : afford :  :  :  :  : 

@@ -3,7 +3,7 @@
 
 . $HOME/iOS-Projects/DictEnEsScript/directoryPaths.sh
 
-while [ "$*" = "" ]  
+while [ -z "$*" ]
 do
     printHeader
     read ENGLISH
@@ -39,7 +39,7 @@ do
                 vim $SPANISH_DIRECTORY_PATH/$SPANISH.txt;;
         *) echo "${RED}type correct key";;
         esac
-    elif [ "$ENGLISH" = "" ]
+    elif [ -z "$ENGLISH" ]
     then 
         echo "${CYAN}Empty word"
     else
