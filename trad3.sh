@@ -2,7 +2,7 @@
 
 . $HOME/iOS-Projects/DictEnEsScript/directoryPaths.sh
 
-while [ "$*" = "" ]
+while [ -z "$*" ]
 do
     printTitle $(basename $0)
     echo -n "${CYAN}"
@@ -13,7 +13,7 @@ do
         reproduceEnglishAudioFileIfAvailable $WORD
         displayEnglishTranslation $WORD
 
-    elif [ "$WORD" = "" ]
+    elif [ -z "$WORD" ]
     then
         echo "${RED}Empty word"        
         LAST_WORD_FOUND=$(echo $INGLES | cut -d ":" -f 1 | tr -d "[:space:]")
@@ -23,7 +23,7 @@ do
         printf "\n${RED}$WORD does not exist on english data base .... now looking into spanish data base"
         if $(isRetrievableSpanishWord $WORD)
         then
-            printf "\n${GREEN}$WORD does exist on spanish data base"
+            printf "\n${GREEN}$WORD ${RED}does exist on spanish data base"
             SPANISH_WORD=$WORD
             cleanSpanishFile $SPANISH_WORD
             displaySpanishTranslation $SPANISH_WORD
