@@ -30,12 +30,13 @@ do
             reproduceEnglishAudioFileIfAvailable  $ingles
         else
             searchWordUsingGoogleScript $WORD
-            if $(isRetrievableEnglishAudio $ingles)
-            then
-                reproduceEnglishAudioFileIfAvailable $ingles
-            else
-                downloadAudioFromGoogle $ingles
-            fi
+            # if $(isRetrievableEnglishAudio $ingles)
+            # then
+            #     reproduceEnglishAudioFileIfAvailable $ingles
+            # else
+            #     downloadAudioFromGoogle $ingles
+            # fi
+            reproduceEnglishAudioFileIfAvailable 
             displayOptionToAddNewWord
             read decision
             displayMenu
