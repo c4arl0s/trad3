@@ -6,7 +6,7 @@ reproduceEnglishAudioFileIfAvailable() {
     then
         reproduce-audio $WORD
     else
-        echo -e "${RED}$WORD audio file does not exist ... I gonna use google"
+        printf "\n${RED}Audio file does not exist ... I gonna use google"
         downloadAudioFromGoogle $WORD
         convertMP3toWAV $WORD
         reproduce-audio $WORD

@@ -8,7 +8,7 @@ agregar-palabra()
     imprimir-traduccion-ingresada 
     echo -e "is this correct? (tap ENTER) : "
     echo -e ""
-    read confirmacion 
+    read -r confirmacion 
     if [ "$confirmacion" = "" ]
         then
             echo "$ROSA"
