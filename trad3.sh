@@ -27,8 +27,9 @@ do
             SPANISH_WORD=$WORD
             cleanSpanishFile $SPANISH_WORD
             displaySpanishTranslation $SPANISH_WORD
-            reproduceEnglishAudioFileIfAvailable  $ingles
-            LAST_WORD_FOUND=$WORD
+            cleanEnglishWord=$(echo "${INGLES}" | xargs)
+            reproduceEnglishAudioFileIfAvailable $cleanEnglishWord
+            LAST_WORD_FOUND=$cleanEnglishWord
         else
             searchWordUsingGoogleScript $WORD
             reproduceEnglishAudioFileIfAvailable $ingles 
