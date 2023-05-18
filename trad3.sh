@@ -31,6 +31,7 @@ do
             reproduceEnglishAudioFileIfAvailable $cleanEnglishWord
             LAST_WORD_FOUND=$cleanEnglishWord
         else
+            printf("\n${}It seems that we can find it using google script")
             searchWordUsingGoogleScript $WORD
             reproduceEnglishAudioFileIfAvailable $ingles 
             displayOptionToAddNewWord
