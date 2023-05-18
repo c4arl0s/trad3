@@ -2,6 +2,8 @@
 
 . $HOME/iOS-Projects/DictEnEsScript/directoryPaths.sh
 
+LAST_WORD_FOUND=
+
 while [ -z "$*" ]
 do
     printTitle $(basename $0)
@@ -12,13 +14,11 @@ do
         printf "\n${GREEN}$WORD is available in english data base"
         reproduceEnglishAudioFileIfAvailable $WORD
         displayEnglishTranslation $WORD
-
+        LAST_WORD_FOUND=$WORD
     elif [ -z "$WORD" ]
     then
         echo "${RED}Empty word"        
-        LAST_WORD_FOUND=$(echo $INGLES | cut -d ":" -f 1 | tr -d "[:space:]")
         reproduceLastWordFoundIfAvailable $LAST_WORD_FOUND
-
     else
         printf "\n${RED}$WORD does not exist on english data base .... now looking into spanish data base"
         if $(isRetrievableSpanishWord $WORD)
@@ -28,18 +28,14 @@ do
             cleanSpanishFile $SPANISH_WORD
             displaySpanishTranslation $SPANISH_WORD
             reproduceEnglishAudioFileIfAvailable  $ingles
+            LAST_WORD_FOUND=$WORD
         else
             searchWordUsingGoogleScript $WORD
-            # if $(isRetrievableEnglishAudio $ingles)
-            # then
-            #     reproduceEnglishAudioFileIfAvailable $ingles
-            # else
-            #     downloadAudioFromGoogle $ingles
-            # fi
-            reproduceEnglishAudioFileIfAvailable 
+            reproduceEnglishAudioFileIfAvailable $ingles 
             displayOptionToAddNewWord
             read decision
             displayMenu
+            LAST_WORD_FOUND=$ingles
         fi
     fi
 done
