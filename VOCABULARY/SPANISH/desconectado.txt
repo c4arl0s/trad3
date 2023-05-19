@@ -1,1 +1,2 @@
 desconectado : disconnected :  :  :  :  : 
+desconectado : offline :  :  :  :  : 
