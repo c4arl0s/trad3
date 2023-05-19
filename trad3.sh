@@ -37,7 +37,6 @@ do
             displayOptionToAddNewWord
             read decision
             displayMenu
-            LAST_WORD_FOUND=$ingles
         fi
     fi
 done
