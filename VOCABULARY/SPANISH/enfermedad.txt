@@ -1,2 +1,3 @@
 enfermedad : sickness :  :  :  :  : 
 enfermedad : illness :  :  :  :  : 
+enfermedad : disease :  :  :  :  : 
