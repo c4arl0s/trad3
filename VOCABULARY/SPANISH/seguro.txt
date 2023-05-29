@@ -3,3 +3,4 @@ seguro : safe :  :  :  :  :
 seguro : definitely :  :  :  :  : 
 seguro : secure :  :  :  :  : 
 seguro : insurance :  :  :  :  : 
+seguro : confident :  :  :  :  : 

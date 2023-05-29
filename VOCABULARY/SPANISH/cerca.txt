@@ -1,1 +1,2 @@
 cerca : close-by :  :  :  :  : 
+cerca : near :  :  :  :  : 
