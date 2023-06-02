@@ -1,1 +1,2 @@
 en-vez-de : instead :  :  :  :  : 
+en-vez-de : instead-of :  :  :  :  : 
