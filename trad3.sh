@@ -4,7 +4,7 @@
 
 LAST_WORD_FOUND=
 
-while [ -z "$*" ]
+while : ## Elegant Endless loop
 do
     printTitle $(basename $0)
     echo -n "${CYAN}"
