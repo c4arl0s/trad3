@@ -3,7 +3,7 @@
 
 . $HOME/iOS-Projects/DictEnEsScript/directoryPaths.sh
 
-while [ -z "$*" ]
+while :
 do
     printHeader
     read ENGLISH
