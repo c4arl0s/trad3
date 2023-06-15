@@ -1,1 +1,2 @@
 ejercicio : work-out :  :  :  :  : 
+ejercicio : exercise :  :  :  :  : 
