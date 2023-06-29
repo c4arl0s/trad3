@@ -1,0 +1,1 @@
+mas-lento:slowest:::::This means that the pipeline’s slowest stage will spend the entire clock cycle working.
