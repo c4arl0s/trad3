@@ -14,9 +14,9 @@ addWord()
             echo "$ROSA"
             echo -e "adding word:$BLANCO $ingles ..."
             crear_archivo_ingles
-            transfiere-traduccion-ingles
+            transferEnglishTranslation
             crear-archivo-espanol
-            transfiere-traduccion-espanol
+            transferSpanishTranslation
         else
             exit 0
     fi
