@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-agregar-palabra()
+addWord()
 {
     traduccion=$1
     ingles=$2

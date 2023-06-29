@@ -39,13 +39,13 @@ directorio_audio="$PROJECT_PATH/vocabulary/audio-words"
 . $PROJECT_PATH/trad-functions/reproduceEnglishAudioFileIfAvailable.sh
 . $PROJECT_PATH/trad-functions/reproduceLastWordFoundIfAvailable.sh
 . $PROJECT_PATH/trad-functions/printEnglishFields.sh
+. $PROJECT_PATH/trad-functions/addWord.sh
 
 # old spanish version
 . $PROJECT_PATH/trad-functions/imprimir-traduccion-ingresada.sh
 . $PROJECT_PATH/trad-functions/descargar-audio-de-google.sh
 . $PROJECT_PATH/trad-functions/existe-archivo-en-espanol.sh
 . $PROJECT_PATH/trad-functions/existe-archivo-en-ingles.sh
-. $PROJECT_PATH/trad-functions/agregar-palabra.sh
 . $PROJECT_PATH/trad-functions/transfiere-traduccion-espanol.sh
 . $PROJECT_PATH/trad-functions/crear-archivo-espanol.sh
 . $PROJECT_PATH/trad-functions/transfiere-traduccion-ingles.sh
