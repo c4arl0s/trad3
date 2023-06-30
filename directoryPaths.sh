@@ -42,6 +42,7 @@ directorio_audio="$PROJECT_PATH/vocabulary/audio-words"
 . $PROJECT_PATH/trad-functions/addWord.sh
 . $PROJECT_PATH/trad-functions/transferSpanishTranslation.sh
 . $PROJECT_PATH/trad-functions/transferEnglishTranslation.sh
+. $PROJECT_PATH/trad-functions/getTranslation.sh
 
 # old spanish version
 . $PROJECT_PATH/trad-functions/imprimir-traduccion-ingresada.sh
@@ -50,7 +51,6 @@ directorio_audio="$PROJECT_PATH/vocabulary/audio-words"
 . $PROJECT_PATH/trad-functions/existe-archivo-en-ingles.sh
 . $PROJECT_PATH/trad-functions/crear-archivo-espanol.sh
 . $PROJECT_PATH/trad-functions/crear-archivo-ingles.sh
-. $PROJECT_PATH/trad-functions/obtener-traduccion.sh
 . $PROJECT_PATH/trad-functions/cuenta-lineas-archivo-ingles.sh
 . $PROJECT_PATH/trad-functions/imprimir-campos-ingles.sh
 . $PROJECT_PATH/trad-functions/isAvailable.sh

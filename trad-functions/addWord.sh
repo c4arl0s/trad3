@@ -4,7 +4,7 @@ addWord()
 {
     traduccion=$1
     ingles=$2
-    obtener-traduccion $traduccion $ingles
+    getTranslation $traduccion $ingles
     imprimir-traduccion-ingresada 
     echo -e "is this correct? (tap ENTER) : "
     echo -e ""
