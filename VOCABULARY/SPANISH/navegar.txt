@@ -1,1 +1,2 @@
 navegar : surf :  :  :  :  : 
+navegar:navigate:::::
