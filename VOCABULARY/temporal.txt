@@ -1,2 +1,1 @@
-problema : trouble :  :  :  :  : 
-problema : problem :  :  :  :  : 
+tranquilo : quiet :  :  :  :  : 
