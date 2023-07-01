@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-imprimir-traduccion-ingresada()
+printAddedTranslation()
 {
     echo -e "${AMARILLO}Datos ingresados:"
     echo -e "${BLANCO}ENGLISH :${ROSAFONDONEGRO} $ingles "

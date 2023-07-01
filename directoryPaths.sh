@@ -43,9 +43,9 @@ directorio_audio="$PROJECT_PATH/vocabulary/audio-words"
 . $PROJECT_PATH/trad-functions/transferSpanishTranslation.sh
 . $PROJECT_PATH/trad-functions/transferEnglishTranslation.sh
 . $PROJECT_PATH/trad-functions/getTranslation.sh
+. $PROJECT_PATH/trad-functions/printAddedTranslation.sh
 
 # old spanish version
-. $PROJECT_PATH/trad-functions/imprimir-traduccion-ingresada.sh
 . $PROJECT_PATH/trad-functions/descargar-audio-de-google.sh
 . $PROJECT_PATH/trad-functions/existe-archivo-en-espanol.sh
 . $PROJECT_PATH/trad-functions/existe-archivo-en-ingles.sh

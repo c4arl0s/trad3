@@ -5,7 +5,7 @@ addWord()
     traduccion=$1
     ingles=$2
     getTranslation $traduccion $ingles
-    imprimir-traduccion-ingresada 
+    printAddedTranslation 
     echo -e "is this correct? (tap ENTER) : "
     echo -e ""
     read -r confirmacion 
