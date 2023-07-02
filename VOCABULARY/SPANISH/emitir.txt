@@ -1,1 +1,2 @@
 emitir : cast :  :  :  :  : 
+emitir:emit:::::
