@@ -2,5 +2,5 @@
 
 transferEnglishTranslation()
 {
-   echo -e "$ingles:$espanol:$algomas:$p:$pp:$gerundio:$ejemplo" >> $ENGLISH_DIRECTORY_PATH/$ingles.txt
+   echo -e "$ENGLISH:$SPANISH:$algomas:$p:$pp:$gerundio:$ejemplo" >> $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
 }

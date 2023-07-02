@@ -2,9 +2,9 @@
 
 addWord()
 {
-    traduccion=$1
-    ingles=$2
-    getTranslation $traduccion $ingles
+    TRANSLATION=$1
+    ENGLISH=$2
+    getTranslation $TRANSLATION $ENGLISH
     printAddedTranslation 
     echo -e "is this correct? (tap ENTER) : "
     echo -e ""
@@ -12,7 +12,7 @@ addWord()
     if [ "$confirmacion" = "" ]
         then
             echo "$ROSA"
-            echo -e "adding word:$BLANCO $ingles ..."
+            echo -e "adding word:$BLANCO $ENGLISH ..."
             crear_archivo_ingles
             transferEnglishTranslation
             crear-archivo-espanol

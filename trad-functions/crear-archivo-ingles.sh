@@ -2,5 +2,5 @@
 
 crear_archivo_ingles()
 {   
-    touch $ENGLISH_DIRECTORY_PATH/$ingles.txt
+    touch $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
 }

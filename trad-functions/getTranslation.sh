@@ -2,13 +2,13 @@
 
 getTranslation()
 { 
-    traduccion=$1
-    ingles=$2
+    TRANSLATION=$1
+    ENGLISH=$2
     echo -e "${AMARILLO}...agregando palabra obtenida de internet:"
     echo -e " ${ROSAFONDONEGRO} "
-    espanol=$traduccion
-    ingles=$ingles
-    echo -e "$ingles : $traduccion"
+    SPANISH=$TRANSLATION
+    ENGLISH=$ENGLISH
+    echo -e "$ENGLISH : $TRANSLATION"
     echo -e "${AMARILLO}ingrese algo extra acerca de tu palabra:"
     echo -e " ${VERDE} "
     read algomas 
