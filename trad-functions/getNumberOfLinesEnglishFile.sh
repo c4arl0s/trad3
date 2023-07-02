@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cuenta-lineas-archivo-ingles()
+function getNumberOfLinesEnglishFile()
 {
     WORD=$1
     FILE_NAME="$ENGLISH_DIRECTORY_PATH/$WORD.txt"

@@ -46,12 +46,12 @@ directorio_audio="$PROJECT_PATH/vocabulary/audio-words"
 . $PROJECT_PATH/trad-functions/printAddedTranslation.sh
 . $PROJECT_PATH/trad-functions/createSpanishFile.sh
 . $PROJECT_PATH/trad-functions/createEnglishFile.sh
+. $PROJECT_PATH/trad-functions/getNumberOfLinesEnglishFile.sh
 
 # old spanish version
 . $PROJECT_PATH/trad-functions/descargar-audio-de-google.sh
 . $PROJECT_PATH/trad-functions/existe-archivo-en-espanol.sh
 . $PROJECT_PATH/trad-functions/existe-archivo-en-ingles.sh
-. $PROJECT_PATH/trad-functions/cuenta-lineas-archivo-ingles.sh
 . $PROJECT_PATH/trad-functions/imprimir-campos-ingles.sh
 . $PROJECT_PATH/trad-functions/isAvailable.sh
 

@@ -11,8 +11,8 @@ addWord()
     read -r confirmacion 
     if [ "$confirmacion" = "" ]
         then
-            echo "$ROSA"
-            echo -e "adding word:$BLANCO $ENGLISH ..."
+            echo "${PINK}"
+            echo -e "adding word: ${WHITE}$ENGLISH ..."
             createEnglishFile $ENGLISH
             transferEnglishTranslation
             createSpanishFile $SPANISH

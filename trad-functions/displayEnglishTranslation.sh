@@ -4,7 +4,7 @@ displayEnglishTranslation()
 {
     # echo "Displaying English Translation"
     WORD=$1
-    ROWS=$(cuenta-lineas-archivo-ingles $WORD)
+    ROWS=$(getNumberOfLinesEnglishFile $WORD)
     # echo "ROWS value is: $ROWS"
     # echo -e "$ROWS meanings of $ROJO $WORD"
     for ROW in `seq $ROWS`
