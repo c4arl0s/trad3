@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-crear_archivo_ingles()
-{   
+createEnglishFile()
+{
+    ENGLISH=$1   
     touch $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
 }
