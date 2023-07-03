@@ -8,10 +8,6 @@ ENGLISH_DIRECTORY_PATH="$PROJECT_PATH/vocabulary/english"
 AUDIO_DIRECTORY_PATH="$PROJECT_PATH/vocabulary/audio-words"
 SPANISH_DIRECTORY_PATH="$PROJECT_PATH/vocabulary/spanish"
 
-# old spanish version
-directorio_espanol="$PROJECT_PATH/vocabulary/spanish"
-directorio_audio="$PROJECT_PATH/vocabulary/audio-words"
-
 . $PROJECT_PATH/helper-functions/cleanEnglishFile.sh
 . $PROJECT_PATH/helper-functions/colors.sh
 . $PROJECT_PATH/helper-functions/cleanSpanishFile.sh
@@ -47,12 +43,6 @@ directorio_audio="$PROJECT_PATH/vocabulary/audio-words"
 . $PROJECT_PATH/trad-functions/createSpanishFile.sh
 . $PROJECT_PATH/trad-functions/createEnglishFile.sh
 . $PROJECT_PATH/trad-functions/getNumberOfLinesEnglishFile.sh
-
-# old spanish version
-. $PROJECT_PATH/trad-functions/descargar-audio-de-google.sh
-. $PROJECT_PATH/trad-functions/existe-archivo-en-espanol.sh
-. $PROJECT_PATH/trad-functions/existe-archivo-en-ingles.sh
-. $PROJECT_PATH/trad-functions/imprimir-campos-ingles.sh
 . $PROJECT_PATH/trad-functions/isAvailable.sh
 
 # add-functions
