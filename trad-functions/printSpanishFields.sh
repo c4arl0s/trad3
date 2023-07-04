@@ -2,7 +2,10 @@
 
 printSpanishFields()
 {
-    echo -e "${ROJO}$INGLES:${PINK} $SPANISH_WORD"
+    echo ""
+    echo ""
+    echo -e "${WHITE}$INGLES:${PINK} $SPANISH_WORD"
+    echo ""
     echo -e "${WHITE}Extra:${GREEN} $EXTRA"
     echo -e "${WHITE}Past:${GREEN} $P" 
     echo -e "${WHITE}Past Participe:${GREEN} $PP"

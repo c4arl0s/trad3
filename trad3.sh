@@ -11,7 +11,7 @@ do
     read WORD
     if $(isRetrievableEnglishWord $WORD)
     then
-        printf "\n${GREEN}$WORD is available in english data base"
+        printf "\n${WHITE}$WORD ${GREEN}is available in english data base"
         reproduceEnglishAudioFileIfAvailable $WORD
         displayEnglishTranslation $WORD
         LAST_WORD_FOUND=$WORD
@@ -20,10 +20,10 @@ do
         echo "${RED}Empty word"        
         reproduceLastWordFoundIfAvailable $LAST_WORD_FOUND
     else
-        printf "\n${RED}$WORD does not exist on english data base .... now looking into spanish data base"
+        printf "\n${WHITE}$WORD ${RED}does not exist on english data base .... now looking into spanish data base"
         if $(isRetrievableSpanishWord $WORD)
         then
-            printf "\n${GREEN}$WORD ${RED}does exist on spanish data base"
+            printf "\n${WHITE}$WORD ${RED}does exist on spanish data base"
             SPANISH_WORD=$WORD
             cleanSpanishFile $SPANISH_WORD
             displaySpanishTranslation $SPANISH_WORD
@@ -31,7 +31,7 @@ do
             reproduceEnglishAudioFileIfAvailable $cleanEnglishWord
             LAST_WORD_FOUND=$cleanEnglishWord
         else
-            printf "\n${YELLOW}It seems that we can find it using google script"
+            printf "\n${YELLOW}It seems that we can find ${WORD} using google script"
             searchWordUsingGoogleScript $WORD
             reproduceEnglishAudioFileIfAvailable $ingles 
             displayOptionToAddNewWord
