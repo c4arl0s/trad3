@@ -1,1 +1,2 @@
 encender : turn-on :  :  :  :  : 
+encender:kindle:::::
