@@ -5,7 +5,7 @@
 
 while :
 do
-    printHeader
+    printHeader $(basename $0)
     read ENGLISH
     if $(isRetrievableEnglishWord $ENGLISH)
     then

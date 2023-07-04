@@ -2,6 +2,7 @@
 
 printHeader() 
 {
-    echo -e "${GREEN}DictEnEsScript - SCRIPT to add words english-spanish${YELLOW} type Ctrl-Z to exit"
+    ORIGINAL_BASENAME=$1
+    echo -e "${GREEN}${ORIGINAL_BASENAME} - SCRIPT to add words english-spanish${YELLOW}type ctrl-c to exit"
     echo -e "${RED}Add only one word in ENGLISH: "
 }
