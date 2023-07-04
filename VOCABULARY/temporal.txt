@@ -1,1 +1,3 @@
-tarjeta : card :  :  :  :  : 
+por : by :  :  :  :  : 
+por : for :  :  :  :  : 
+por:per:::::

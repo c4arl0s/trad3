@@ -1,2 +1,4 @@
 registro : register :  :  :  :  : 
 registro : record :  :  :  :  : 
+registro:registration:::::
+registro:log:::::

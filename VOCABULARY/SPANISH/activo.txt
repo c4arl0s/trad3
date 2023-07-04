@@ -1,1 +1,2 @@
 activo : asset :  :  :  :  : 
+activo:active:::::

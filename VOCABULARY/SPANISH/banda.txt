@@ -1,1 +1,2 @@
 banda : band :  :  :  :  : 
+banda:bandwidth:::::
