@@ -1,1 +1,2 @@
 configuracion : set-up :  :  :  :  : 
+configuracion:setup:::::
