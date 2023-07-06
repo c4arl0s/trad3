@@ -4,6 +4,11 @@
 
 LAST_WORD_FOUND=
 
+if [ $# -ne 0 ]; then
+   echo -e "\nYou should not provide any argument in this script, you just type trad3"
+   return 
+fi
+
 while : 
 do
     printTitle $(basename $0)

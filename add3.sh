@@ -3,6 +3,11 @@
 
 . $HOME/iOS-Projects/DictEnEsScript/directoryPaths.sh
 
+if [ $# -ne 0 ]; then
+   echo -e "\nYou should not provide any argument in this script, you just type add3"
+   return 
+fi
+
 while :
 do
     printHeader $(basename $0)
