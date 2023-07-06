@@ -1,1 +1,1 @@
-prueba : test :  :  :  :  : 
+esposo : husband :  :  :  :  : 
