@@ -1,1 +1,2 @@
 seguridad : security :  :  :  :  : 
+seguridad:safety:::::

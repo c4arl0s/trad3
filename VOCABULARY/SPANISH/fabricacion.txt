@@ -1,1 +1,2 @@
 fabricacion : manufacturing :  :  :  :  : 
+fabricacion:intaking:::::

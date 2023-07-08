@@ -1,1 +1,2 @@
 gravedad : gravity :  :  :  :  : 
+gravedad:severity:::::

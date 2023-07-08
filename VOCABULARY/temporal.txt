@@ -1,1 +1,3 @@
-esposo : husband :  :  :  :  : 
+necesario : required :  :  :  :  : 
+necesario : necessary :  :  :  :  : 
+necesario:necessary:::::Provide corresponding team  with the necessary information required.

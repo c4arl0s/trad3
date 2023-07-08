@@ -1,0 +1,1 @@
+shall:deberá:::::the app shall display a no alerts icon
