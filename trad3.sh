@@ -12,8 +12,8 @@ fi
 while : 
 do
     printTitle $(basename $0)
-    echo -n "${CYAN}"
-    read WORD
+    #echo -n "${CYAN}"
+    printf "%s" "Type a word: "; read WORD
     if $(isRetrievableEnglishWord $WORD)
     then
         printf "\n${WHITE}$WORD ${GREEN}is available in english data base"

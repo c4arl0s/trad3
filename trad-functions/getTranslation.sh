@@ -8,14 +8,9 @@ getTranslation()
     SPANISH=$TRANSLATION
     ENGLISH=$ENGLISH
     echo -e "$ENGLISH : $TRANSLATION"
-    echo -e "${WHITE}Type something extra about your word:${CYAN}"
-    read algomas 
-    echo -e "${WHITE}Type PAST in case is a verb:${CYAN}" 
-    read p 
-    echo -e "${WHITE}Type PAST PARTICIPE in case is a verb:${CYAN}" 
-    read pp 
-    echo -e "${WHITE}Type GERUND in case is a verb:${CYAN}" 
-    read gerundio 
-    echo -e "${WHITE}Type an example about your word:${CYAN}" 
-    read ejemplo
+    printf "%s" "Type something extra about your word: "; read algomas
+    printf "%s" "Type PAST in case is a verb: "; read p
+    printf "%s" "Type PAST PARTICIPE in case is a verb: "; read pp
+    printf "%s" "Type GERUND in case is a verb: "; read gerundio
+    printf "%s" "Type an example about your word: "; read ejemplo
 }
