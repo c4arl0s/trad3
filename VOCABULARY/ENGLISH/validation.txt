@@ -1,1 +1,1 @@
-validation : validación :  :  :  :  : 
+validation : validación : Validation provides objective evidence that a process can consistently build product to meet a specific process/product requirement  :  :  :  : 

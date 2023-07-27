@@ -1,1 +1,2 @@
 recogido : picked-up :  :  :  :  : 
+recogido:collected:::::

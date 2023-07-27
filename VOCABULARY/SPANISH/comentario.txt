@@ -1,2 +1,3 @@
 comentario:comment:::::
 comentario:commentary:::::
+comentario:feedback:::::

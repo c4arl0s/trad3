@@ -1,2 +1,3 @@
 confianza : trust :  :  :  :  : 
 confianza : dependability :  :  :  :  : 
+confianza:confidence:::::

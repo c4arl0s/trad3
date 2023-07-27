@@ -1,1 +1,2 @@
 coherente : coherent :  :  :  :  : 
+coherente:consistent:::::

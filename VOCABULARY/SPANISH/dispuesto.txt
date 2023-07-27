@@ -1,1 +1,2 @@
 dispuesto : ready :  :  :  :  : 
+dispuesto:disposed:::::

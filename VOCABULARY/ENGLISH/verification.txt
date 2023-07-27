@@ -1,1 +1,1 @@
-verification : verificación :  :  :  :  : 
+verification : verificación : Verification provides objective evidence, through an in-process inspection or test, that a specific process/product requirement is met:  :  :  : 

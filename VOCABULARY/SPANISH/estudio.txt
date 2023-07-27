@@ -1,1 +1,2 @@
 estudio : studio :  :  :  :  : 
+estudio:studied:::::

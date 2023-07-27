@@ -1,1 +1,2 @@
 proveedor : provider :  :  :  :  : 
+proveedor:supplier:::::
