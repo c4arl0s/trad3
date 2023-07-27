@@ -11,7 +11,7 @@ fi
 while :
 do
     printHeader $(basename $0)
-    read ENGLISH
+    #read ENGLISH
     if $(isRetrievableEnglishWord $ENGLISH)
     then
         echo "${GREEN}$ENGLISH exist"

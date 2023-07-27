@@ -2,22 +2,10 @@
 
 readInputs()
 {
-    echo -e "${YELLOW} add a word in SPANISH:" 
-    echo -e " ${ROSAFONDONEGRO}"
-    read SPANISH
-    echo -e "${YELLOW}add something extra about the word:"
-    echo -e "${GREEN}"
-    read SOMETHINGELSE
-    echo -e "${YELLOW}if word is a verb add PAST:" 
-    echo -e "${GREEN}"
-    read PAST
-    echo -e "${YELLOW}if word is a verb add PAST PARTICIPE:" 
-    echo -e "${GREEN}" 
-    read PASTPARTICIPE
-    echo -e "${YELLOW}if word is a verb add GERUND:" 
-    echo -e "${GREEN}" 
-    read GERUND
-    echo -e "${YELLOW}add an example about Spanish word:" 
-    echo -e "${GREEN}"
-    read EXAMPLE
+    printf "%s" "Add a word in SPANISH: "; read SPANISH
+    printf "%s" "Add something extra about the word: "; read SOMETHINGELSE
+    printf "%s" "If word is a verb add PAST: "; read PAST
+    printf "%s" "If word is a verb add PAST PARTICIPE: "; read PASTPARTICIPE
+    printf "%s" "If word is a verb add GERUND: "; read GERUND
+    printf "%s" "Add an example about Spanish word: "; read EXAMPLE
 }

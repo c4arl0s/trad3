@@ -3,7 +3,7 @@
 displayOptionToAddNewWord()
 {
     printf "\n${WHITE}$espanol : $ingles"
-    printf "\n${CYAN}Do you want to add this word?:${PINK} $WORD?"
-    printf "\n${YELLOW}Type your choice [${GREEN}yes${YELLOW}|${GREEN}add3${YELLOW}|${GREEN}↩${YELLOW}], type enter to ignore:"
+    printf "\n${CYAN}Do you want to add this word?:${PINK} $WORD ?"
+    printf "%s" "\nType your choice [yes|add3|↩], type enter to ignore: "; read decision
     echo -e "${GREEN}"
 }
