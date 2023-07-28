@@ -1,1 +1,2 @@
 power : poder :  :  :  :  : 
+power:potencia:::::
