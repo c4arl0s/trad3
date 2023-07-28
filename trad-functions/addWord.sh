@@ -6,8 +6,9 @@ addWord()
     ENGLISH=$2
     getTranslation $TRANSLATION $ENGLISH
     printAddedTranslation 
-    printf "%s" "is this correct? (tap ENTER) : "; read -r confirmacion 
-    if [ "$confirmacion" = "" ]
+    printf "%s" "is this correct? (tap ENTER) : "; read -r CONFIRMATION
+    # if [ "$confirmacion" = "" ]
+    if [ -z "$CONFIRMATION" ]
         then
             echo "${PINK}"
             echo -e "adding word: ${WHITE}$ENGLISH ..."

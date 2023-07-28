@@ -18,15 +18,13 @@ do
         echo -e "${WHITE}"
         cat $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
         echo -e "${RED}"
-        echo "${WHITE}Do you wish to add another meaning? type: [yes/no/edit]?"
-        read OPTION
+        printf "%s" "Do you wish to add another meaning? type: [yes/no/edit]?: "; read OPTION
         case $OPTION in
         "yes") echo -e "${RED}"
                readInputs
                echo "${GREEN}these are your changes: "
                printInputs
-               echo "Type yes to confirm"
-               read OPTION
+               printf "%s" "Type yes to confirm: "; read OPTION
                case $OPTION in 
                    "yes") echo -e "${RED}Saving $ENGLISH ..."
                           saveEnglishTranslation

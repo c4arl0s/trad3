@@ -40,7 +40,6 @@ do
             searchWordUsingGoogleScript $WORD
             reproduceEnglishAudioFileIfAvailable $ingles 
             displayOptionToAddNewWord
-            # read decision
             displayMenu
         fi
     fi
