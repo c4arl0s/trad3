@@ -1,2 +1,3 @@
 
 doblar : bend :  : bent : bent : bending : 
+doblar:fold:::::
