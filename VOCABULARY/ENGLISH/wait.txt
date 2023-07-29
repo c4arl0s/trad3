@@ -1,2 +1,3 @@
 wait : esperar :  :  : waited :  : 
 wait : esperar :  : waited : waited : waiting : 
+wait:esperar:::::
