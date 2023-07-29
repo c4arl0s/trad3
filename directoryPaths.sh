@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PROJECT_PATH="/Users/carlossantiagocruz/iOS-Projects/DictEnEsScript"
+PROJECT_PATH="$HOME/iOS-Projects/trad3"
 
 # new english version
 COMODIN_DIRECTORY_PATH="$PROJECT_PATH/vocabulary"

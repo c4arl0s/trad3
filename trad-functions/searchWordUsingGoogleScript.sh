@@ -4,7 +4,7 @@ searchWordUsingGoogleScript()
 {
     WORD=$1
     printf "\n${YELLOW}I´m gonna look using google-translation script, brief option"
-    spanishWordUsingTrans=`bash $HOME/iOS-Projects/DictEnEsScript/trans -b :es $WORD | cut -f 1 -d " "`
+    spanishWordUsingTrans=`bash $HOME/iOS-Projects/trad3/trans -b :es $WORD | cut -f 1 -d " "`
     if [ $WORD = $spanishWordUsingTrans ]
     then
         printf "\nIt seems the word you are looking for It is the same as spanish word"

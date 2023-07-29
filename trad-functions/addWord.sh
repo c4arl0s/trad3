@@ -10,8 +10,8 @@ addWord()
     # if [ "$confirmacion" = "" ]
     if [ -z "$CONFIRMATION" ]
         then
-            echo "${PINK}"
-            echo -e "adding word: ${WHITE}$ENGLISH ..."
+            echo -e "${PINK}"
+            echo -e "${WHITE}adding word: $ENGLISH"
             createEnglishFile $ENGLISH
             transferEnglishTranslation
             createSpanishFile $SPANISH
