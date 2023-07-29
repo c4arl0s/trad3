@@ -2,7 +2,7 @@
 
 printAddedTranslation()
 {
-    echo -e "${AMARILLO}Datos ingresados:"
+    echo -e "${AMARILLO}All entered data:"
     echo -e "${BLANCO}ENGLISH :${ROSAFONDONEGRO} $ENGLISH "
     echo -e "${BLANCO}SPANISH :${ROSAFONDONEGRO} $SPANISH "
     echo -e "${BLANCO}extra :${ROSAFONDONEGRO} $algomas "

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # script to add new english words to my personal dictionary
 
-. $HOME/iOS-Projects/DictEnEsScript/directoryPaths.sh
+. $HOME/iOS-Projects/trad3/directoryPaths.sh
 
 if [ $# -ne 0 ]; then
    echo -e "\nYou should not provide any argument in this script, you just type add3"
@@ -34,21 +34,21 @@ do
                           cleanSpanishFile $SPANISH
                           cat $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt;;
                     "no") echo -e "${RED}"
-                          echo "${RED}You cancelled operation";;
-                    *) echo "${RED}Type correct key";;
+                          echo -e "${RED}You cancelled operation";;
+                    *) echo -e "${RED}Type correct key";;
               esac;;
-        "no") echo "Create a task when you say no";;
+        "no") echo -e "Create a task when you say no";;
         "edit") vim $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
                 vim $SPANISH_DIRECTORY_PATH/$SPANISH.txt;;
-        *) echo "${RED}type correct key";;
+        *) echo -e "${RED}type correct key";;
         esac
     elif [ -z "$ENGLISH" ]
     then 
-        echo "${CYAN}Empty word"
+        echo -e "${CYAN}Empty word"
     else
-        echo "file does not exist ... read inputs from standard input"
+        echo -e "file does not exist ... read inputs from standard input"
         readInputs
-        echo "this information will be added: "
+        echo -e "this information will be added: "
         echo -e "${WHITE}"
         printInputs
         echo -e "Select a number: "
@@ -63,10 +63,10 @@ do
                cat $ENGLISH_DIRECTORY_PATH/$ENGLISH.txt
                cat $SPANISH_DIRECTORY_PATH/$SPANISH.txt
                break;;
-        no) echo "${RED}you said no"
+        no) echo -e "${RED}you said no"
             break;;
         quit) break;;
-        *) echo "${RED}Wrong keys";;
+        *) echo -e "${RED}Wrong keys";;
         esac
         done
     fi

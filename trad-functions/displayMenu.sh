@@ -3,12 +3,11 @@
 displayMenu()
 {
     case $decision in 
-    "yes")   echo "Se agregara a palabra: ..."
-             addWord $espanol $ingles
-             LAST_WORD_FOUND=$ingles ;;
-    "no")    echo "dijiste NO" ;;
-    "add3") ./add3.sh ;; 
-    *) 	    echo "tecleaste ENTER";;
+    "yes")  echo -e "${GREEN}It will add word: $ingles"
+            addWord $espanol $ingles
+            LAST_WORD_FOUND=$ingles ;;
+    "no")   echo -e "${RED}You cancelled" ;;
+    "add3") add3 ;; 
+    *) 	    echo -e "${CYAN}You did type enter";;
     esac
 }
-

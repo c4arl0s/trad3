@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 
-. $HOME/iOS-Projects/DictEnEsScript/directoryPaths.sh
+. $HOME/iOS-Projects/trad3/directoryPaths.sh
 
 LAST_WORD_FOUND=
 
 if [ $# -ne 0 ]; then
-   echo -e "\nYou should not provide any argument in this script, you just type trad3"
-   return 
+   echo -e "\n${WHITE}You should not provide any argument in this script, you just type trad3"
+   exit 1 
 fi
 
 while : 
 do
     printTitle $(basename $0)
-    #echo -n "${CYAN}"
+    echo -e "${WHITE}"
     printf "%s" "Type a word: "; read WORD
     if $(isRetrievableEnglishWord $WORD)
     then
@@ -22,7 +22,7 @@ do
         LAST_WORD_FOUND=$WORD
     elif [ -z "$WORD" ]
     then
-        echo "${RED}Empty word"        
+        echo -e "${RED}Empty word"        
         reproduceLastWordFoundIfAvailable $LAST_WORD_FOUND
     else
         printf "\n${WHITE}$WORD ${RED}does not exist on english data base .... now looking into spanish data base"
@@ -36,7 +36,7 @@ do
             reproduceEnglishAudioFileIfAvailable $cleanEnglishWord
             LAST_WORD_FOUND=$cleanEnglishWord
         else
-            printf "\n${YELLOW}It seems that we can find ${WORD} using google script"
+            printf "It seems that we can find ${WORD} using google script"
             searchWordUsingGoogleScript $WORD
             reproduceEnglishAudioFileIfAvailable $ingles 
             displayOptionToAddNewWord
