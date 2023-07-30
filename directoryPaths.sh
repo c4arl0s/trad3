@@ -8,6 +8,8 @@ ENGLISH_DIRECTORY_PATH="$PROJECT_PATH/vocabulary/english"
 AUDIO_DIRECTORY_PATH="$PROJECT_PATH/vocabulary/audio-words"
 SPANISH_DIRECTORY_PATH="$PROJECT_PATH/vocabulary/spanish"
 
+TEMPORAL_DIRECTORY_PATH="$PROJECT_PATH/vocabulary"
+
 . $PROJECT_PATH/helper-functions/cleanEnglishFile.sh
 . $PROJECT_PATH/helper-functions/colors.sh
 . $PROJECT_PATH/helper-functions/cleanSpanishFile.sh
