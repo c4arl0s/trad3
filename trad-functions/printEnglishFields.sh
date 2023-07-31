@@ -2,10 +2,10 @@
 
 printEnglishFields()
 {
-    echo -e "${VERDE}$INGLES:${ROSA} $ESPANOL"
-    echo -e "${BLANCO}Extra:${VERDE} $EXTRA"
-    echo -e "${BLANCO}Past:${VERDE} $P" 
-    echo -e "${BLANCO}Past Participe:${VERDE} $PP"
-    echo -e "${BLANCO}Gerund:${VERDE} $G"
-    echo -e "${BLANCO}Example:${VERDE} $E"
+    echo -e "${WHITE}$ENGLISH:${PINK} $SPANISH"
+    echo -e "${WHITE}Extra:${GREEN} $EXTRA"
+    echo -e "${WHITE}Past:${GREEN} $P" 
+    echo -e "${WHITE}Past Participe:${GREEN} $PP"
+    echo -e "${WHITE}Gerund:${GREEN} $G"
+    echo -e "${WHITE}Example:${GREEN} $E"
 }
