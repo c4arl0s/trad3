@@ -1,0 +1,1 @@
+DispatchQueue:Cola:The dispatch queue class allows you to assign work to be executed on different system queues, or threads. See Grand Central Dispatch.::::
