@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-#!/usr/bin/env bash
 
 # initialise trap to call trap_ctrlc function
 # when signal 2 (SIGINT) is received
