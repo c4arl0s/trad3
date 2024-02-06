@@ -1,1 +1,2 @@
 gerente : manager :  :  :  :  : 
+gerente:dirigente:::::
