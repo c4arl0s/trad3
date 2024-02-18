@@ -16,14 +16,14 @@ do
     echo -e "${WHITE}"
     cat ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt
     echo -e "${RED}"
-    printf "%s" "Do you wish to add another meaning? type: [yes/no/edit]?: "; read OPTION
-    case ${OPTION} in
+    printf "%s" "Do you wish to add another meaning? type: [yes/no/edit]?: "; read option
+    case ${option} in
     "yes") echo -e "${RED}"
            readInputs
            echo "${GREEN}these are your changes: "
            printInputs
-           printf "%s" "Type yes to confirm: "; read OPTION
-           case ${OPTION} in 
+           printf "%s" "Type yes to confirm: "; read option
+           case ${option} in 
                "yes") echo -e "${RED}Saving ${ENGLISH} ..."
                       saveEnglishTranslation
                       cleanEnglishFile ${ENGLISH}
@@ -49,8 +49,8 @@ do
     echo -e "${WHITE}"
     printInputs
     echo -e "Select a number: "
-    select CONFIRMATION in yes no quit; do
-    case ${CONFIRMATION} in
+    select confirmation in yes no quit; do
+    case ${confirmation} in
     yes) echo -e "${ROSA}adding word:${WHITE} ${ENGLISH} .... "
            createEnglishFile
            saveEnglishTranslation
