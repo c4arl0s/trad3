@@ -8,7 +8,7 @@ readonly DOES_NOT_EXIST_ENG_MSG="\n${WHITE}${WORD} ${RED}does not exist on engli
 readonly DOES_NOT_EXIST_SPN_MSG="\n${WHITE}${WORD} ${RED}does exist on spanish data base"
 readonly GOOGLE_MSG="It seems that we can find ${WORD} using google script"
 
-LAST_WORD_FOUND=
+last_word_found=
 
 if [ $# -ne 0 ]; then
   echo -e "${NO_ARGUMENTS_MSG}"
@@ -18,28 +18,28 @@ fi
 while : ;do
   printTitle $(basename $0)
   echo -e "${WHITE}"
-  printf "%s" "Type a word: "; read WORD
-  if $(isRetrievableEnglishWord ${WORD}); then
+  printf "%s" "Type a word: "; read word
+  if $(isRetrievableEnglishWord ${word}); then
     printf ${AVAILABILITY_MSG}
-    reproduceEnglishAudioFileIfAvailable ${WORD}
-    displayEnglishTranslation ${WORD}
-    LAST_WORD_FOUND=${WORD}
-  elif [ -z "${WORD}" ]; then
+    reproduceEnglishAudioFileIfAvailable ${word}
+    displayEnglishTranslation ${word}
+    last_word_found=${word}
+  elif [ -z "${word}" ]; then
     echo -e "${RED}Empty word"        
-    reproduceLastWordFoundIfAvailable ${LAST_WORD_FOUND}
+    reproduceLastWordFoundIfAvailable ${last_word_found}
   else
     printf ${DOES_NOT_EXIST_ENG_MSG}
-    if $(isRetrievableSpanishWord ${WORD}); then
+    if $(isRetrievableSpanishWord ${word}); then
       printf ${DOES_NOT_EXIST_SPN_MSG}
-      SPANISH_WORD=${WORD}
+      SPANISH_WORD=${word}
       cleanSpanishFile ${SPANISH_WORD}
       displaySpanishTranslation ${SPANISH_WORD}
       cleanEnglishWord=$(echo "${INGLES}" | xargs)
       reproduceEnglishAudioFileIfAvailable ${cleanEnglishWord}
-      LAST_WORD_FOUND=${cleanEnglishWord}
+      last_word_found=${cleanEnglishWord}
     else
       printf ${GOOGLE_MSG}
-      searchWordUsingGoogleScript ${WORD}
+      searchWordUsingGoogleScript ${word}
       reproduceEnglishAudioFileIfAvailable ${ingles} 
       displayOptionToAddNewWord
       displayMenu

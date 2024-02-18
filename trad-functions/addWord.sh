@@ -2,16 +2,16 @@
 
 addWord()
 {
-  TRANSLATION=$1
-  ENGLISH=$2
-  getTranslation ${TRANSLATION} ${ENGLISH}
+  translation=$1
+  english=$2
+  getTranslation ${translation} ${english}
   printAddedTranslation 
-  printf "%s" "is this correct? (tap ENTER) : "; read -r CONFIRMATION
+  printf "%s" "is this correct? (tap ENTER) : "; read -r confirmation
   # if [ "${confirmacion}" = "" ]
-  if [ -z "${CONFIRMATION}" ]; then
+  if [ -z "${confirmation}" ]; then
     echo -e "${PINK}"
-    echo -e "${WHITE}adding word: ${ENGLISH}"
-    createEnglishFile ${ENGLISH}
+    echo -e "${WHITE}adding word: ${english}"
+    createEnglishFile ${english}
     transferEnglishTranslation
     createSpanishFile ${SPANISH}
     transferSpanishTranslation
