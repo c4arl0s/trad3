@@ -1,1 +1,2 @@
 word : palabra :  :  :  :  : 
+word:palabra:::::
