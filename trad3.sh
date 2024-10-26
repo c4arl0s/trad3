@@ -33,7 +33,7 @@ while : ;do
       printf ${DOES_NOT_EXIST_SPN_MSG}
       SPANISH_WORD=${word}
       clean_spanish_file ${SPANISH_WORD}
-      displaySpanishTranslation ${SPANISH_WORD}
+      display_spanish_translation ${SPANISH_WORD}
       cleanEnglishWord=$(echo "${INGLES}" | xargs)
       reproduce_english_audio_file_if_available  ${cleanEnglishWord}
       last_word_found=${cleanEnglishWord}
