@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-displayEnglishTranslation()
+display_english_translation()
 {
     WORD=$1
     ROWS=$(getNumberOfLinesEnglishFile ${WORD})

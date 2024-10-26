@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-. $HOME/iOS-Projects/trad3/directoryPaths.sh
+. $HOME/iOS-Projects/trad3/directory_paths.sh
 
 readonly NO_ARGUMENTS_MSG="\n${WHITE}You should not provide any argument in this script, you just type trad3"
 readonly AVAILABILITY_MSG="\n${WHITE}${WORD} ${GREEN}is available in english data base" 
@@ -16,33 +16,33 @@ if [ $# -ne 0 ]; then
 fi
 
 while : ;do
-  printTitle $(basename $0)
+  print_title $(basename $0)
   echo -e "${WHITE}"
   printf "%s" "Type a word: "; read word
-  if $(isRetrievableEnglishWord ${word}); then
+  if $(is_retrievable_english_word ${word}); then
     printf ${AVAILABILITY_MSG}
-    reproduceEnglishAudioFileIfAvailable ${word}
-    displayEnglishTranslation ${word}
+    reproduce_english_audio_file_if_available ${word}
+    display_english_translation ${word}
     last_word_found=${word}
   elif [ -z "${word}" ]; then
     echo -e "${RED}Empty word"        
-    reproduceLastWordFoundIfAvailable ${last_word_found}
+    reproduce_last_word_found_if_available ${last_word_found}
   else
     printf ${DOES_NOT_EXIST_ENG_MSG}
-    if $(isRetrievableSpanishWord ${word}); then
+    if $(is_retrievable_spanish_word ${word}); then
       printf ${DOES_NOT_EXIST_SPN_MSG}
-      SPANISH_WORD=${word}
-      cleanSpanishFile ${SPANISH_WORD}
-      displaySpanishTranslation ${SPANISH_WORD}
-      cleanEnglishWord=$(echo "${INGLES}" | xargs)
-      reproduceEnglishAudioFileIfAvailable ${cleanEnglishWord}
-      last_word_found=${cleanEnglishWord}
+      spanish_word=${word}
+      clean_spanish_file ${spanish_word}
+      display_spanish_translation ${spanish_word}
+      clean_english_word=$(echo "${INGLES}" | xargs)
+      reproduce_english_audio_file_if_available  ${clean_english_word}
+      last_word_found=${clean_english_word}
     else
       printf ${GOOGLE_MSG}
-      searchWordUsingGoogleScript ${word}
-      reproduceEnglishAudioFileIfAvailable ${ingles} 
-      displayOptionToAddNewWord
-      displayMenu
+      search_word_using_google_script ${word}
+      reproduce_english_audio_file_if_available ${ingles} 
+      display_option_to_add_new_word
+      display_menu
     fi
   fi
 done

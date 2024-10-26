@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-isRetrievableSpanishWord()
+is_retrievable_spanish_word()
 {
   WORD=$1
   # If SPANISH exist, returns 0

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-isRetrievableEnglishWord()
+is_retrievable_english_word()
 {
   WORD=$1
   # if WORD exist, returns 0

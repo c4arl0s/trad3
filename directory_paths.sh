@@ -12,30 +12,30 @@ TEMPORAL_DIRECTORY_PATH="${PROJECT_PATH}/vocabulary"
 
 . ${PROJECT_PATH}/helper-functions/cleanEnglishFile.sh
 . ${PROJECT_PATH}/helper-functions/colors.sh
-. ${PROJECT_PATH}/helper-functions/cleanSpanishFile.sh
+. ${PROJECT_PATH}/helper-functions/clean_spanish_file.sh
 
 # trad-functions
 
 # new english version
-. ${PROJECT_PATH}/trad-functions/printTitle.sh
-. ${PROJECT_PATH}/trad-functions/isRetrievableEnglishWord.sh
+. ${PROJECT_PATH}/trad-functions/print_title.sh
+. ${PROJECT_PATH}/trad-functions/is_retrievable_english_word.sh
 . ${PROJECT_PATH}/trad-functions/isRetrievableEnglishAudio.sh
 . ${PROJECT_PATH}/trad-functions/downloadAudioFromGoogle.sh
 . ${PROJECT_PATH}/trad-functions/convertMP3toWAV.sh
-. ${PROJECT_PATH}/trad-functions/isRetrievableSpanishWord.sh
-. ${PROJECT_PATH}/trad-functions/displaySpanishTranslation.sh
+. ${PROJECT_PATH}/trad-functions/is_retrievable_spanish_word.sh
+. ${PROJECT_PATH}/trad-functions/display_spanish_translation.sh
 . ${PROJECT_PATH}/trad-functions/formatEnglishFile.sh
 . ${PROJECT_PATH}/trad-functions/countLinesSpanishFile.sh
 . ${PROJECT_PATH}/trad-functions/getSpanishFields.sh
 . ${PROJECT_PATH}/trad-functions/printSpanishFields.sh
-. ${PROJECT_PATH}/trad-functions/searchWordUsingGoogleScript.sh
-. ${PROJECT_PATH}/trad-functions/displayOptionToAddNewWord.sh
-. ${PROJECT_PATH}/trad-functions/displayMenu.sh
+. ${PROJECT_PATH}/trad-functions/search_word_using_google_script.sh
+. ${PROJECT_PATH}/trad-functions/display_option_to_add_new_word.sh
+. ${PROJECT_PATH}/trad-functions/display_menu.sh
 . ${PROJECT_PATH}/trad-functions/getEnglishFields.sh
-. ${PROJECT_PATH}/trad-functions/displayEnglishTranslation.sh
+. ${PROJECT_PATH}/trad-functions/display_english_translation.sh
 . ${PROJECT_PATH}/trad-functions/reproduce-audio.sh
-. ${PROJECT_PATH}/trad-functions/reproduceEnglishAudioFileIfAvailable.sh
-. ${PROJECT_PATH}/trad-functions/reproduceLastWordFoundIfAvailable.sh
+. ${PROJECT_PATH}/trad-functions/reproduce_english_audio_file_if_available.sh
+. ${PROJECT_PATH}/trad-functions/reproduce_last_word_found_if_available.sh
 . ${PROJECT_PATH}/trad-functions/printEnglishFields.sh
 . ${PROJECT_PATH}/trad-functions/addWord.sh
 . ${PROJECT_PATH}/trad-functions/transferSpanishTranslation.sh

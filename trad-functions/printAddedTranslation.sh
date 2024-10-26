@@ -10,6 +10,6 @@ printAddedTranslation()
   echo -e "${BLANCO}past participe :${ROSAFONDONEGRO} ${pp} "
   echo -e "${BLANCO}gerund :${ROSAFONDONEGRO} ${gerundio} "
   echo -e "${BLANCO}example :${ROSAFONDONEGRO} ${ejemplo} "
-  reproduceEnglishAudioFileIfAvailable ${ENGLISH}
+  reproduce_english_audio_file_if_available ${ENGLISH}
   echo -e "${BLANCO}"
 }

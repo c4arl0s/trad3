@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-reproduceEnglishAudioFileIfAvailable() {
+reproduce_english_audio_file_if_available() {
   WORD=$1
   if $(isRetrievableEnglishAudio ${WORD})
   then

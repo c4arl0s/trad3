@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-displayMenu()
+display_menu()
 {
   case ${decision} in 
   "yes")  echo -e "${GREEN}It will add word: ${ingles}"
