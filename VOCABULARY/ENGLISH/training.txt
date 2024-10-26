@@ -1,1 +1,2 @@
 training : capacitación :  :  :  :  : 
+training:formacion:::::
