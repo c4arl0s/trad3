@@ -26,7 +26,7 @@ while : ;do
     last_word_found=${word}
   elif [ -z "${word}" ]; then
     echo -e "${RED}Empty word"        
-    reproduceLastWordFoundIfAvailable ${last_word_found}
+    reproduce_last_word_found_if_available ${last_word_found}
   else
     printf ${DOES_NOT_EXIST_ENG_MSG}
     if $(isRetrievableSpanishWord ${word}); then
