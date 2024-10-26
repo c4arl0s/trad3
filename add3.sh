@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # script to add new english words to my personal dictionary
 
-. $HOME/iOS-Projects/trad3/directoryPaths.sh
+. $HOME/iOS-Projects/trad3/directory_paths.sh
 
 if [ $# -ne 0 ]; then
    echo -e "\nYou should not provide any argument in this script, you just type add3"
@@ -29,7 +29,7 @@ do
                       cleanEnglishFile ${ENGLISH}
                       saveSpanishTranslation 
                       saveVerb ${PAST} ${PASTPARTICIPE} ${GERUND}
-                      cleanSpanishFile ${SPANISH}
+                      clean_spanish_file ${SPANISH}
                       cat ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt;;
                 "no") echo -e "${RED}"
                       echo -e "${RED}You cancelled operation";;

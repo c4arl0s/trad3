@@ -32,7 +32,7 @@ while : ;do
     if $(is_retrievable_spanish_word ${word}); then
       printf ${DOES_NOT_EXIST_SPN_MSG}
       SPANISH_WORD=${word}
-      cleanSpanishFile ${SPANISH_WORD}
+      clean_spanish_file ${SPANISH_WORD}
       displaySpanishTranslation ${SPANISH_WORD}
       cleanEnglishWord=$(echo "${INGLES}" | xargs)
       reproduce_english_audio_file_if_available  ${cleanEnglishWord}

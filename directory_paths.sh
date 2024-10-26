@@ -12,7 +12,7 @@ TEMPORAL_DIRECTORY_PATH="${PROJECT_PATH}/vocabulary"
 
 . ${PROJECT_PATH}/helper-functions/cleanEnglishFile.sh
 . ${PROJECT_PATH}/helper-functions/colors.sh
-. ${PROJECT_PATH}/helper-functions/cleanSpanishFile.sh
+. ${PROJECT_PATH}/helper-functions/clean_spanish_file.sh
 
 # trad-functions
 

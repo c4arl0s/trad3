@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cleanSpanishFile()
+clean_spanish_file()
 {
   SPANISH_FILE=$1
   # remove empty lines
