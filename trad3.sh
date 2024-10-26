@@ -16,7 +16,7 @@ if [ $# -ne 0 ]; then
 fi
 
 while : ;do
-  printTitle $(basename $0)
+  print_title $(basename $0)
   echo -e "${WHITE}"
   printf "%s" "Type a word: "; read word
   if $(isRetrievableEnglishWord ${word}); then
