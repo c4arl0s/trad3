@@ -42,7 +42,7 @@ while : ;do
       search_word_using_google_script ${word}
       reproduce_english_audio_file_if_available ${ingles} 
       display_option_to_add_new_word
-      displayMenu
+      display_menu
     fi
   fi
 done
