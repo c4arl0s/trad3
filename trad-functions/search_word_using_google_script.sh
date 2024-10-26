@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-searchWordUsingGoogleScript()
+search_word_using_google_script()
 {
   WORD=$1
   printf "\n${YELLOW}I´m gonna look using google-translation script, brief option"

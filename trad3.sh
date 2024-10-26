@@ -39,7 +39,7 @@ while : ;do
       last_word_found=${clean_english_word}
     else
       printf ${GOOGLE_MSG}
-      searchWordUsingGoogleScript ${word}
+      search_word_using_google_script ${word}
       reproduce_english_audio_file_if_available ${ingles} 
       displayOptionToAddNewWord
       displayMenu
