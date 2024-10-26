@@ -19,7 +19,7 @@ while : ;do
   print_title $(basename $0)
   echo -e "${WHITE}"
   printf "%s" "Type a word: "; read word
-  if $(isRetrievableEnglishWord ${word}); then
+  if $(is_retrievable_english_word ${word}); then
     printf ${AVAILABILITY_MSG}
     reproduceEnglishAudioFileIfAvailable ${word}
     displayEnglishTranslation ${word}
