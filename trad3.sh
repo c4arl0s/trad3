@@ -31,12 +31,12 @@ while : ;do
     printf ${DOES_NOT_EXIST_ENG_MSG}
     if $(is_retrievable_spanish_word ${word}); then
       printf ${DOES_NOT_EXIST_SPN_MSG}
-      SPANISH_WORD=${word}
-      clean_spanish_file ${SPANISH_WORD}
-      display_spanish_translation ${SPANISH_WORD}
-      cleanEnglishWord=$(echo "${INGLES}" | xargs)
-      reproduce_english_audio_file_if_available  ${cleanEnglishWord}
-      last_word_found=${cleanEnglishWord}
+      spanish_word=${word}
+      clean_spanish_file ${spanish_word}
+      display_spanish_translation ${spanish_word}
+      clean_english_word=$(echo "${INGLES}" | xargs)
+      reproduce_english_audio_file_if_available  ${clean_english_word}
+      last_word_found=${clean_english_word}
     else
       printf ${GOOGLE_MSG}
       searchWordUsingGoogleScript ${word}
