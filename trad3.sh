@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-. $HOME/iOS-Projects/trad3/directoryPaths.sh
+. $HOME/iOS-Projects/trad3/directory_paths.sh
 
 readonly NO_ARGUMENTS_MSG="\n${WHITE}You should not provide any argument in this script, you just type trad3"
 readonly AVAILABILITY_MSG="\n${WHITE}${WORD} ${GREEN}is available in english data base" 
