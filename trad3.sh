@@ -22,7 +22,7 @@ while : ;do
   if $(is_retrievable_english_word ${word}); then
     printf ${AVAILABILITY_MSG}
     reproduce_english_audio_file_if_available ${word}
-    displayEnglishTranslation ${word}
+    display_english_translation ${word}
     last_word_found=${word}
   elif [ -z "${word}" ]; then
     echo -e "${RED}Empty word"        

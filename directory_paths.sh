@@ -32,7 +32,7 @@ TEMPORAL_DIRECTORY_PATH="${PROJECT_PATH}/vocabulary"
 . ${PROJECT_PATH}/trad-functions/displayOptionToAddNewWord.sh
 . ${PROJECT_PATH}/trad-functions/displayMenu.sh
 . ${PROJECT_PATH}/trad-functions/getEnglishFields.sh
-. ${PROJECT_PATH}/trad-functions/displayEnglishTranslation.sh
+. ${PROJECT_PATH}/trad-functions/display_english_translation.sh
 . ${PROJECT_PATH}/trad-functions/reproduce-audio.sh
 . ${PROJECT_PATH}/trad-functions/reproduce_english_audio_file_if_available.sh
 . ${PROJECT_PATH}/trad-functions/reproduceLastWordFoundIfAvailable.sh
