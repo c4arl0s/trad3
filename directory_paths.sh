@@ -34,7 +34,7 @@ TEMPORAL_DIRECTORY_PATH="${PROJECT_PATH}/vocabulary"
 . ${PROJECT_PATH}/trad-functions/getEnglishFields.sh
 . ${PROJECT_PATH}/trad-functions/displayEnglishTranslation.sh
 . ${PROJECT_PATH}/trad-functions/reproduce-audio.sh
-. ${PROJECT_PATH}/trad-functions/reproduceEnglishAudioFileIfAvailable.sh
+. ${PROJECT_PATH}/trad-functions/reproduce_english_audio_file_if_available.sh
 . ${PROJECT_PATH}/trad-functions/reproduceLastWordFoundIfAvailable.sh
 . ${PROJECT_PATH}/trad-functions/printEnglishFields.sh
 . ${PROJECT_PATH}/trad-functions/addWord.sh

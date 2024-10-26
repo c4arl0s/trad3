@@ -21,7 +21,7 @@ while : ;do
   printf "%s" "Type a word: "; read word
   if $(is_retrievable_english_word ${word}); then
     printf ${AVAILABILITY_MSG}
-    reproduceEnglishAudioFileIfAvailable ${word}
+    reproduce_english_audio_file_if_available ${word}
     displayEnglishTranslation ${word}
     last_word_found=${word}
   elif [ -z "${word}" ]; then
@@ -35,12 +35,12 @@ while : ;do
       cleanSpanishFile ${SPANISH_WORD}
       displaySpanishTranslation ${SPANISH_WORD}
       cleanEnglishWord=$(echo "${INGLES}" | xargs)
-      reproduceEnglishAudioFileIfAvailable ${cleanEnglishWord}
+      reproduce_english_audio_file_if_available  ${cleanEnglishWord}
       last_word_found=${cleanEnglishWord}
     else
       printf ${GOOGLE_MSG}
       searchWordUsingGoogleScript ${word}
-      reproduceEnglishAudioFileIfAvailable ${ingles} 
+      reproduce_english_audio_file_if_available ${ingles} 
       displayOptionToAddNewWord
       displayMenu
     fi
