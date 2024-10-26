@@ -29,7 +29,7 @@ while : ;do
     reproduce_last_word_found_if_available ${last_word_found}
   else
     printf ${DOES_NOT_EXIST_ENG_MSG}
-    if $(isRetrievableSpanishWord ${word}); then
+    if $(is_retrievable_spanish_word ${word}); then
       printf ${DOES_NOT_EXIST_SPN_MSG}
       SPANISH_WORD=${word}
       cleanSpanishFile ${SPANISH_WORD}
