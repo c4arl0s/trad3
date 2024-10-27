@@ -28,7 +28,7 @@ do
                       saveEnglishTranslation
                       clean_english_file ${ENGLISH}
                       saveSpanishTranslation 
-                      saveVerb ${PAST} ${PASTPARTICIPE} ${GERUND}
+                      save_verb ${PAST} ${PASTPARTICIPE} ${GERUND}
                       clean_spanish_file ${SPANISH}
                       cat ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt;;
                 "no") echo -e "${RED}"
@@ -56,7 +56,7 @@ do
            saveEnglishTranslation
            create_spanish_file
            saveSpanishTranslation        
-           saveVerb ${PAST} ${PASTPARTICIPE} ${GERUND}
+           save_verb ${PAST} ${PASTPARTICIPE} ${GERUND}
            cat ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt
            cat ${SPANISH_DIRECTORY_PATH}/${SPANISH}.txt
            break;;

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-saveVerb() 
+save_verb() 
 {
     if [[ $1 ]]
     then
