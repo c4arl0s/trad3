@@ -1,1 +1,2 @@
 vocabulary : vocabulario :  :  :  :  : 
+vocabulary:vocabulario:::::
