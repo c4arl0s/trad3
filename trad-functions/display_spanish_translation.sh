@@ -7,7 +7,7 @@ display_spanish_translation()
     # printf "\n${WORD} file has $ROWS rows\n"
     for ROW in `seq ${ROWS}`
     do
-        getSpanishFields ${WORD} ${ROW}
+        get_spanish_fields ${WORD} ${ROW}
         print_spanish_fields
     done
 }
