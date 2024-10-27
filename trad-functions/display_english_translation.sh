@@ -6,7 +6,7 @@ display_english_translation()
     ROWS=$(getNumberOfLinesEnglishFile ${WORD})
     for ROW in `seq ${ROWS}`
     do  
-        getEnglishFields ${WORD} ${ROW}
+        get_english_fields ${WORD} ${ROW}
         printEnglishFields
     done
 }
