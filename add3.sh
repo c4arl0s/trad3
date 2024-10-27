@@ -21,7 +21,7 @@ do
     "yes") echo -e "${RED}"
            read_inputs
            echo "${GREEN}these are your changes: "
-           printInputs
+           print_inputs
            printf "%s" "Type yes to confirm: "; read option
            case ${option} in 
                "yes") echo -e "${RED}Saving ${ENGLISH} ..."
@@ -47,7 +47,7 @@ do
     read_inputs
     echo -e "this information will be added: "
     echo -e "${WHITE}"
-    printInputs
+    print_inputs
     echo -e "Select a number: "
     select confirmation in yes no quit; do
     case ${confirmation} in

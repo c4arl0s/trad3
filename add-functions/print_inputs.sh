@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-printInputs()
+print_inputs()
 {
   echo -e "${WHITE}ENGLISH:${ROSAFONDONEGRO} ${ENGLISH}"
   echo -e "${WHITE}SPANISH:${ROSAFONDONEGRO} ${SPANISH}"
