@@ -44,7 +44,7 @@ TEMPORAL_DIRECTORY_PATH="${PROJECT_PATH}/vocabulary"
 . ${PROJECT_PATH}/trad-functions/print_added_translation.sh
 . ${PROJECT_PATH}/trad-functions/create_spanish_file.sh
 . ${PROJECT_PATH}/trad-functions/create_english_file.sh
-. ${PROJECT_PATH}/trad-functions/getNumberOfLinesEnglishFile.sh
+. ${PROJECT_PATH}/trad-functions/get_number_of_lines_english_file.sh
 . ${PROJECT_PATH}/trad-functions/is_available.sh
 
 # add-functions
