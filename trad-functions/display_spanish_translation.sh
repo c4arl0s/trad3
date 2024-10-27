@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-displaySpanishTranslation()
+display_spanish_translation()
 {
     SPANISH_WORD=$1
     ROWS=`countLinesSpanishFile ${SPANISH_WORD}`
