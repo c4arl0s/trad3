@@ -11,7 +11,7 @@ fi
 while :
 do
   printHeader $(basename $0)
-  if $(isRetrievableEnglishWord ${ENGLISH}); then
+  if $(is_retrievable_english_word ${ENGLISH}); then
     echo "${GREEN}$ENGLISH exist"
     echo -e "${WHITE}"
     cat ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt
@@ -26,7 +26,7 @@ do
            case ${option} in 
                "yes") echo -e "${RED}Saving ${ENGLISH} ..."
                       saveEnglishTranslation
-                      cleanEnglishFile ${ENGLISH}
+                      clean_english_file ${ENGLISH}
                       saveSpanishTranslation 
                       saveVerb ${PAST} ${PASTPARTICIPE} ${GERUND}
                       clean_spanish_file ${SPANISH}
