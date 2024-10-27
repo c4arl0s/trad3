@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-readInputs()
+read_inputs()
 {
   printf "%s" "Add a word in SPANISH: "; read SPANISH
   printf "%s" "Add something extra about the word: "; read SOMETHINGELSE

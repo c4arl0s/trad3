@@ -50,7 +50,7 @@ TEMPORAL_DIRECTORY_PATH="${PROJECT_PATH}/vocabulary"
 # add-functions
 
 . ${PROJECT_PATH}/add-functions/printHeader.sh
-. ${PROJECT_PATH}/add-functions/readInputs.sh
+. ${PROJECT_PATH}/add-functions/read_inputs.sh
 . ${PROJECT_PATH}/add-functions/printInputs.sh
 . ${PROJECT_PATH}/add-functions/create_english_file.sh
 . ${PROJECT_PATH}/add-functions/create_spanish_file.sh

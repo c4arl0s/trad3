@@ -19,7 +19,7 @@ do
     printf "%s" "Do you wish to add another meaning? type: [yes/no/edit]?: "; read option
     case ${option} in
     "yes") echo -e "${RED}"
-           readInputs
+           read_inputs
            echo "${GREEN}these are your changes: "
            printInputs
            printf "%s" "Type yes to confirm: "; read option
@@ -44,7 +44,7 @@ do
     echo -e "${CYAN}Empty word"
   else
     echo -e "file does not exist ... read inputs from standard input"
-    readInputs
+    read_inputs
     echo -e "this information will be added: "
     echo -e "${WHITE}"
     printInputs
