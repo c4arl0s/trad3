@@ -4,7 +4,7 @@ add_word()
 {
   translation=$1
   english=$2
-  getTranslation ${translation} ${english}
+  get_translation ${translation} ${english}
   print_added_translation 
   printf "%s" "is this correct? (tap ENTER) : "; read -r confirmation
   # if [ "${confirmacion}" = "" ]
