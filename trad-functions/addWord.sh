@@ -5,7 +5,7 @@ addWord()
   translation=$1
   english=$2
   getTranslation ${translation} ${english}
-  printAddedTranslation 
+  print_added_translation 
   printf "%s" "is this correct? (tap ENTER) : "; read -r confirmation
   # if [ "${confirmacion}" = "" ]
   if [ -z "${confirmation}" ]; then
