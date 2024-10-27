@@ -13,7 +13,7 @@ add_word()
     echo -e "${WHITE}adding word: ${english}"
     create_english_file ${english}
     transfer_english_translation
-    createSpanishFile ${SPANISH}
+    create_spanish_file ${SPANISH}
     transfer_spanish_translation
   else
     exit 0

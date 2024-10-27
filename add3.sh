@@ -54,7 +54,7 @@ do
     yes) echo -e "${ROSA}adding word:${WHITE} ${ENGLISH} .... "
            create_english_file
            saveEnglishTranslation
-           createSpanishFile
+           create_spanish_file
            saveSpanishTranslation        
            saveVerb ${PAST} ${PASTPARTICIPE} ${GERUND}
            cat ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt
