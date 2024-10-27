@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-isRetrievableEnglishAudio()
+is_retrievable_english_audio()
 {
   WORD=$1
   # If WORD exist, returns 0

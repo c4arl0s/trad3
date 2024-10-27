@@ -10,8 +10,8 @@ fi
 
 while :
 do
-  printHeader $(basename $0)
-  if $(isRetrievableEnglishWord ${ENGLISH}); then
+  print_header $(basename $0)
+  if $(is_retrievable_english_word ${ENGLISH}); then
     echo "${GREEN}$ENGLISH exist"
     echo -e "${WHITE}"
     cat ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt
@@ -19,16 +19,16 @@ do
     printf "%s" "Do you wish to add another meaning? type: [yes/no/edit]?: "; read option
     case ${option} in
     "yes") echo -e "${RED}"
-           readInputs
+           read_inputs
            echo "${GREEN}these are your changes: "
-           printInputs
+           print_inputs
            printf "%s" "Type yes to confirm: "; read option
            case ${option} in 
                "yes") echo -e "${RED}Saving ${ENGLISH} ..."
-                      saveEnglishTranslation
-                      cleanEnglishFile ${ENGLISH}
-                      saveSpanishTranslation 
-                      saveVerb ${PAST} ${PASTPARTICIPE} ${GERUND}
+                      save_english_translation
+                      clean_english_file ${ENGLISH}
+                      save_spanish_translation 
+                      save_verb ${PAST} ${PASTPARTICIPE} ${GERUND}
                       clean_spanish_file ${SPANISH}
                       cat ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt;;
                 "no") echo -e "${RED}"
@@ -44,19 +44,19 @@ do
     echo -e "${CYAN}Empty word"
   else
     echo -e "file does not exist ... read inputs from standard input"
-    readInputs
+    read_inputs
     echo -e "this information will be added: "
     echo -e "${WHITE}"
-    printInputs
+    print_inputs
     echo -e "Select a number: "
     select confirmation in yes no quit; do
     case ${confirmation} in
     yes) echo -e "${ROSA}adding word:${WHITE} ${ENGLISH} .... "
-           createEnglishFile
-           saveEnglishTranslation
-           createSpanishFile
-           saveSpanishTranslation        
-           saveVerb ${PAST} ${PASTPARTICIPE} ${GERUND}
+           create_english_file
+           save_english_translation
+           create_spanish_file
+           save_spanish_translation        
+           save_verb ${PAST} ${PASTPARTICIPE} ${GERUND}
            cat ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt
            cat ${SPANISH_DIRECTORY_PATH}/${SPANISH}.txt
            break;;

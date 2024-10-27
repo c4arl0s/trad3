@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-getSpanishFields()
+get_spanish_fields()
 {
     WORD=$1
     ROW=$2

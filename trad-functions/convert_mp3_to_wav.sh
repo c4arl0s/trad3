@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-convertMP3toWAV()
+convert_mp3_to_wav()
 {
   WORD=$1
   if [ -f ${AUDIO_DIRECTORY_PATH}/${WORD}.mp3 ] && ffmpeg -i ${AUDIO_DIRECTORY_PATH}/${WORD}.mp3 ${AUDIO_DIRECTORY_PATH}/${WORD}.wav; then

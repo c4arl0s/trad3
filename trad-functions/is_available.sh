@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-isAvailable()
+is_available()
 {
   WORD=$1
   test -f ${ENGLISH_DIRECTORY_PATH}/${WORD}.txt

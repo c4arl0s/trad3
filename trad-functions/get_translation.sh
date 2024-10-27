@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-getTranslation()
+get_translation()
 { 
   TRANSLATION=$1
   ENGLISH=$2

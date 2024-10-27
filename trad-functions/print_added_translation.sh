@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-printAddedTranslation()
+print_added_translation()
 {
   echo -e "${AMARILLO}All entered data:"
   echo -e "${BLANCO}ENGLISH :${ROSAFONDONEGRO} ${ENGLISH} "

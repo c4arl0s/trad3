@@ -3,7 +3,7 @@
 display_english_translation()
 {
     WORD=$1
-    ROWS=$(getNumberOfLinesEnglishFile ${WORD})
+    ROWS=$(get_number_of_lines_english_file ${WORD})
     for ROW in `seq ${ROWS}`
     do  
         get_english_fields ${WORD} ${ROW}
