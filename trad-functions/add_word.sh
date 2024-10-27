@@ -14,7 +14,7 @@ add_word()
     createEnglishFile ${english}
     transfer_english_translation
     createSpanishFile ${SPANISH}
-    transferSpanishTranslation
+    transfer_spanish_translation
   else
     exit 0
   fi
