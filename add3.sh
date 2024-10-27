@@ -10,7 +10,7 @@ fi
 
 while :
 do
-  printHeader $(basename $0)
+  print_header $(basename $0)
   if $(is_retrievable_english_word ${ENGLISH}); then
     echo "${GREEN}$ENGLISH exist"
     echo -e "${WHITE}"
