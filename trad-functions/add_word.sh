@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-addWord()
+add_word()
 {
   translation=$1
   english=$2
