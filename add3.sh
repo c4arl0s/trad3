@@ -52,7 +52,7 @@ do
     select confirmation in yes no quit; do
     case ${confirmation} in
     yes) echo -e "${ROSA}adding word:${WHITE} ${ENGLISH} .... "
-           createEnglishFile
+           create_english_file
            saveEnglishTranslation
            createSpanishFile
            saveSpanishTranslation        

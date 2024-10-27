@@ -43,7 +43,7 @@ TEMPORAL_DIRECTORY_PATH="${PROJECT_PATH}/vocabulary"
 . ${PROJECT_PATH}/trad-functions/getTranslation.sh
 . ${PROJECT_PATH}/trad-functions/print_added_translation.sh
 . ${PROJECT_PATH}/trad-functions/createSpanishFile.sh
-. ${PROJECT_PATH}/trad-functions/createEnglishFile.sh
+. ${PROJECT_PATH}/trad-functions/create_english_file.sh
 . ${PROJECT_PATH}/trad-functions/getNumberOfLinesEnglishFile.sh
 . ${PROJECT_PATH}/trad-functions/is_available.sh
 
@@ -52,7 +52,7 @@ TEMPORAL_DIRECTORY_PATH="${PROJECT_PATH}/vocabulary"
 . ${PROJECT_PATH}/add-functions/printHeader.sh
 . ${PROJECT_PATH}/add-functions/readInputs.sh
 . ${PROJECT_PATH}/add-functions/printInputs.sh
-. ${PROJECT_PATH}/add-functions/createEnglishFile.sh
+. ${PROJECT_PATH}/add-functions/create_english_file.sh
 . ${PROJECT_PATH}/add-functions/createSpanishFile.sh
 . ${PROJECT_PATH}/add-functions/saveEnglishTranslation.sh
 . ${PROJECT_PATH}/add-functions/saveSpanishTranslation.sh

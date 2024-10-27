@@ -11,7 +11,7 @@ add_word()
   if [ -z "${confirmation}" ]; then
     echo -e "${PINK}"
     echo -e "${WHITE}adding word: ${english}"
-    createEnglishFile ${english}
+    create_english_file ${english}
     transfer_english_translation
     createSpanishFile ${SPANISH}
     transfer_spanish_translation
