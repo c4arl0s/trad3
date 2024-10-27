@@ -39,7 +39,7 @@ TEMPORAL_DIRECTORY_PATH="${PROJECT_PATH}/vocabulary"
 . ${PROJECT_PATH}/trad-functions/print_english_fields.sh
 . ${PROJECT_PATH}/trad-functions/add_word.sh
 . ${PROJECT_PATH}/trad-functions/transferSpanishTranslation.sh
-. ${PROJECT_PATH}/trad-functions/transferEnglishTranslation.sh
+. ${PROJECT_PATH}/trad-functions/transfer_english_translation.sh
 . ${PROJECT_PATH}/trad-functions/getTranslation.sh
 . ${PROJECT_PATH}/trad-functions/print_added_translation.sh
 . ${PROJECT_PATH}/trad-functions/createSpanishFile.sh
