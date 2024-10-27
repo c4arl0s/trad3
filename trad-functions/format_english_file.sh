@@ -6,7 +6,7 @@
 #  '^ *$' Indica una linea que contiene cero o mas espacios. 
 # Por lo tanto, esto borrara todas las lineas las cuales estan vacias o lineas con solo algunos espacios en blanco.
 
-formatEnglishFile()
+format_english_file()
 {
   WORD=$1
   sed '/^ *$/d' ${ENGLISH_DIRECTORY_PATH}/${WORD}.txt > ${COMODIN_DIRECTORY_PATH}/comodin.txt
