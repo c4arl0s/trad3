@@ -27,7 +27,7 @@ do
                "yes") echo -e "${RED}Saving ${ENGLISH} ..."
                       save_english_translation
                       clean_english_file ${ENGLISH}
-                      saveSpanishTranslation 
+                      save_spanish_translation 
                       save_verb ${PAST} ${PASTPARTICIPE} ${GERUND}
                       clean_spanish_file ${SPANISH}
                       cat ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt;;
@@ -55,7 +55,7 @@ do
            create_english_file
            save_english_translation
            create_spanish_file
-           saveSpanishTranslation        
+           save_spanish_translation        
            save_verb ${PAST} ${PASTPARTICIPE} ${GERUND}
            cat ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt
            cat ${SPANISH_DIRECTORY_PATH}/${SPANISH}.txt

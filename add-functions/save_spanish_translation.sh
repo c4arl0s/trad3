@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-saveSpanishTranslation()
+save_spanish_translation()
 { 
   formattedSPANISH=$(echo ${SPANISH} | sed "y/āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ/aaaaeeeeiiiioooouuuuüüüüAAAAEEEEIIIIOOOOUUUUÜÜÜÜ/")
   SPANISH=${formattedSPANISH}

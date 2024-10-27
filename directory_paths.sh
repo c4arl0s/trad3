@@ -55,5 +55,5 @@ TEMPORAL_DIRECTORY_PATH="${PROJECT_PATH}/vocabulary"
 . ${PROJECT_PATH}/add-functions/create_english_file.sh
 . ${PROJECT_PATH}/add-functions/create_spanish_file.sh
 . ${PROJECT_PATH}/add-functions/save_english_translation.sh
-. ${PROJECT_PATH}/add-functions/saveSpanishTranslation.sh
+. ${PROJECT_PATH}/add-functions/save_spanish_translation.sh
 . ${PROJECT_PATH}/add-functions/save_verb.sh
