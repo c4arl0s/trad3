@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-downloadAudioFromGoogle()
+download_audio_from_google()
 {
   WORD=$1
   printf "\n${YELLOW}Trying Downloading from google"
