@@ -8,6 +8,6 @@ display_spanish_translation()
     for ROW in `seq ${ROWS}`
     do
         getSpanishFields ${WORD} ${ROW}
-        printSpanishFields
+        print_spanish_fields
     done
 }

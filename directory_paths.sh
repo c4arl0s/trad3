@@ -27,7 +27,7 @@ TEMPORAL_DIRECTORY_PATH="${PROJECT_PATH}/vocabulary"
 . ${PROJECT_PATH}/trad-functions/formatEnglishFile.sh
 . ${PROJECT_PATH}/trad-functions/countLinesSpanishFile.sh
 . ${PROJECT_PATH}/trad-functions/getSpanishFields.sh
-. ${PROJECT_PATH}/trad-functions/printSpanishFields.sh
+. ${PROJECT_PATH}/trad-functions/print_spanish_fields.sh
 . ${PROJECT_PATH}/trad-functions/search_word_using_google_script.sh
 . ${PROJECT_PATH}/trad-functions/display_option_to_add_new_word.sh
 . ${PROJECT_PATH}/trad-functions/display_menu.sh

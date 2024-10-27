@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-printSpanishFields()
+print_spanish_fields()
 {
     echo ""
     echo ""
