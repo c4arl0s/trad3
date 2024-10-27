@@ -25,7 +25,7 @@ do
            printf "%s" "Type yes to confirm: "; read option
            case ${option} in 
                "yes") echo -e "${RED}Saving ${ENGLISH} ..."
-                      saveEnglishTranslation
+                      save_english_translation
                       clean_english_file ${ENGLISH}
                       saveSpanishTranslation 
                       save_verb ${PAST} ${PASTPARTICIPE} ${GERUND}
@@ -53,7 +53,7 @@ do
     case ${confirmation} in
     yes) echo -e "${ROSA}adding word:${WHITE} ${ENGLISH} .... "
            create_english_file
-           saveEnglishTranslation
+           save_english_translation
            create_spanish_file
            saveSpanishTranslation        
            save_verb ${PAST} ${PASTPARTICIPE} ${GERUND}
