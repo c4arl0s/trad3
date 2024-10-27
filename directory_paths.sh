@@ -19,7 +19,7 @@ TEMPORAL_DIRECTORY_PATH="${PROJECT_PATH}/vocabulary"
 # new english version
 . ${PROJECT_PATH}/trad-functions/print_title.sh
 . ${PROJECT_PATH}/trad-functions/is_retrievable_english_word.sh
-. ${PROJECT_PATH}/trad-functions/isRetrievableEnglishAudio.sh
+. ${PROJECT_PATH}/trad-functions/is_retrievable_english_audio.sh
 . ${PROJECT_PATH}/trad-functions/download_audio_from_google.sh
 . ${PROJECT_PATH}/trad-functions/convertMP3toWAV.sh
 . ${PROJECT_PATH}/trad-functions/is_retrievable_spanish_word.sh
