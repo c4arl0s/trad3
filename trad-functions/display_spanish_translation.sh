@@ -2,12 +2,12 @@
 
 display_spanish_translation()
 {
-    SPANISH_WORD=$1
-    ROWS=`count_lines_spanish_file ${SPANISH_WORD}`
-    # printf "\n${WORD} file has $ROWS rows\n"
-    for ROW in `seq ${ROWS}`
+    spanish_word=$1
+    rows=$(count_lines_spanish_file ${spanish_word})
+    printf "\n${spanish_word} file has $rows rows\n"
+    for row in `seq ${rows}`
     do
-        get_spanish_fields ${WORD} ${ROW}
+        get_spanish_fields ${spanish_word} ${row}
         print_spanish_fields
     done
 }
