@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-reproduce-audio()
+reproduce_audio()
 {
     WORD=$1
     echo -e "${WHITE}"

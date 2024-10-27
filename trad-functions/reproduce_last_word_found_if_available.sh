@@ -6,5 +6,5 @@ function reproduce_last_word_found_if_available() {
   [[ ! -z "${LAST_WORD_FOUND}" ]] &&
   [ -f ${AUDIO_DIRECTORY_PATH}/${LAST_WORD_FOUND}.wav ] && 
   printf "\n${GREEN}Reproducing last word found ..." && 
-  reproduce-audio ${LAST_WORD_FOUND}
+  reproduce_audio ${LAST_WORD_FOUND}
 }

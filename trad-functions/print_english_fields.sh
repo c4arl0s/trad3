@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-printEnglishFields()
+print_english_fields()
 {
     echo -e "${WHITE}$ENGLISH:${PINK} ${SPANISH}"
     echo -e "${WHITE}Extra:${GREEN} ${EXTRA}"

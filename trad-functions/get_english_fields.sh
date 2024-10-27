@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-getEnglishFields()
+get_english_fields()
 {
     printf "\n${CYAN}Getting English fields\n\n"
     WORD=$1
