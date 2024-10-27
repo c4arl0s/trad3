@@ -7,6 +7,6 @@ display_english_translation()
     for ROW in `seq ${ROWS}`
     do  
         get_english_fields ${WORD} ${ROW}
-        printEnglishFields
+        print_english_fields
     done
 }
