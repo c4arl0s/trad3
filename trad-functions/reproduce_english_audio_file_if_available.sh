@@ -8,7 +8,7 @@ reproduce_english_audio_file_if_available() {
   else
     printf "\n${RED}Audio file does not exist ... I gonna use google"
     download_audio_from_google ${WORD}
-    convertMP3toWAV ${WORD}
+    convert_mp3_to_wav ${WORD}
     reproduce_audio ${WORD}
   fi
 }
