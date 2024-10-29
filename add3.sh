@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # script to add new english words to my personal dictionary
 
-. $HOME/iOS-Projects/trad3/directory_paths.sh
+. ./directory_paths.sh
 
 if [ $# -ne 0 ]; then
    echo -e "\nYou should not provide any argument in this script, you just type add3"
