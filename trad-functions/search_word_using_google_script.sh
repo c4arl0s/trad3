@@ -4,7 +4,7 @@ search_word_using_google_script()
 {
   word=$1
   printf "\n${YELLOW}I´m gonna look using google-translation script, brief option"
-  spanish_word_using_trans=$(bash ${HOME}/iOS-Projects/trad3/trans -b :es ${word} | cut -f 1 -d " ")
+  spanish_word_using_trans=$(bash ${TRAD3_PATH}/trans -b :es ${word} | cut -f 1 -d " ")
   if [ "${word}" = "${spanish_word_using_trans}" ]
   then
       printf "\nIt seems the word you are looking for It is the same as spanish word"
