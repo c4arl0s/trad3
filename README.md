@@ -33,10 +33,26 @@ First give permisions to execute script on your environment
 $ chmod +x trad.sh
 ```
 
-You just execute the script by typing:
+# Installation: 
+
+Export this variable on your current profile file. pointing out the corresponding path.
 
 ```console
-$ ./trad3.sh
+export "TRAD3_PATH="$HOME/iOS-Projects/trad3"
+```
+
+Then create a function
+
+```console
+trad3() {
+  . ${TRAD3_PATH}/trad33.sh
+}
+```
+
+# Invoke script by only typing:
+
+```console
+$ trad3
 ```
 
 # trad3.sh Code

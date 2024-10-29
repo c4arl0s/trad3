@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # script to add new english words to my personal dictionary
 
-. ./directory_paths.sh
+. ${TRAD3_PATH}/directory_paths.sh
 
 if [ $# -ne 0 ]; then
    echo -e "\nYou should not provide any argument in this script, you just type add3"
