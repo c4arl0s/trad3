@@ -38,7 +38,7 @@ $ chmod +x trad.sh
 Export this variable on your current profile file. pointing out the corresponding path.
 
 ```console
-export TRAD3_PATH="$HOME/iOS-Projects/trad3"
+export TRAD3_PATH="$HOME/iOS-Projects/trad3/"
 ```
 
 Then create a function
