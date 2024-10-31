@@ -60,7 +60,7 @@ $ trad3
 ```bash
 #!/usr/bin/env bash
 
-. ./directory_paths.sh
+. ${TRAD3_PATH}/directory_paths.sh
 
 readonly NO_ARGUMENTS_MSG="\n${WHITE}You should not provide any argument in this script, you just type trad3"
 readonly AVAILABILITY_MSG="\n${WHITE}${WORD} ${GREEN}is available in english data base" 
@@ -114,7 +114,7 @@ done
 #!/usr/bin/env bash
 # script to add new english words to my personal dictionary
 
-. ./directory_paths.sh
+. ${TRAD3_PATH}/directory_paths.sh
 
 if [ $# -ne 0 ]; then
    echo -e "\nYou should not provide any argument in this script, you just type add3"
