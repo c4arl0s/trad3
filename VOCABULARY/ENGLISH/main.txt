@@ -1,1 +1,1 @@
-main : principal :  :  :  :  : 
+main:principal:::::

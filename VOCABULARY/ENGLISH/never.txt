@@ -1,2 +1,2 @@
-never : Nunca :  :  :  :  : 
-never : jamas :  :  :  :  : 
+never:Nunca:::::
+never:jamas:::::

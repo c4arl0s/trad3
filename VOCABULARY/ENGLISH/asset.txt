@@ -1,1 +1,1 @@
-asset : activo :  :  :  :  : 
+asset:activo:::::

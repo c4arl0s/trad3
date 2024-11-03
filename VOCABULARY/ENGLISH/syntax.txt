@@ -1,1 +1,1 @@
-syntax : sintaxis :  :  :  :  : 
+syntax:sintaxis:::::

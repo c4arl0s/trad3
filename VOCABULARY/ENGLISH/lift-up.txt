@@ -1,1 +1,1 @@
-lift-up : levantar :  :  :  :  : 
+lift-up:levantar:::::

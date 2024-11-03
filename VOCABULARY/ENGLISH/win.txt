@@ -1,1 +1,1 @@
-win : ganar :  : won : won : winning : 
+win:ganar::won:won:winning:

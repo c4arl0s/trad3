@@ -1,1 +1,1 @@
-pump : bomba :  :  :  :  : 
+pump:bomba:::::

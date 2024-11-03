@@ -1,1 +1,1 @@
-house : casa :  :  :  :  : 
+house:casa:::::

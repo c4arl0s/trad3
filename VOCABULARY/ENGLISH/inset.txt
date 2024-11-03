@@ -1,1 +1,1 @@
-inset : recuadro :  :  :  :  : 
+inset:recuadro:::::

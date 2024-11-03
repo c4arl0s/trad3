@@ -1,1 +1,1 @@
-suit : traje :  :  :  :  : 
+suit:traje:::::

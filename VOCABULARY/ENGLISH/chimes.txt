@@ -1,1 +1,1 @@
-chimes : campanadas :  :  :  :  : 
+chimes:campanadas:::::

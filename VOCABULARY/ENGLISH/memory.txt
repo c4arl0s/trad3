@@ -1,1 +1,1 @@
-memory : memoria :  :  :  :  : 
+memory:memoria:::::

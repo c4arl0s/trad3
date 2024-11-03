@@ -1,1 +1,1 @@
-salad : ensalada :  :  :  :  : 
+salad:ensalada:::::

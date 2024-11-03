@@ -1,1 +1,1 @@
-talk : hablar :  : talked : talked : talking : 
+talk:hablar::talked:talked:talking:

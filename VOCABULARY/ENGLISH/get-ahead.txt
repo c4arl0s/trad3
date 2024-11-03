@@ -1,2 +1,2 @@
 
-get-ahead :  : tener éxito :  :  :  : 
+get-ahead::tener éxito::::

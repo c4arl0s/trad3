@@ -1,1 +1,1 @@
-agreement : acuerdo :  :  :  :  : 
+agreement:acuerdo:::::

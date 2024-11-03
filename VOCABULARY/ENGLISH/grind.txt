@@ -1,1 +1,1 @@
-grind : moler :  : ground : ground :  : 
+grind:moler::ground:ground::

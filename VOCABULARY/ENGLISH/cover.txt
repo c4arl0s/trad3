@@ -1,1 +1,1 @@
-cover : cubierta :  :  :  :  : 
+cover:cubierta:::::

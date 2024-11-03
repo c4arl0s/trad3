@@ -1,1 +1,1 @@
-understand : entender :  : understood : understood : understanding : 
+understand:entender::understood:understood:understanding:

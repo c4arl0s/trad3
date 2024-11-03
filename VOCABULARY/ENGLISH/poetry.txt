@@ -1,1 +1,1 @@
-poetry : poesia :  :  :  :  : 
+poetry:poesia:::::

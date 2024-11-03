@@ -1,1 +1,1 @@
-gangs : pandillas :  :  :  :  : 
+gangs:pandillas:::::

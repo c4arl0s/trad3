@@ -1,1 +1,1 @@
-student : alumno :  :  :  :  : 
+student:alumno:::::

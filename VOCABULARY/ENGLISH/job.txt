@@ -1,2 +1,2 @@
-job : trabajo :  :  :  :  : 
-job : empleo :  :  :  :  : 
+job:trabajo:::::
+job:empleo:::::

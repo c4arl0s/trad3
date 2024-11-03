@@ -1,1 +1,1 @@
-row : fila :  :  :  :  : 
+row:fila:::::

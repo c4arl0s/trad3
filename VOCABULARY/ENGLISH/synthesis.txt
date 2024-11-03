@@ -1,1 +1,1 @@
-synthesis : síntesis :  :  :  :  : 
+synthesis:síntesis:::::

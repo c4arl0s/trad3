@@ -1,1 +1,1 @@
-forces : fuerzas :  :  :  :  : 
+forces:fuerzas:::::

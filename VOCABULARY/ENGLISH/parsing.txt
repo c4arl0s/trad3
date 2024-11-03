@@ -1,1 +1,1 @@
-parsing : análisis :  :  :  :  : 
+parsing:análisis:::::

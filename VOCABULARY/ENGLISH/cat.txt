@@ -1,1 +1,1 @@
-cat : gato :  :  :  :  : 
+cat:gato:::::

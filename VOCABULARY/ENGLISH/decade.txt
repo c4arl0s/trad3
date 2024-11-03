@@ -1,2 +1,2 @@
 
-decade : década : decenio :  :  :  : 
+decade:década:decenio::::

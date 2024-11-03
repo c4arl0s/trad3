@@ -1,1 +1,1 @@
-maize : maíz :  :  :  :  : 
+maize:maíz:::::

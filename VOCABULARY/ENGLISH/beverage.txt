@@ -1,1 +1,1 @@
-beverage : bebida :  :  :  :  : 
+beverage:bebida:::::

@@ -1,1 +1,1 @@
-drugstore : farmacia :  :  :  :  : 
+drugstore:farmacia:::::

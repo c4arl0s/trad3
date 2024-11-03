@@ -1,1 +1,1 @@
-spaces : Espacios :  :  :  :  : 
+spaces:Espacios:::::

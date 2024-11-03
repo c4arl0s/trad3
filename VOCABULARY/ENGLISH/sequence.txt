@@ -1,1 +1,1 @@
-sequence : secuencia :  :  :  :  : It is about the right types of capabilities arriving in the right sequence.
+sequence:secuencia:::::It is about the right types of capabilities arriving in the right sequence.

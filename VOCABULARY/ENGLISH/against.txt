@@ -1,2 +1,2 @@
 
-against : contra : en contra :  :  :  : 
+against:contra:en contra::::

@@ -1,1 +1,1 @@
-ambulance : ambulancia :  :  :  :  : 
+ambulance:ambulancia:::::

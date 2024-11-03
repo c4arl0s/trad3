@@ -1,1 +1,1 @@
-damage : dañar :  :  :  :  : 
+damage:dañar:::::

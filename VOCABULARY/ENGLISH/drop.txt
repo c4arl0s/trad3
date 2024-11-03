@@ -1,1 +1,1 @@
-drop : soltar :  :  :  :  : 
+drop:soltar:::::

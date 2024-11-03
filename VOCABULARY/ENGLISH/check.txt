@@ -1,1 +1,1 @@
-check : comprobar :  :  :  :  : 
+check:comprobar:::::

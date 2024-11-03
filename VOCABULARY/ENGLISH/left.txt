@@ -1,1 +1,1 @@
-left : izquierda :  :  :  :  : 
+left:izquierda:::::

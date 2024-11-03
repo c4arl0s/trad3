@@ -1,1 +1,1 @@
-guitar : guitarra :  :  :  :  : 
+guitar:guitarra:::::

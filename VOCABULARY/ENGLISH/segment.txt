@@ -1,1 +1,1 @@
-segment : segmento :  :  :  :  : 
+segment:segmento:::::

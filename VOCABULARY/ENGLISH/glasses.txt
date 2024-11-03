@@ -1,2 +1,2 @@
-glasses : anteojos :  :  :  :  : 
+glasses:anteojos:::::
 glasses:lentes:::::

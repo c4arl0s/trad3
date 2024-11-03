@@ -1,1 +1,1 @@
-offers : ofertas :  :  :  :  : 
+offers:ofertas:::::

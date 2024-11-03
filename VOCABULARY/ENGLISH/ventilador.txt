@@ -1,1 +1,1 @@
-ventilador : fan :  :  :  :  : 
+ventilador:fan:::::

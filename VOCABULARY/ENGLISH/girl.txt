@@ -1,2 +1,2 @@
-girl : niña :  :  :  :  : 
+girl:niña:::::
 girl:chica:::::

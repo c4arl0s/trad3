@@ -1,1 +1,1 @@
-packing : embalaje :  :  :  :  : 
+packing:embalaje:::::

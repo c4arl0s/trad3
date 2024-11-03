@@ -1,1 +1,1 @@
-wear : llevar-puesto :  : wore : worn : wearing : 
+wear:llevar-puesto::wore:worn:wearing:

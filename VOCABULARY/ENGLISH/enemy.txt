@@ -1,1 +1,1 @@
-enemy : enemigo :  :  :  :  : 
+enemy:enemigo:::::

@@ -1,2 +1,2 @@
-boss : jefe :  :  :  :  : 
-Boss : jefa :  :  :  :  : 
+boss:jefe:::::
+Boss:jefa:::::

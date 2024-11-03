@@ -1,1 +1,1 @@
-transducers : transductores :  :  :  :  : 
+transducers:transductores:::::

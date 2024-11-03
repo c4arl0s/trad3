@@ -1,1 +1,1 @@
-sold : vendido :  :  :  :  : 
+sold:vendido:::::

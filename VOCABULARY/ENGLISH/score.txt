@@ -1,1 +1,1 @@
-score : Puntuación :  :  :  :  : 
+score:Puntuación:::::

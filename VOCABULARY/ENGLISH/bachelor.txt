@@ -1,1 +1,1 @@
-bachelor : soltero :  :  :  :  : 
+bachelor:soltero:::::

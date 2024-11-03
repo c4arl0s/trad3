@@ -1,2 +1,2 @@
-jacket : chaqueta :  :  :  :  : 
-Jacket : chamarra :  :  :  :  : 
+jacket:chaqueta:::::
+Jacket:chamarra:::::

@@ -1,1 +1,1 @@
-turkey : Turquía :  :  :  :  : 
+turkey:Turquía:::::

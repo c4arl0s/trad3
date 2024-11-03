@@ -1,1 +1,1 @@
-payments : Pagos :  :  :  :  : Bill.com Helps To Accelerate Invoice Payments.
+payments:Pagos:::::Bill.com Helps To Accelerate Invoice Payments.

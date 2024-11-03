@@ -1,1 +1,1 @@
-neighborhood : vecindario :  :  :  :  : 
+neighborhood:vecindario:::::

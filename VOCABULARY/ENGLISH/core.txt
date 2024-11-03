@@ -1,1 +1,1 @@
-core : núcleo :  :  :  :  : 
+core:núcleo:::::

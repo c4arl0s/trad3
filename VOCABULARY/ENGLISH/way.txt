@@ -1,1 +1,1 @@
-way : camino :  :  :  :  : 
+way:camino:::::

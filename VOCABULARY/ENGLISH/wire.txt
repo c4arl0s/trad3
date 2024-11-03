@@ -1,1 +1,1 @@
-wire : cable :  :  :  :  : 
+wire:cable:::::

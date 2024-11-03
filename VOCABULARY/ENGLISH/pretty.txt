@@ -1,1 +1,1 @@
-pretty : bonita :  :  :  :  : 
+pretty:bonita:::::

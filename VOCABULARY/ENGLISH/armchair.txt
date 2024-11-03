@@ -1,1 +1,1 @@
-armchair : sillón :  :  :  :  : 
+armchair:sillón:::::

@@ -1,1 +1,1 @@
-restart : reiniciar :  :  :  :  : 
+restart:reiniciar:::::

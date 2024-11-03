@@ -1,1 +1,1 @@
-washer : lavadora :  :  :  :  : 
+washer:lavadora:::::

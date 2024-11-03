@@ -1,1 +1,1 @@
-sides : lados :  :  :  :  : 
+sides:lados:::::

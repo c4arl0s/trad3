@@ -1,2 +1,2 @@
-help : ayudar :  : helped : helped : helping : 
-help : ayuda :  :  :  :  : 
+help:ayudar::helped:helped:helping:
+help:ayuda:::::

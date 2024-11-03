@@ -1,1 +1,1 @@
-terminal : Terminal :  :  :  :  : 
+terminal:Terminal:::::

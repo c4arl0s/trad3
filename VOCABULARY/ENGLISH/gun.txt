@@ -1,1 +1,1 @@
-gun : pistola :  :  :  :  : 
+gun:pistola:::::

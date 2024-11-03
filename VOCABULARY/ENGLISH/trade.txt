@@ -1,1 +1,1 @@
-trade : comercio :  :  :  :  : 
+trade:comercio:::::

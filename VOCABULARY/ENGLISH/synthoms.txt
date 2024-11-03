@@ -1,1 +1,1 @@
-synthoms : síntomas :  :  :  :  : 
+synthoms:síntomas:::::

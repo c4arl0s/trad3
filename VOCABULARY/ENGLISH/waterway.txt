@@ -1,1 +1,1 @@
-waterway : camino :  :  :  :  : 
+waterway:camino:::::

@@ -1,1 +1,1 @@
-cop : policía :  :  :  :  : 
+cop:policía:::::

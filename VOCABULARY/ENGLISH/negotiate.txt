@@ -1,1 +1,1 @@
-negotiate : negociar :  :  :  :  : 
+negotiate:negociar:::::

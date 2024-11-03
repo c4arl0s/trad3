@@ -1,3 +1,3 @@
-clock : reloj :  :  :  :  : 
-clock : reloj :  :  :  :  : 
+clock:reloj:::::
+clock:reloj:::::
 clock:reloj:::::

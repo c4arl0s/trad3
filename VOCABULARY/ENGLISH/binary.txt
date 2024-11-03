@@ -1,1 +1,1 @@
-binary : binario :  :  :  :  : 
+binary:binario:::::

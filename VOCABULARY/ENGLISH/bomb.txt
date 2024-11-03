@@ -1,1 +1,1 @@
-bomb : bomba :  :  :  :  : 
+bomb:bomba:::::

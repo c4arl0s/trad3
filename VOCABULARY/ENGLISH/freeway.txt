@@ -1,1 +1,1 @@
-freeway : autopista :  :  :  :  : 
+freeway:autopista:::::

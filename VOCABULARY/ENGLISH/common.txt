@@ -1,1 +1,1 @@
-common : común :  :  :  :  : 
+common:común:::::

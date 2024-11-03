@@ -1,1 +1,1 @@
-scaffold : andamio :  :  :  :  : 
+scaffold:andamio:::::

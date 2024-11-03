@@ -1,1 +1,1 @@
-purchase : compra :  :  :  :  : 
+purchase:compra:::::

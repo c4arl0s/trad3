@@ -1,1 +1,1 @@
-curb : bordillo :  :  :  :  : 
+curb:bordillo:::::

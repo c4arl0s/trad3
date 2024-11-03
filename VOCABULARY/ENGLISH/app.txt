@@ -1,1 +1,1 @@
-app : aplicación :  :  :  :  : 
+app:aplicación:::::

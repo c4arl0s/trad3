@@ -1,1 +1,1 @@
-sure : seguro : seguro !, sure ! :  :  :  : 
+sure:seguro:seguro !, sure !::::

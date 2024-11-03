@@ -1,1 +1,1 @@
-line : línea :  :  :  :  : 
+line:línea:::::

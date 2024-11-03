@@ -1,1 +1,1 @@
-write : escribir :  : wrote : written : writing : 
+write:escribir::wrote:written:writing:

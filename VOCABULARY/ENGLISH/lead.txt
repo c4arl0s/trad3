@@ -1,1 +1,1 @@
-lead : encabezar :  : led : led : leading : 
+lead:encabezar::led:led:leading:

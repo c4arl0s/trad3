@@ -1,1 +1,1 @@
-download : descargar :  :  :  :  : 
+download:descargar:::::

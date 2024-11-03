@@ -1,1 +1,1 @@
-smallpox : viruela :  :  :  :  : 
+smallpox:viruela:::::

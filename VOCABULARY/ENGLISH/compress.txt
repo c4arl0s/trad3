@@ -1,1 +1,1 @@
-compress : comprimir :  :  :  :  : 
+compress:comprimir:::::

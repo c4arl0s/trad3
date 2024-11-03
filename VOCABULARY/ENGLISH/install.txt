@@ -1,1 +1,1 @@
-install : instalar :  :  :  :  : 
+install:instalar:::::

@@ -1,1 +1,1 @@
-hang-up : colgar :  :  :  :  : 
+hang-up:colgar:::::

@@ -1,2 +1,2 @@
-process : proceso :  :  :  :  : 
+process:proceso:::::
 process:procesar:::::

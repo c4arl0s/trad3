@@ -1,1 +1,1 @@
-morning : Mañana :  :  :  :  : 
+morning:Mañana:::::

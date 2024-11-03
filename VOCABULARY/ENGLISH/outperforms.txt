@@ -1,1 +1,1 @@
-outperforms : supera :  :  :  :  : 
+outperforms:supera:::::

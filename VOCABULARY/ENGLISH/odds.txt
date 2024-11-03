@@ -1,1 +1,1 @@
-odds : posibilidades :  :  :  :  : 
+odds:posibilidades:::::

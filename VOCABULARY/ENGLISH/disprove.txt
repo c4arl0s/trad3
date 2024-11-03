@@ -1,1 +1,1 @@
-disprove : refutar :  : disproved : disproved : disproving : 
+disprove:refutar::disproved:disproved:disproving:

@@ -1,1 +1,1 @@
-elective : electivo :  :  :  :  : 
+elective:electivo:::::

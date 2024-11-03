@@ -1,2 +1,2 @@
 
-put-on : ponerse (la chamarra) :  :  :  :  : 
+put-on:ponerse (la chamarra):::::

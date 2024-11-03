@@ -1,2 +1,2 @@
 
-fulfill : completar : lograr :  :  :  : 
+fulfill:completar:lograr::::

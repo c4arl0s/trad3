@@ -1,1 +1,1 @@
-give-up : abandonar :  :  :  :  : 
+give-up:abandonar:::::

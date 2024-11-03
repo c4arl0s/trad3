@@ -1,1 +1,1 @@
-Lockable : Bloqueable :  :  :  :  : 
+Lockable:Bloqueable:::::

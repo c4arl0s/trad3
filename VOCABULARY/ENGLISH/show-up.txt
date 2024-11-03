@@ -1,1 +1,1 @@
-show-up : aparecer :  :  :  :  : 
+show-up:aparecer:::::

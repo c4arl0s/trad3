@@ -1,1 +1,1 @@
-raw : crudo :  :  :  :  : 
+raw:crudo:::::

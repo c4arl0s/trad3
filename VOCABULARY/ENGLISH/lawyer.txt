@@ -1,1 +1,1 @@
-lawyer : abogado :  :  :  :  : 
+lawyer:abogado:::::

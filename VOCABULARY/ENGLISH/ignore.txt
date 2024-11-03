@@ -1,1 +1,1 @@
-ignore : ignorar :  : ignored : ignored : ignoring : 
+ignore:ignorar::ignored:ignored:ignoring:

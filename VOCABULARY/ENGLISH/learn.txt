@@ -1,1 +1,1 @@
-learn : aprender :  : learnt : learnt : learning : 
+learn:aprender::learnt:learnt:learning:

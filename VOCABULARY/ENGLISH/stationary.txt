@@ -1,1 +1,1 @@
-stationary : estacionario :  :  :  :  : 
+stationary:estacionario:::::

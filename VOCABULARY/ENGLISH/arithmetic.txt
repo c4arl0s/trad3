@@ -1,1 +1,1 @@
-arithmetic : aritmética :  :  :  :  : 
+arithmetic:aritmética:::::

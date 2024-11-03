@@ -1,2 +1,2 @@
 
-get-around : sortear : evitar (dificultad), convencer (persona), persuadir (persona) :  :  :  : 
+get-around:sortear:evitar (dificultad), convencer (persona), persuadir (persona)::::

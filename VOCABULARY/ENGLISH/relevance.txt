@@ -1,1 +1,1 @@
-relevance : Relevancia :  :  :  :  : 
+relevance:Relevancia:::::

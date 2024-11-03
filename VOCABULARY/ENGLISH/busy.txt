@@ -1,1 +1,1 @@
-busy : ocupado :  :  :  :  : 
+busy:ocupado:::::

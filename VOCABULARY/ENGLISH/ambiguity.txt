@@ -1,2 +1,2 @@
 
-ambiguity : ambigüedad : nombre :  :  :  : 
+ambiguity:ambigüedad:nombre::::

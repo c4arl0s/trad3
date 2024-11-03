@@ -1,1 +1,1 @@
-bill : cuenta :  :  :  :  : 
+bill:cuenta:::::

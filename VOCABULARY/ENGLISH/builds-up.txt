@@ -1,1 +1,1 @@
-builds-up : acumulación :  :  :  :  : 
+builds-up:acumulación:::::

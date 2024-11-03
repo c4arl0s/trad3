@@ -1,1 +1,1 @@
-stall : puesto :  :  :  :  : 
+stall:puesto:::::

@@ -1,2 +1,2 @@
 
-close-run :  : ganar por un margen muy pequeño :  :  :  : 
+close-run::ganar por un margen muy pequeño::::

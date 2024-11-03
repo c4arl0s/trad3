@@ -1,1 +1,1 @@
-yearbook : anuario :  :  :  :  : 
+yearbook:anuario:::::

@@ -1,2 +1,2 @@
-sound : sonar :  :  :  :  : 
+sound:sonar:::::
 sound:sonido:::::

@@ -1,1 +1,1 @@
-dinner : cena :  :  :  :  : 
+dinner:cena:::::

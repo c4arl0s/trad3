@@ -1,1 +1,1 @@
-verbs : verbos :  :  :  :  : 
+verbs:verbos:::::

@@ -1,1 +1,1 @@
-characters : caracteres :  :  :  :  : 
+characters:caracteres:::::

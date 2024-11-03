@@ -1,1 +1,1 @@
-substitution : sustitución :  :  :  :  : 
+substitution:sustitución:::::

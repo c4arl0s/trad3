@@ -1,2 +1,2 @@
-hear : oir :  : heard : heard : hearing : 
-hear : escuchar :  :  :  :  : 
+hear:oir::heard:heard:hearing:
+hear:escuchar:::::

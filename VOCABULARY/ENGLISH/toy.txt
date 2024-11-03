@@ -1,1 +1,1 @@
-toy : juguete :  :  :  :  : 
+toy:juguete:::::

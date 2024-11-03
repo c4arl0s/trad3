@@ -1,2 +1,2 @@
-great : estupendo :  :  :  :  : 
-great : excelente :  :  :  :  : 
+great:estupendo:::::
+great:excelente:::::

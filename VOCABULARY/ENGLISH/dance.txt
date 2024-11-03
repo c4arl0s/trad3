@@ -1,1 +1,1 @@
-dance : bailar :  : danced : danced : dancing : 
+dance:bailar::danced:danced:dancing:

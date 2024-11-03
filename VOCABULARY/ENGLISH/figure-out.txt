@@ -1,1 +1,1 @@
-figure-out : descifrar :  :  :  :  : 
+figure-out:descifrar:::::

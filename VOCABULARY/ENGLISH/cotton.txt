@@ -1,2 +1,2 @@
-cotton : algodon :  :  :  :  : 
-cotton : algodón :  :  :  :  : 
+cotton:algodon:::::
+cotton:algodón:::::

@@ -1,1 +1,1 @@
-recipe : receta :  :  :  :  : 
+recipe:receta:::::

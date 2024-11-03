@@ -1,1 +1,1 @@
-injury : lesión :  :  :  :  : 
+injury:lesión:::::

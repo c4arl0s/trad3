@@ -1,2 +1,2 @@
-disabled : desactivado :  :  :  :  : 
+disabled:desactivado:::::
 disabled:deshabilitado:::::

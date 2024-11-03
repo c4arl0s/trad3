@@ -1,2 +1,2 @@
-start : empezar :  : started : started : starting : let´s start
-Start : iniciar :  :  :  :  : 
+start:empezar::started:started:starting:let´s start
+Start:iniciar:::::

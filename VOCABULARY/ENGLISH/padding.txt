@@ -1,1 +1,1 @@
-padding : relleno :  :  :  :  : 
+padding:relleno:::::

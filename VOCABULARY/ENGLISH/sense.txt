@@ -1,1 +1,1 @@
-sense : sentido :  :  :  :  : 
+sense:sentido:::::

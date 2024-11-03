@@ -1,1 +1,1 @@
-everyday : cada-dia :  :  :  :  : 
+everyday:cada-dia:::::

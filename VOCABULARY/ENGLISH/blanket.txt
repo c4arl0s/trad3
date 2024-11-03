@@ -1,1 +1,1 @@
-blanket : frazada : cobija, manta :  :  :  : 
+blanket:frazada:cobija, manta::::

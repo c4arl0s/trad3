@@ -1,1 +1,1 @@
-tense : tiempo :  :  :  :  : 
+tense:tiempo:::::

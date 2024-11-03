@@ -1,1 +1,1 @@
-bodies : cuerpos :  :  :  :  : 
+bodies:cuerpos:::::

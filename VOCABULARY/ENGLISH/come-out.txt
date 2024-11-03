@@ -1,2 +1,2 @@
 
-come-out : salir de un sitio :  :  :  :  : 
+come-out:salir de un sitio:::::

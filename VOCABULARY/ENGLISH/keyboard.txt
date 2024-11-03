@@ -1,1 +1,1 @@
-keyboard : teclado :  :  :  :  : 
+keyboard:teclado:::::

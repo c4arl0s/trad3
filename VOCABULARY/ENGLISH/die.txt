@@ -1,1 +1,1 @@
-die : morir :  :  :  :  : 
+die:morir:::::

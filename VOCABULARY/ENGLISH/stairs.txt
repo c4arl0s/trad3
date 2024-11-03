@@ -1,1 +1,1 @@
-stairs : escalera :  :  :  :  : 
+stairs:escalera:::::

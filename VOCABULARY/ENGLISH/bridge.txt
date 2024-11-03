@@ -1,1 +1,1 @@
-bridge : puente :  :  :  :  : 
+bridge:puente:::::

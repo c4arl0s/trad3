@@ -1,1 +1,1 @@
-wheat : trigo :  :  :  :  : 
+wheat:trigo:::::

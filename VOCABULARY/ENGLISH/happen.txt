@@ -1,1 +1,1 @@
-happen : suceder :  : happened : happened : happening : A lot of things have happened since last year.
+happen:suceder::happened:happened:happening:A lot of things have happened since last year.

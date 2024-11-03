@@ -1,1 +1,1 @@
-pop : estallido :  :  :  :  : 
+pop:estallido:::::

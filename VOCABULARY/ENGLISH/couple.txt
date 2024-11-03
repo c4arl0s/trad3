@@ -1,1 +1,1 @@
-couple : Pareja :  :  :  :  : 
+couple:Pareja:::::

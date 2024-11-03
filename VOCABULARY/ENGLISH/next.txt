@@ -1,2 +1,2 @@
-next : siguiente :  :  :  :  : 
-next : junto-a :  :  :  :  : 
+next:siguiente:::::
+next:junto-a:::::

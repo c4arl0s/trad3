@@ -1,1 +1,1 @@
-procedure : procedimiento :  :  :  :  : 
+procedure:procedimiento:::::

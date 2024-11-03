@@ -1,2 +1,2 @@
-computer : computadora : computador :  :  :  : this is my computer
-computer : computadora :  :  :  :  : 
+computer:computadora:computador::::this is my computer
+computer:computadora:::::

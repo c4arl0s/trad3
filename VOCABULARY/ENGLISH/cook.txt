@@ -1,1 +1,1 @@
-cook : cocinar :  : cooked : cooked : cooking : 
+cook:cocinar::cooked:cooked:cooking:

@@ -1,3 +1,3 @@
-put : poner :  : put : put : putting : 
-put es el pasado de put / poner : 
-put es el pasado participio de put / poner : 
+put:poner::put:put:putting:
+put es el pasado de put / poner:
+put es el pasado participio de put / poner:

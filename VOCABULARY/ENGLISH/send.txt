@@ -1,1 +1,1 @@
-send : enviar :  : sent : sent : sending : 
+send:enviar::sent:sent:sending:

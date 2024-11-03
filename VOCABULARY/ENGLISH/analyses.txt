@@ -1,1 +1,1 @@
-analyses : análisis :  :  :  :  : 
+analyses:análisis:::::

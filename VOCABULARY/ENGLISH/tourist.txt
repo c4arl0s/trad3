@@ -1,1 +1,1 @@
-tourist : turista :  :  :  :  : 
+tourist:turista:::::

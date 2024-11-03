@@ -1,2 +1,2 @@
 
-speak-up : hablar alto, subir la vo : subir la voz :  :  :  : 
+speak-up:hablar alto, subir la vo:subir la voz::::

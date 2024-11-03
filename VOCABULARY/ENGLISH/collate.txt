@@ -1,1 +1,1 @@
-collate : cotejar :  :  :  :  : 
+collate:cotejar:::::

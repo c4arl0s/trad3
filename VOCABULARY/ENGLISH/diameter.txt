@@ -1,1 +1,1 @@
-diameter : diámetro :  :  :  :  : 
+diameter:diámetro:::::

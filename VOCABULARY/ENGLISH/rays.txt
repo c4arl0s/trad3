@@ -1,1 +1,1 @@
-rays : Rayos :  :  :  :  : 
+rays:Rayos:::::

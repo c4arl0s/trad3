@@ -1,1 +1,1 @@
-animals : Animales :  :  :  :  : 
+animals:Animales:::::

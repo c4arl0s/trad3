@@ -1,3 +1,3 @@
-own : propio : adj. :  :  :  : we have our own pool
-own :  : lo mio, lo tuyo, lo suyo :  :  :  : I want a dog of my own, this house is my own
-own : poseer : ser dueño de :  :  :  : she owns her house, es dueña de su casa
+own:propio:adj.::::we have our own pool
+own::lo mio, lo tuyo, lo suyo::::I want a dog of my own, this house is my own
+own:poseer:ser dueño de::::she owns her house, es dueña de su casa

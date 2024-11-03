@@ -1,1 +1,1 @@
-conditioner : acondicionador :  :  :  :  : 
+conditioner:acondicionador:::::

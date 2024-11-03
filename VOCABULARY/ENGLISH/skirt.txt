@@ -1,2 +1,2 @@
-skirt : falda :  :  :  :  : 
-Skirt : faldita :  :  :  :  : 
+skirt:falda:::::
+Skirt:faldita:::::

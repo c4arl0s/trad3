@@ -1,1 +1,1 @@
-screen : pantalla :  :  :  :  : 
+screen:pantalla:::::

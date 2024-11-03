@@ -1,1 +1,1 @@
-accept : aceptar :  : accepted : accepted : accepting : 
+accept:aceptar::accepted:accepted:accepting:

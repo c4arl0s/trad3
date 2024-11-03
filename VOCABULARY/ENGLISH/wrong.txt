@@ -1,1 +1,1 @@
-wrong : incorrecto :  :  :  :  : 
+wrong:incorrecto:::::

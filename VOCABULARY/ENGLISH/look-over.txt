@@ -1,2 +1,2 @@
 
-look-over : revisar :  :  :  :  : 
+look-over:revisar:::::

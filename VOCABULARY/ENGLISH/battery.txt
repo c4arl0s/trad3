@@ -1,1 +1,1 @@
-battery : batería :  :  :  :  : 
+battery:batería:::::

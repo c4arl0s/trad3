@@ -1,1 +1,1 @@
-stuff : cosas :  :  :  :  : 
+stuff:cosas:::::

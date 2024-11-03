@@ -1,1 +1,1 @@
-declare : declarar :  :  :  :  : 
+declare:declarar:::::

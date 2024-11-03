@@ -1,1 +1,1 @@
-teclear : key :  :  :  :  : 
+teclear:key:::::

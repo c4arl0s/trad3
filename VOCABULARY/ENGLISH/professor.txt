@@ -1,1 +1,1 @@
-professor : profesor :  :  :  :  : 
+professor:profesor:::::

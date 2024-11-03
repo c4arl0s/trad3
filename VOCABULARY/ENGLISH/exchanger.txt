@@ -1,1 +1,1 @@
-exchanger : intercambiador :  :  :  :  : 
+exchanger:intercambiador:::::

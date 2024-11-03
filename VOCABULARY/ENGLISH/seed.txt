@@ -1,1 +1,1 @@
-seed : semilla :  :  :  :  : 
+seed:semilla:::::

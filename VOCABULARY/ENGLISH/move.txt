@@ -1,2 +1,2 @@
-move : mover : moved : moved : moved : moving : 
-move : trasladar :  :  :  :  : 
+move:mover:moved:moved:moved:moving:
+move:trasladar:::::

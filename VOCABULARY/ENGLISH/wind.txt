@@ -1,1 +1,1 @@
-wind : viento :  :  :  :  : 
+wind:viento:::::

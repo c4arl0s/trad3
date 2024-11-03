@@ -1,1 +1,1 @@
-infection : infección :  :  :  :  : 
+infection:infección:::::

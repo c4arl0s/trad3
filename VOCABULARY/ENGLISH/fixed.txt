@@ -1,2 +1,2 @@
-fixed : fijo :  :  :  :  : 
-fixed : arreglado :  :  :  :  : 
+fixed:fijo:::::
+fixed:arreglado:::::

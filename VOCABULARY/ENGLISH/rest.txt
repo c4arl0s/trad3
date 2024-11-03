@@ -1,2 +1,2 @@
-rest : descanso :  :  :  :  : 
-rest : descansar :  :  :  :  : 
+rest:descanso:::::
+rest:descansar:::::

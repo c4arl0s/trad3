@@ -1,1 +1,1 @@
-basket : cesta :  :  :  :  : 
+basket:cesta:::::

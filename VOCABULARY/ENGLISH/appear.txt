@@ -1,1 +1,1 @@
-appear : Aparecer :  :  :  :  : 
+appear:Aparecer:::::

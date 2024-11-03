@@ -1,1 +1,1 @@
-script : guión :  :  :  :  : 
+script:guión:::::

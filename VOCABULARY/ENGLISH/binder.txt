@@ -1,1 +1,1 @@
-binder : aglutinante :  :  :  :  : 
+binder:aglutinante:::::

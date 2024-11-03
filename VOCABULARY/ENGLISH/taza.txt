@@ -1,1 +1,1 @@
-taza : Cup :  :  :  :  : 
+taza:Cup:::::

@@ -1,1 +1,1 @@
-secure : seguro :  :  :  :  : 
+secure:seguro:::::

@@ -1,1 +1,1 @@
-predicate : predicado :  :  :  :  : 
+predicate:predicado:::::

@@ -1,2 +1,2 @@
-equipment : equipo :  :  :  :  : 
+equipment:equipo:::::
 equipment:equipamiento:::::

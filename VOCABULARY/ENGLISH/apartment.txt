@@ -1,1 +1,1 @@
-apartment : apartamento :  :  :  :  : 
+apartment:apartamento:::::

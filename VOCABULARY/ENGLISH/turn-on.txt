@@ -1,1 +1,1 @@
-turn-on : encender :  :  :  :  : 
+turn-on:encender:::::

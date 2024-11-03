@@ -1,1 +1,1 @@
-behavior : comportamiento :  :  :  :  : 
+behavior:comportamiento:::::

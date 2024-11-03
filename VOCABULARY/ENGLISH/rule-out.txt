@@ -1,1 +1,1 @@
-rule-out : descartar :  :  :  :  : 
+rule-out:descartar:::::

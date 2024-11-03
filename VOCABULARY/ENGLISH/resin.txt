@@ -1,1 +1,1 @@
-resin : resina :  :  :  :  : 
+resin:resina:::::

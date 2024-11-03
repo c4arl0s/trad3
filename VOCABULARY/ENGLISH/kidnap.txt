@@ -1,2 +1,2 @@
 
-kidnap : secuestrar :  :  :  :  : 
+kidnap:secuestrar:::::

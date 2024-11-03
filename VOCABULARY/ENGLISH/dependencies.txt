@@ -1,1 +1,1 @@
-dependencies : dependencias :  :  :  :  : 
+dependencies:dependencias:::::

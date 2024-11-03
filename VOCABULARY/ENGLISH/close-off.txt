@@ -1,2 +1,2 @@
 
-close-off : clausurar :  :  :  :  : the owners have closed off all avenues of negotiation, los propietarios cerraron todas las vías de negociación
+close-off:clausurar:::::the owners have closed off all avenues of negotiation, los propietarios cerraron todas las vías de negociación

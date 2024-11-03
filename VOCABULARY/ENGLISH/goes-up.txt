@@ -1,1 +1,1 @@
-goes-up : Sube :  :  :  :  : 
+goes-up:Sube:::::

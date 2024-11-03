@@ -1,1 +1,1 @@
-pizza : Pizza :  :  :  :  : 
+pizza:Pizza:::::

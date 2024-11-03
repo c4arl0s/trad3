@@ -1,1 +1,1 @@
-trees : árboles :  :  :  :  : 
+trees:árboles:::::

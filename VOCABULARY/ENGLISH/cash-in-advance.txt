@@ -1,1 +1,1 @@
-cash-in-advance : pago-de-contado : Payment method in which an order is not processed until full payment is received in advance. Also called cash with order. :  : Read more: http://www.businessdictionary.com/definition/cash-in-advance-CIA.html :  : 
+cash-in-advance:pago-de-contado:Payment method in which an order is not processed until full payment is received in advance. Also called cash with order.::Read more: http://www.businessdictionary.com/definition/cash-in-advance-CIA.html::

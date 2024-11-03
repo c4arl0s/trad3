@@ -1,1 +1,1 @@
-ring : anillo :  :  :  :  : 
+ring:anillo:::::

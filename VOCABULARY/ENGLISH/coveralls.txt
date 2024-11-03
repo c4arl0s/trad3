@@ -1,1 +1,1 @@
-coveralls : overoles :  :  :  :  : 
+coveralls:overoles:::::

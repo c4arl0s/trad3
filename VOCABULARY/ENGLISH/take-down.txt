@@ -1,3 +1,3 @@
-take-down : desmontar : una estructura :  :  :  : 
-take-down : bajar : los pantalones, etc. :  :  :  : 
-take-down : apuntar : tomar nota de :  :  :  : police took down his statement, la policía la declaración.
+take-down:desmontar:una estructura::::
+take-down:bajar:los pantalones, etc.::::
+take-down:apuntar:tomar nota de::::police took down his statement, la policía la declaración.

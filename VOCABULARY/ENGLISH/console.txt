@@ -1,1 +1,1 @@
-console : consola :  :  :  :  : 
+console:consola:::::

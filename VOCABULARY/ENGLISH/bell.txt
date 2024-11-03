@@ -1,1 +1,1 @@
-bell : campana :  :  :  :  : 
+bell:campana:::::

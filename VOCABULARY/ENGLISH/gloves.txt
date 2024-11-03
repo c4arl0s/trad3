@@ -1,1 +1,1 @@
-gloves : guantes :  :  :  :  : 
+gloves:guantes:::::

@@ -1,1 +1,1 @@
-gasket : empaquetadura :  :  :  :  : 
+gasket:empaquetadura:::::

@@ -1,1 +1,1 @@
-ball : pelota :  :  :  :  : 
+ball:pelota:::::

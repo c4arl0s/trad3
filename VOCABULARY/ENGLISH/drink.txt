@@ -1,1 +1,1 @@
-drink : beber :  : drank : drunk : drinking : 
+drink:beber::drank:drunk:drinking:

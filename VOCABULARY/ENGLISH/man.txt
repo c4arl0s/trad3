@@ -1,1 +1,1 @@
-man : hombre :  :  :  :  : 
+man:hombre:::::

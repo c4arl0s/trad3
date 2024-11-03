@@ -1,1 +1,1 @@
-reserved : reservado :  :  :  :  : 
+reserved:reservado:::::

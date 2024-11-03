@@ -1,1 +1,1 @@
-soldier : soldado :  :  :  :  : 
+soldier:soldado:::::

@@ -1,2 +1,2 @@
-look : mirar :  : looked : looked : looking : 
-look : vigilar :  :  :  :  : 
+look:mirar::looked:looked:looking:
+look:vigilar:::::

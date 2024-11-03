@@ -1,2 +1,2 @@
-existed : existió : it never existed :  :  :  : 
-existed : existío :  :  :  :  : 
+existed:existió:it never existed::::
+existed:existío:::::

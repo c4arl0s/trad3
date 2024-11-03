@@ -1,1 +1,1 @@
-throw : lanzar :  : threw : thrown : throwing : 
+throw:lanzar::threw:thrown:throwing:

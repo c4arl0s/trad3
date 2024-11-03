@@ -1,1 +1,1 @@
-details : Detalles :  :  :  :  : 
+details:Detalles:::::

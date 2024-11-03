@@ -1,1 +1,1 @@
-atm : Cajero :  :  :  :  : 
+atm:Cajero:::::

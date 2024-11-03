@@ -1,1 +1,1 @@
-sink : lavabo :  :  :  :  : 
+sink:lavabo:::::

@@ -1,2 +1,2 @@
-get-past : superar : un obstáculo. vtr. :  :  :  : 
-get-past :  : lograr pasar :  :  :  : can I get past? ¿me deja pasar?
+get-past:superar:un obstáculo. vtr.::::
+get-past::lograr pasar::::can I get past? ¿me deja pasar?

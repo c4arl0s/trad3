@@ -1,1 +1,1 @@
-puzzle : rompecabezas :  :  :  :  : 
+puzzle:rompecabezas:::::

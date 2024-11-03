@@ -1,2 +1,2 @@
-concern : preocupacion :  :  :  :  : 
-concern : incomodar :  :  :  :  : 
+concern:preocupacion:::::
+concern:incomodar:::::

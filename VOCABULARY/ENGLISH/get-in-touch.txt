@@ -1,2 +1,2 @@
 
-get-in-touch : comunicarse : get-into : llegar a :  :  : I got into work late, llegué tarde al trabajo.
+get-in-touch:comunicarse:get-into:llegar a:::I got into work late, llegué tarde al trabajo.

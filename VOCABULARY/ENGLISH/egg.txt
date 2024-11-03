@@ -1,1 +1,1 @@
-egg : huevo :  :  :  :  : 
+egg:huevo:::::

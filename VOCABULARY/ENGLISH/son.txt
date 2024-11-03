@@ -1,2 +1,2 @@
-son : hijo :  :  :  :  : 
-son : son :  :  :  :  : 
+son:hijo:::::
+son:son:::::

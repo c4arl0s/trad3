@@ -1,2 +1,2 @@
-mistake : Error :  :  :  :  : 
-mistake : errar :  : Mistook : Mistaken : Mistaking : 
+mistake:Error:::::
+mistake:errar::Mistook:Mistaken:Mistaking:

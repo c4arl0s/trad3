@@ -1,1 +1,1 @@
-package : paquete :  :  :  :  : 
+package:paquete:::::

@@ -1,1 +1,1 @@
-almacenamiento : storage :  :  :  :  : 
+almacenamiento:storage:::::

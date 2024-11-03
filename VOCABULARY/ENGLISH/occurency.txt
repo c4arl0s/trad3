@@ -1,1 +1,1 @@
-occurency : Ocurrencia :  :  :  :  : 
+occurency:Ocurrencia:::::

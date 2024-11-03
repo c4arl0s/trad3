@@ -1,1 +1,1 @@
-supplies : suministros :  :  :  :  : 
+supplies:suministros:::::

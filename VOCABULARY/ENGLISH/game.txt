@@ -1,1 +1,1 @@
-game : juego :  :  :  :  : 
+game:juego:::::

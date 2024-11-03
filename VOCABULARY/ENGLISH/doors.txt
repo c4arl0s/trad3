@@ -1,1 +1,1 @@
-doors : puertas :  :  :  :  : 
+doors:puertas:::::

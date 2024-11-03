@@ -1,1 +1,1 @@
-health : salud :  :  :  :  : 
+health:salud:::::

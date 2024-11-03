@@ -1,1 +1,1 @@
-paper : papel :  :  :  :  : 
+paper:papel:::::

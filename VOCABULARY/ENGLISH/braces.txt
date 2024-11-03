@@ -1,1 +1,1 @@
-braces : tirantes :  :  :  :  : 
+braces:tirantes:::::

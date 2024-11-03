@@ -1,1 +1,1 @@
-healthy : saludable :  :  :  :  : 
+healthy:saludable:::::

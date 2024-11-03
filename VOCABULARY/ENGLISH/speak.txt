@@ -1,1 +1,1 @@
-speak : hablar :  : spoke : spoken : speaking : 
+speak:hablar::spoke:spoken:speaking:

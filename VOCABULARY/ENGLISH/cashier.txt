@@ -1,1 +1,1 @@
-cashier : cajero :  :  :  :  : 
+cashier:cajero:::::

@@ -1,2 +1,2 @@
 
-risk : riesgo :  :  :  :  : 
+risk:riesgo:::::

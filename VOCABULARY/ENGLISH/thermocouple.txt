@@ -1,1 +1,1 @@
-thermocouple : termopar :  :  :  :  : 
+thermocouple:termopar:::::

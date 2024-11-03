@@ -1,1 +1,1 @@
-piece : pedazo :  :  :  :  : 
+piece:pedazo:::::

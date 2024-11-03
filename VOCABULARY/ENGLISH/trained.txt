@@ -1,1 +1,1 @@
-trained : entrenado :  :  :  :  : 
+trained:entrenado:::::

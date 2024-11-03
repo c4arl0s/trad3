@@ -1,2 +1,2 @@
-case : caso :  :  :  :  : 
-case : estuche :  :  :  :  : 
+case:caso:::::
+case:estuche:::::

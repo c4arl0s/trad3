@@ -1,1 +1,1 @@
-sale : venta :  :  :  :  : 
+sale:venta:::::

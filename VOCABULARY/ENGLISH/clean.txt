@@ -1,1 +1,1 @@
-clean : limpiar :  :  :  :  : 
+clean:limpiar:::::

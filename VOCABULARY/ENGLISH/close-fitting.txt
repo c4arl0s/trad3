@@ -1,2 +1,2 @@
 
-close-fitting :  : this jumper is uncomfortably close-fitting, este jersey es demasiado ajustado :  :  :  : this jumper is uncomfortably close-fitting, este jersey es demasiado ajustado
+close-fitting::this jumper is uncomfortably close-fitting, este jersey es demasiado ajustado::::this jumper is uncomfortably close-fitting, este jersey es demasiado ajustado

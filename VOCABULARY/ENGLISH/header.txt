@@ -1,1 +1,1 @@
-header : encabezamiento :  :  :  :  : 
+header:encabezamiento:::::

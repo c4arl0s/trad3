@@ -1,2 +1,2 @@
-something : alguna :  :  :  :  : 
-something : algo :  :  :  :  : 
+something:alguna:::::
+something:algo:::::

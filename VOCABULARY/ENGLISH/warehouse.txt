@@ -1,1 +1,1 @@
-warehouse : almacén :  :  :  :  : 
+warehouse:almacén:::::

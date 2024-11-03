@@ -1,1 +1,1 @@
-bullet : bala :  :  :  :  : 
+bullet:bala:::::

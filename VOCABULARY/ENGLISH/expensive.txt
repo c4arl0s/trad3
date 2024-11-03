@@ -1,1 +1,1 @@
-expensive : costoso :  :  :  :  : 
+expensive:costoso:::::

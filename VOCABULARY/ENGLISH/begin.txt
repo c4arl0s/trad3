@@ -1,1 +1,1 @@
-begin : comenzar :  : began : begun : beginning : 
+begin:comenzar::began:begun:beginning:

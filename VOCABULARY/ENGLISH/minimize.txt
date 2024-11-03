@@ -1,1 +1,1 @@
-minimize : minimizar :  :  :  :  : 
+minimize:minimizar:::::

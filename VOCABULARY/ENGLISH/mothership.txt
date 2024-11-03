@@ -1,1 +1,1 @@
-mothership : nave :  :  :  :  : 
+mothership:nave:::::

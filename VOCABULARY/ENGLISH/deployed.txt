@@ -1,1 +1,1 @@
-deployed : desplegada :  :  :  :  : 
+deployed:desplegada:::::

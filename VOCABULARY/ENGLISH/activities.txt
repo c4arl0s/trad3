@@ -1,1 +1,1 @@
-activities : actividades :  :  :  :  : 
+activities:actividades:::::

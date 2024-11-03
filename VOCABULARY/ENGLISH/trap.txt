@@ -1,1 +1,1 @@
-trap : trampa :  :  :  :  : 
+trap:trampa:::::

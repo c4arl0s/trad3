@@ -1,1 +1,1 @@
-peer : mirar :  :  :  :  : 
+peer:mirar:::::

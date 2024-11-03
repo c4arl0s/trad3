@@ -1,1 +1,1 @@
-garage : garaje :  :  :  :  : 
+garage:garaje:::::

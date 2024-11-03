@@ -1,2 +1,2 @@
 
-close-season : veda : de caza :  :  :  : 
+close-season:veda:de caza::::

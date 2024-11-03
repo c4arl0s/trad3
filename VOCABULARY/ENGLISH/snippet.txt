@@ -1,1 +1,1 @@
-snippet : retazo :  :  :  :  : 
+snippet:retazo:::::

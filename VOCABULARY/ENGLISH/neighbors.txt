@@ -1,1 +1,1 @@
-neighbors : vecinos :  :  :  :  : 
+neighbors:vecinos:::::

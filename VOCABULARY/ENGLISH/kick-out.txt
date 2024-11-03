@@ -1,1 +1,1 @@
-kick-out : echar :  :  :  :  : 
+kick-out:echar:::::

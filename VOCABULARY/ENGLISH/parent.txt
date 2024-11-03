@@ -1,1 +1,1 @@
-parent : padre :  :  :  :  : 
+parent:padre:::::

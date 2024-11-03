@@ -1,1 +1,1 @@
-planet : planeta :  :  :  :  : 
+planet:planeta:::::

@@ -1,1 +1,1 @@
-shear : cortar :  :  :  :  : 
+shear:cortar:::::

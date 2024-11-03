@@ -1,1 +1,1 @@
-utter : pronunciar :  :  :  :  : 
+utter:pronunciar:::::

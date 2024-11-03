@@ -1,1 +1,1 @@
-count : contar :  : counted : counted : counting : 
+count:contar::counted:counted:counting:

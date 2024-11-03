@@ -1,1 +1,1 @@
-feed : alimentar :  : fed : fed : feeding : 
+feed:alimentar::fed:fed:feeding:

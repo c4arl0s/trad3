@@ -1,1 +1,1 @@
-streams : arroyos :  :  :  :  : 
+streams:arroyos:::::

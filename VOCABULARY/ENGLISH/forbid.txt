@@ -1,1 +1,1 @@
-forbid : prohibir :  : forbade : forbidden : forbidding : 
+forbid:prohibir::forbade:forbidden:forbidding:

@@ -1,1 +1,1 @@
-some : - : Se utiliza para cosas que no se pueden contar, some cheese, some water, some rice, some ham. :  :  :  : 
+some:-:Se utiliza para cosas que no se pueden contar, some cheese, some water, some rice, some ham.::::

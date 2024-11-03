@@ -1,1 +1,1 @@
-fit : ajustar :  : fitted : fitted : fitting : 
+fit:ajustar::fitted:fitted:fitting:

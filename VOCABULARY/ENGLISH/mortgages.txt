@@ -1,1 +1,1 @@
-mortgages : hipotecas :  :  :  :  : 
+mortgages:hipotecas:::::

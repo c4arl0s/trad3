@@ -1,1 +1,1 @@
-weapon : arma :  :  :  :  : 
+weapon:arma:::::

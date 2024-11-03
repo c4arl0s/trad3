@@ -1,2 +1,2 @@
-take-off : remove : something you're wearing : : : : Please take your hat off when you go inside a building.
-take-off : leave : depart (often suddenly or quickly) :  :  :  : "Was something wrong with Jill? She took off without saying goodbye." "When does your plane take off?
+take-off:remove:something you're wearing:::: Please take your hat off when you go inside a building.
+take-off:leave:depart (often suddenly or quickly)::::"Was something wrong with Jill? She took off without saying goodbye." "When does your plane take off?

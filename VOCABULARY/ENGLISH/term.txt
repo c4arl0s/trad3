@@ -1,1 +1,1 @@
-term : término : Education is an investment in the long term. :  :  :  : Education is an investment in the long term.
+term:término:Education is an investment in the long term.::::Education is an investment in the long term.

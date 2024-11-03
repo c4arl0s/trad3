@@ -1,1 +1,1 @@
-cup : vaso :  :  :  :  : 
+cup:vaso:::::

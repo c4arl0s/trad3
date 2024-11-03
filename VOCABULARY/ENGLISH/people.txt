@@ -1,1 +1,1 @@
-people : gente :  :  :  :  : 
+people:gente:::::

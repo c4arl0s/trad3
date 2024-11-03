@@ -1,1 +1,1 @@
-translate : traducir :  :  :  :  : 
+translate:traducir:::::

@@ -1,1 +1,1 @@
-gate : portón :  :  :  :  : 
+gate:portón:::::

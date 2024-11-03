@@ -1,1 +1,1 @@
-loop : lazo :  :  :  :  : 
+loop:lazo:::::

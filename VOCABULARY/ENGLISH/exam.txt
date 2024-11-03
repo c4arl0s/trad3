@@ -1,1 +1,1 @@
-exam : examen :  :  :  :  : 
+exam:examen:::::

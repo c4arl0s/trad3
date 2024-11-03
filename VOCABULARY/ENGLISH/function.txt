@@ -1,1 +1,1 @@
-function : función :  :  :  :  : 
+function:función:::::

@@ -1,2 +1,2 @@
-higher : mayor :  :  :  :  : 
-higher : más-alto :  :  :  :  : 
+higher:mayor:::::
+higher:más-alto:::::

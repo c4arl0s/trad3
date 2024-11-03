@@ -1,1 +1,1 @@
-seats : asientos :  :  :  :  : 
+seats:asientos:::::
