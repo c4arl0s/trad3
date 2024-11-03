@@ -1,1 +1,1 @@
-journal : diario :  :  :  :  : 
+journal:diario:::::

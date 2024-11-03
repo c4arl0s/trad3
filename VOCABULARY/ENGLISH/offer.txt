@@ -1,2 +1,2 @@
-offer : oferta :  :  :  :  : 
-offer : ofrecer :  :  :  :  : 
+offer:oferta:::::
+offer:ofrecer:::::

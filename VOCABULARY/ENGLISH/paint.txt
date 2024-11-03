@@ -1,1 +1,1 @@
-paint : pintar :  :  :  :  : 
+paint:pintar:::::

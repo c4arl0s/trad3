@@ -1,1 +1,1 @@
-pull : jalar : tirón :  :  :  : 
+pull:jalar:tirón::::

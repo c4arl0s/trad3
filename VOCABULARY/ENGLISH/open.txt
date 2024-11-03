@@ -1,1 +1,1 @@
-open : abrir :  : opened : opened : opening : 
+open:abrir::opened:opened:opening:

@@ -1,1 +1,1 @@
-platform : plataforma :  :  :  :  : 
+platform:plataforma:::::

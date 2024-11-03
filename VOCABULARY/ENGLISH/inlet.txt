@@ -1,1 +1,1 @@
-inlet : entrada :  :  :  :  : 
+inlet:entrada:::::

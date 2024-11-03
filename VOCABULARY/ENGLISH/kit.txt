@@ -1,1 +1,1 @@
-kit : equipo :  :  :  :  : 
+kit:equipo:::::

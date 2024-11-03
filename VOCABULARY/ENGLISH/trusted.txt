@@ -1,1 +1,1 @@
-trusted : confiado :  :  :  :  : 
+trusted:confiado:::::

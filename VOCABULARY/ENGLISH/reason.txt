@@ -1,2 +1,2 @@
-reason : razón :  :  :  :  : 
-reason : razon :  :  :  :  : 
+reason:razón:::::
+reason:razon:::::

@@ -1,2 +1,2 @@
-application : solicitud :  :  :  :  : 
-application : aplicacion : computacion :  :  :  : 
+application:solicitud:::::
+application:aplicacion:computacion::::

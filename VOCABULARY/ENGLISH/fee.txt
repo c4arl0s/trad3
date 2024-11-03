@@ -1,1 +1,1 @@
-fee : cuota :  :  :  :  : 
+fee:cuota:::::

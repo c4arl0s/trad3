@@ -1,1 +1,1 @@
-manufacturers : fabricantes :  :  :  :  : 
+manufacturers:fabricantes:::::

@@ -1,1 +1,1 @@
-algorithm : algoritmo :  :  :  :  : 
+algorithm:algoritmo:::::

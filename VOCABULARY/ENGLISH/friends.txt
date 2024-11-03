@@ -1,1 +1,1 @@
-friends : amigos :  :  :  :  : 
+friends:amigos:::::

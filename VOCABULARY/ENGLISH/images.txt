@@ -1,1 +1,1 @@
-images : Imágenes :  :  :  :  : 
+images:Imágenes:::::

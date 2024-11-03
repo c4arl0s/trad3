@@ -1,1 +1,1 @@
-persistent : persistente :  :  :  :  : 
+persistent:persistente:::::

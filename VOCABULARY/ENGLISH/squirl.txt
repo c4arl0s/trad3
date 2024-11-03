@@ -1,1 +1,1 @@
-squirl : ardilla :  :  :  :  : 
+squirl:ardilla:::::

@@ -1,2 +1,2 @@
 
-get-after : perseguir : verbo transitivo :  :  :  : 
+get-after:perseguir:verbo transitivo::::

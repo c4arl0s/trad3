@@ -1,1 +1,1 @@
-disable : inhabilitar :  :  :  :  : 
+disable:inhabilitar:::::

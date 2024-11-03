@@ -1,1 +1,1 @@
-lose : perder :  : lost : lost : losing : 
+lose:perder::lost:lost:losing:

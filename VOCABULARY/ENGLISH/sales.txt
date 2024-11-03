@@ -1,1 +1,1 @@
-sales : ventas :  :  :  :  : 
+sales:ventas:::::

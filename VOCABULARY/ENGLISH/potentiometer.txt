@@ -1,1 +1,1 @@
-potentiometer : potenciómetro :  :  :  :  : 
+potentiometer:potenciómetro:::::

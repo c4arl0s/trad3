@@ -1,1 +1,1 @@
-asserts : afirma :  :  :  :  : 
+asserts:afirma:::::

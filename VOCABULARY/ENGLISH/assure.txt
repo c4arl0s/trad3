@@ -1,1 +1,1 @@
-assure : asegurar :  :  :  :  : 
+assure:asegurar:::::

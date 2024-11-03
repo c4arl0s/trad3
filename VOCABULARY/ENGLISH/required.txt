@@ -1,1 +1,1 @@
-required : necesario :  :  :  :  : 
+required:necesario:::::

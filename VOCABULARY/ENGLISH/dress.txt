@@ -1,1 +1,1 @@
-dress : vestir :  :  :  :  : 
+dress:vestir:::::

@@ -1,1 +1,1 @@
-frequencies : Frecuencias :  :  :  :  : 
+frequencies:Frecuencias:::::

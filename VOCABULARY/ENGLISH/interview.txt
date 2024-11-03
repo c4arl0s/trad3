@@ -1,1 +1,1 @@
-interview : entrevista :  :  :  :  : 
+interview:entrevista:::::

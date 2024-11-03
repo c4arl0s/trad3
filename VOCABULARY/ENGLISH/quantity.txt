@@ -1,1 +1,1 @@
-quantity : cantidad :  :  :  :  : 
+quantity:cantidad:::::

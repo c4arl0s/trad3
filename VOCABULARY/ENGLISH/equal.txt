@@ -1,1 +1,1 @@
-equal : igual :  :  :  :  : 
+equal:igual:::::

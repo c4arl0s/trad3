@@ -1,1 +1,1 @@
-locomotive : locomotora :  :  :  :  : 
+locomotive:locomotora:::::

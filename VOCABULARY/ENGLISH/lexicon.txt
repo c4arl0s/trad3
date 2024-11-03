@@ -1,1 +1,1 @@
-lexicon : léxico :  :  :  :  : 
+lexicon:léxico:::::

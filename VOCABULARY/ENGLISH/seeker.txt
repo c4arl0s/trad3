@@ -1,1 +1,1 @@
-seeker : buscador :  :  :  :  : 
+seeker:buscador:::::

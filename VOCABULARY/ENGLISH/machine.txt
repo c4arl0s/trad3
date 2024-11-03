@@ -1,1 +1,1 @@
-machine : máquina :  :  :  :  : 
+machine:máquina:::::

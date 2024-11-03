@@ -1,1 +1,1 @@
-transfer : transferir :  :  :  :  : 
+transfer:transferir:::::

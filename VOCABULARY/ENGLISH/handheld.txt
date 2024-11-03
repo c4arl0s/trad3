@@ -1,1 +1,1 @@
-handheld : portátil :  :  :  :  : 
+handheld:portátil:::::

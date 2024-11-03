@@ -1,1 +1,1 @@
-inductance : inductancia :  :  :  :  : 
+inductance:inductancia:::::

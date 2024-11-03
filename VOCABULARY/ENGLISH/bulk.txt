@@ -1,1 +1,1 @@
-bulk : abultar :  :  :  :  : 
+bulk:abultar:::::

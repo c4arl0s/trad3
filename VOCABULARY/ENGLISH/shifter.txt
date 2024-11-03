@@ -1,1 +1,1 @@
-shifter : palanca :  :  :  :  : 
+shifter:palanca:::::

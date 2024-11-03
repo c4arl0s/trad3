@@ -1,1 +1,1 @@
-plant : planta :  :  :  :  : 
+plant:planta:::::

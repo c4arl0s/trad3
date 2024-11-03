@@ -1,1 +1,1 @@
-injured : lesionado :  :  :  :  : 
+injured:lesionado:::::

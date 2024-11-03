@@ -1,1 +1,1 @@
-arguments : argumentos :  :  :  :  : 
+arguments:argumentos:::::

@@ -1,1 +1,1 @@
-waste : residuos :  :  :  :  : 
+waste:residuos:::::

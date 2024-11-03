@@ -1,1 +1,1 @@
-ambassador : embajador :  :  :  :  : 
+ambassador:embajador:::::

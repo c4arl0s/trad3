@@ -1,1 +1,1 @@
-illness : enfermedad :  :  :  :  : 
+illness:enfermedad:::::

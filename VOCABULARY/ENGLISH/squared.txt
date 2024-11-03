@@ -1,1 +1,1 @@
-squared : cuadrado :  :  :  :  : 
+squared:cuadrado:::::

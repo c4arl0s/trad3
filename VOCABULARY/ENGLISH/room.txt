@@ -1,1 +1,1 @@
-room : habitación :  :  :  :  : 
+room:habitación:::::

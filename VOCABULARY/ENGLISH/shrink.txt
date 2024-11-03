@@ -1,1 +1,1 @@
-shrink : encoger :  :  :  :  : 
+shrink:encoger:::::

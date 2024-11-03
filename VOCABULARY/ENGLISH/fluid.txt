@@ -1,1 +1,1 @@
-fluid : líquido :  :  :  :  : 
+fluid:líquido:::::

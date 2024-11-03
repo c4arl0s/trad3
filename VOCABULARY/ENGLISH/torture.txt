@@ -1,1 +1,1 @@
-torture : tortura :  :  :  :  : 
+torture:tortura:::::

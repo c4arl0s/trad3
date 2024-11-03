@@ -1,1 +1,1 @@
-unfreeze : descongelar :  : unfroze : unfrozen : unfreezing : 
+unfreeze:descongelar::unfroze:unfrozen:unfreezing:

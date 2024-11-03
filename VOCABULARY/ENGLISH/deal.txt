@@ -1,2 +1,2 @@
-deal : repartir :  : dealt : dealt : dealing : 
-deal : negocio :  :  :  :  : 
+deal:repartir::dealt:dealt:dealing:
+deal:negocio:::::

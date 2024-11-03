@@ -1,1 +1,1 @@
-teach : enseñar :  : taught : taught : teaching : 
+teach:enseñar::taught:taught:teaching:

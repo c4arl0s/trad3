@@ -1,1 +1,1 @@
-vote : votacion :  :  :  :  : 
+vote:votacion:::::

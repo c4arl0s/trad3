@@ -1,1 +1,1 @@
-mochila : backpack :  :  :  :  : 
+mochila:backpack:::::

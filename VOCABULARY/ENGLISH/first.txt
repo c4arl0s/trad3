@@ -1,2 +1,2 @@
-first : primero :  :  :  :  : 
-First : primera :  :  :  :  : 
+first:primero:::::
+First:primera:::::

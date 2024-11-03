@@ -1,1 +1,1 @@
-debris : escombros :  :  :  :  : 
+debris:escombros:::::

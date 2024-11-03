@@ -1,1 +1,1 @@
-knight : caballero :  :  :  :  : 
+knight:caballero:::::

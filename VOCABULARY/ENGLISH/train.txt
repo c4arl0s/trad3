@@ -1,1 +1,1 @@
-train : tren :  :  :  :  : 
+train:tren:::::

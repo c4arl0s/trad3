@@ -1,1 +1,1 @@
-datasheet : ficha : ficha técnica :  :  :  : 
+datasheet:ficha:ficha técnica::::

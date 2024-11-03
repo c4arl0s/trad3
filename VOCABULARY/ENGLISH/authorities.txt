@@ -1,1 +1,1 @@
-authorities : autoridades :  :  :  :  : 
+authorities:autoridades:::::

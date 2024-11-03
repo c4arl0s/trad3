@@ -1,1 +1,1 @@
-guess : adivinar :  :  :  :  : guess what ?, adivina qué!
+guess:adivinar:::::guess what ?, adivina qué!

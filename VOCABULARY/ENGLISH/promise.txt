@@ -1,1 +1,1 @@
-promise : promesa :  :  :  :  : 
+promise:promesa:::::

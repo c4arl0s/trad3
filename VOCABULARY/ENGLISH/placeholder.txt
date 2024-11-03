@@ -1,1 +1,1 @@
-placeholder : marcador :  :  :  :  : 
+placeholder:marcador:::::

@@ -1,1 +1,1 @@
-lock : bloquear :  : locked : locked : locking : 
+lock:bloquear::locked:locked:locking:

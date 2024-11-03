@@ -1,2 +1,2 @@
-make-up : maquillaje :  :  :  :  :
-make-up : compensar : i will make it up to you :  :  :  :  : 
+make-up:maquillaje:::: :
+make-up:compensar:i will make it up to you:::::

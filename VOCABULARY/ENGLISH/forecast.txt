@@ -1,1 +1,1 @@
-forecast : pronóstico :  :  :  :  : 
+forecast:pronóstico:::::

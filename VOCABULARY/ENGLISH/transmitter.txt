@@ -1,1 +1,1 @@
-transmitter : transmisor :  :  :  :  : 
+transmitter:transmisor:::::

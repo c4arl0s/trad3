@@ -1,2 +1,2 @@
-actually : realmente : en efecto, de hecho :  :  :  : 
-actually :  : de hecho :  :  :  : 
+actually:realmente:en efecto, de hecho::::
+actually::de hecho::::

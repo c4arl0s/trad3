@@ -1,1 +1,1 @@
-theory : teoría :  :  :  :  : 
+theory:teoría:::::

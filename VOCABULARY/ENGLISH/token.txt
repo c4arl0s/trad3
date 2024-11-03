@@ -1,1 +1,1 @@
-token : simbólico :  :  :  :  : 
+token:simbólico:::::

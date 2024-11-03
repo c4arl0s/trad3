@@ -1,1 +1,1 @@
-century : siglo :  :  :  :  : 
+century:siglo:::::

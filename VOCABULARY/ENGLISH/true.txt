@@ -1,2 +1,2 @@
-true : cierto :  :  :  :  : 
+true:cierto:::::
 TRUE:verdad:::::

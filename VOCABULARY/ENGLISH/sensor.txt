@@ -1,1 +1,1 @@
-sensor : sensor :  :  :  :  : 
+sensor:sensor:::::

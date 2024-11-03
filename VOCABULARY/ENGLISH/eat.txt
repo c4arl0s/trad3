@@ -1,1 +1,1 @@
-eat : comer :  : ate : eaten : eating : 
+eat:comer::ate:eaten:eating:

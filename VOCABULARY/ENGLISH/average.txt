@@ -1,1 +1,1 @@
-average : promedio :  :  :  :  : 
+average:promedio:::::

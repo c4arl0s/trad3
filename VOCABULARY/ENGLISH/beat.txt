@@ -1,2 +1,2 @@
-beat : golpear :  : beat : beaten :  : 
+beat:golpear::beat:beaten::
 beat es el pasado de beat / golpear 

@@ -1,1 +1,1 @@
-sand : arena :  :  :  :  : 
+sand:arena:::::

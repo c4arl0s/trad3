@@ -1,1 +1,1 @@
-image : imagen :  :  :  :  : 
+image:imagen:::::

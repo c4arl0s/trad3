@@ -1,1 +1,1 @@
-articles : artículos :  :  :  :  : 
+articles:artículos:::::

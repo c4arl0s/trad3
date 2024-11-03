@@ -1,1 +1,1 @@
-get : obtener :  : got : gotten : getting : I didn't get it
+get:obtener::got:gotten:getting:I didn't get it

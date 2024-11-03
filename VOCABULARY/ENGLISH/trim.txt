@@ -1,1 +1,1 @@
-trim : recortar :  :  :  :  : 
+trim:recortar:::::

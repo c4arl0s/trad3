@@ -1,1 +1,1 @@
-build-in : incorporado : incorporar :  :  :  : 
+build-in:incorporado:incorporar::::

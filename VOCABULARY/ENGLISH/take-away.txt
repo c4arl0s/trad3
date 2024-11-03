@@ -1,3 +1,3 @@
 
-take-away : llevarse :  :  :  :  : 
-take-away : quitar :  :  :  :  : to take something away from sb, quitarle algo a alguien.
+take-away:llevarse:::::
+take-away:quitar:::::to take something away from sb, quitarle algo a alguien.

@@ -1,1 +1,1 @@
-dialog : diálogo :  :  :  :  : 
+dialog:diálogo:::::

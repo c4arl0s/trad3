@@ -1,1 +1,1 @@
-forum : foro :  :  :  :  : 
+forum:foro:::::

@@ -1,1 +1,1 @@
-monkey : mono :  :  :  :  : 
+monkey:mono:::::

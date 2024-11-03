@@ -1,1 +1,1 @@
-vendors : vendedores :  :  :  :  : 
+vendors:vendedores:::::

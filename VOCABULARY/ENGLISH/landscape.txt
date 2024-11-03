@@ -1,1 +1,1 @@
-landscape : panorama :  :  :  :  : 
+landscape:panorama:::::

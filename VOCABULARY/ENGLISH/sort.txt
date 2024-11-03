@@ -1,1 +1,1 @@
-sort : clase : clasificar, ordenar. :  :  :  : 
+sort:clase:clasificar, ordenar.::::

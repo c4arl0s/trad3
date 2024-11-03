@@ -1,1 +1,1 @@
-plot : trama :  :  :  :  : 
+plot:trama:::::

@@ -1,2 +1,2 @@
-victim : víctima :  :  :  :  : 
-victim : victima :  :  :  :  : 
+victim:víctima:::::
+victim:victima:::::

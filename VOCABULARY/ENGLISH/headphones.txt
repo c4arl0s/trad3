@@ -1,1 +1,1 @@
-headphones : auriculares :  :  :  :  : 
+headphones:auriculares:::::

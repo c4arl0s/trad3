@@ -1,2 +1,2 @@
-friendly : amable :  :  :  :  : 
-friendly : amigable :  :  :  :  : 
+friendly:amable:::::
+friendly:amigable:::::

@@ -1,1 +1,1 @@
-result : resultado :  :  :  :  : 
+result:resultado:::::

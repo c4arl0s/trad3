@@ -1,1 +1,1 @@
-batch : lote :  :  :  :  : 
+batch:lote:::::

@@ -1,1 +1,1 @@
-exit : salir :  :  :  :  : 
+exit:salir:::::

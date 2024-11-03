@@ -1,1 +1,1 @@
-left-out : Excluido :  :  :  :  : 
+left-out:Excluido:::::

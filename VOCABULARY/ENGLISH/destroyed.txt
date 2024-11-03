@@ -1,1 +1,1 @@
-destroyed : destruido :  :  :  :  : 
+destroyed:destruido:::::

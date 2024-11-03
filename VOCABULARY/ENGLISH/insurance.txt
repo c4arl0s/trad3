@@ -1,1 +1,1 @@
-insurance : seguro :  :  :  :  : 
+insurance:seguro:::::

@@ -1,1 +1,1 @@
-card : tarjeta :  :  :  :  : 
+card:tarjeta:::::

@@ -1,2 +1,2 @@
-archive : archivo :  :  :  :  : 
+archive:archivo:::::
 archive:archivo:::::

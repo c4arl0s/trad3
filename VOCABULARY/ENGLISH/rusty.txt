@@ -1,1 +1,1 @@
-rusty : oxidado :  :  :  :  : 
+rusty:oxidado:::::

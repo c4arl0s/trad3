@@ -1,1 +1,1 @@
-external : externo :  :  :  :  : 
+external:externo:::::

@@ -1,1 +1,1 @@
-find-out : averiguar :  :  :  :  : 
+find-out:averiguar:::::

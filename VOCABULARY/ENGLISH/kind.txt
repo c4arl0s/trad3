@@ -1,1 +1,1 @@
-kind : tipo :  :  :  :  : 
+kind:tipo:::::

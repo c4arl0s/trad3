@@ -1,1 +1,1 @@
-telescope : telescopio :  :  :  :  : 
+telescope:telescopio:::::

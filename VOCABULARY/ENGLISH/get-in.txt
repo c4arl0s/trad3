@@ -1,1 +1,1 @@
-get-in : entrar : v. :  :  :  : 
+get-in:entrar:v.::::

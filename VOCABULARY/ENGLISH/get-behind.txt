@@ -1,2 +1,2 @@
 
-get-behind :  : quedarse atrás : verbo intransitivo :  :  : 
+get-behind::quedarse atrás:verbo intransitivo:::

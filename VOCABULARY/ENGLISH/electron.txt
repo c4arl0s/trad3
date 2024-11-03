@@ -1,1 +1,1 @@
-electron : electrón :  :  :  :  : 
+electron:electrón:::::

@@ -1,1 +1,1 @@
-print : impresión :  :  :  :  : 
+print:impresión:::::

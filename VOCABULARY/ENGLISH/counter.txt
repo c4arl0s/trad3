@@ -1,1 +1,1 @@
-counter : mostrador :  :  :  :  : 
+counter:mostrador:::::

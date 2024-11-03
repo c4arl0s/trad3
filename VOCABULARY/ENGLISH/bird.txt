@@ -1,1 +1,1 @@
-bird : pájaro :  :  :  :  : 
+bird:pájaro:::::

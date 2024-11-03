@@ -1,1 +1,1 @@
-statement : declaración :  :  :  :  : 
+statement:declaración:::::

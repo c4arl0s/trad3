@@ -1,1 +1,1 @@
-farming : agricultura :  :  :  :  : 
+farming:agricultura:::::

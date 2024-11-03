@@ -1,1 +1,1 @@
-champs : campeones :  :  :  :  : 
+champs:campeones:::::

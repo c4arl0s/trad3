@@ -1,2 +1,2 @@
-add : agregar : añadir, sumar :  :  :  : 
-add : agregar :  :  :  :  : 
+add:agregar:añadir, sumar::::
+add:agregar:::::

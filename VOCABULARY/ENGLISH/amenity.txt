@@ -1,1 +1,1 @@
-amenity : amenidad :  :  :  :  : 
+amenity:amenidad:::::

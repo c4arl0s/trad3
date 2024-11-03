@@ -1,1 +1,1 @@
-allocation : asignación :  :  :  :  : 
+allocation:asignación:::::

@@ -1,1 +1,1 @@
-adventurers : Aventureros :  :  :  :  : 
+adventurers:Aventureros:::::

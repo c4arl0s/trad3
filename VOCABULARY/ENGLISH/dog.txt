@@ -1,1 +1,1 @@
-dog : perro :  :  :  :  : 
+dog:perro:::::

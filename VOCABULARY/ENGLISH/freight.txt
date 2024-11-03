@@ -1,1 +1,1 @@
-freight : carga :  :  :  :  : It will be shipping today via UPS freight
+freight:carga:::::It will be shipping today via UPS freight

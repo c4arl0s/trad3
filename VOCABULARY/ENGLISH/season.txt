@@ -1,1 +1,1 @@
-season : temporada :  :  :  :  : 
+season:temporada:::::

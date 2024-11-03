@@ -1,2 +1,2 @@
-backslash : barra :  :  :  :  : 
-backslash : barra-invertida :  :  :  :  : 
+backslash:barra:::::
+backslash:barra-invertida:::::

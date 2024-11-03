@@ -1,1 +1,1 @@
-sell : vender :  :  :  :  : 
+sell:vender:::::

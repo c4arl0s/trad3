@@ -1,1 +1,1 @@
-field : campo :  :  :  :  : 
+field:campo:::::

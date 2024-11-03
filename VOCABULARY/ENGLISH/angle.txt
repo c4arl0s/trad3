@@ -1,1 +1,1 @@
-angle : ángulo :  :  :  :  : 
+angle:ángulo:::::

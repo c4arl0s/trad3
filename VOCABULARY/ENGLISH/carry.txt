@@ -1,1 +1,1 @@
-carry : llevar : transportar :  :  :  : Could you carry this table from the kitchen to the dining room?
+carry:llevar:transportar::::Could you carry this table from the kitchen to the dining room?

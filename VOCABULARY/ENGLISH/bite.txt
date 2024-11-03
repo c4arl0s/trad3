@@ -1,1 +1,1 @@
-bite : morder :  : bit : bitten : bitting : 
+bite:morder::bit:bitten:bitting:

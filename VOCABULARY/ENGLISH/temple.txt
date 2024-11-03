@@ -1,1 +1,1 @@
-temple : templo :  :  :  :  : 
+temple:templo:::::

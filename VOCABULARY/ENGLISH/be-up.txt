@@ -1,1 +1,1 @@
-be-up : estar-levantado : estar levantado :  :  :  : Phil isn't up yet: he's still in bed. Phone again in ten minutes
+be-up:estar-levantado:estar levantado::::Phil isn't up yet: he's still in bed. Phone again in ten minutes

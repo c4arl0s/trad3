@@ -1,1 +1,1 @@
-big : grande :  :  :  :  : 
+big:grande:::::

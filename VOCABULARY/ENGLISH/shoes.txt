@@ -1,1 +1,1 @@
-shoes : Zapatos :  :  :  :  : 
+shoes:Zapatos:::::

@@ -1,1 +1,1 @@
-stream : corriente :  :  :  :  : 
+stream:corriente:::::

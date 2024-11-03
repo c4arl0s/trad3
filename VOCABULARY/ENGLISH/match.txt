@@ -1,1 +1,1 @@
-match : partido :  :  :  :  : 
+match:partido:::::

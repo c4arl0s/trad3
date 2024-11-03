@@ -1,1 +1,1 @@
-barco : ship :  :  :  :  : 
+barco:ship:::::

@@ -1,1 +1,1 @@
-bucks : Dólares :  :  :  :  : 
+bucks:Dólares:::::

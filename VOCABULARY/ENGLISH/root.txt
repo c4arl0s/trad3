@@ -1,1 +1,1 @@
-root : raíz :  :  :  :  : 
+root:raíz:::::

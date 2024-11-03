@@ -1,1 +1,1 @@
-throw-out : tirar :  :  :  :  : 
+throw-out:tirar:::::

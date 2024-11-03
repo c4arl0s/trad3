@@ -1,2 +1,2 @@
 
-beaches : playas :  :  :  :  : 
+beaches:playas:::::

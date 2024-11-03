@@ -1,1 +1,1 @@
-scarf : bufanda :  :  :  :  : 
+scarf:bufanda:::::

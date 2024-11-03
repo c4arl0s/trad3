@@ -1,1 +1,1 @@
-erase : borrar :  : erased : erased : erasing : 
+erase:borrar::erased:erased:erasing:

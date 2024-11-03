@@ -1,1 +1,1 @@
-choice : eleccion :  :  :  :  : 
+choice:eleccion:::::

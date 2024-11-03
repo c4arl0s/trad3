@@ -1,2 +1,2 @@
-swing : oscilación :  :  :  :  : 
-swing : columpio :  :  :  :  : 
+swing:oscilación:::::
+swing:columpio:::::

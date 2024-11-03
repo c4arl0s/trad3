@@ -1,1 +1,1 @@
-temperature : temperatura :  :  :  :  : 
+temperature:temperatura:::::

@@ -1,1 +1,1 @@
-wildcard : comodín : comodin :  :  :  : 
+wildcard:comodín:comodin::::

@@ -1,1 +1,1 @@
-allocate : asignar :  :  :  :  : 
+allocate:asignar:::::

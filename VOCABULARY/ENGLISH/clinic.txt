@@ -1,1 +1,1 @@
-clinic : clínica :  :  :  :  : 
+clinic:clínica:::::

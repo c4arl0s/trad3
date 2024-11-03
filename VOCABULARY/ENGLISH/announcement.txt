@@ -1,1 +1,1 @@
-announcement : anuncio :  :  :  :  : 
+announcement:anuncio:::::

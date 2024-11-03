@@ -1,1 +1,1 @@
-flaws : defectos :  :  :  :  : 
+flaws:defectos:::::

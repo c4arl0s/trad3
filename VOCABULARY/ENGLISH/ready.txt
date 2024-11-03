@@ -1,2 +1,2 @@
-ready : listo :  :  :  :  : 
-ready : dispuesto :  :  :  :  : 
+ready:listo:::::
+ready:dispuesto:::::

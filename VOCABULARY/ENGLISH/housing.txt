@@ -1,1 +1,1 @@
-housing : alojamiento :  :  :  :  : 
+housing:alojamiento:::::

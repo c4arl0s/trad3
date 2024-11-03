@@ -1,2 +1,2 @@
-homework : tarea :  :  :  :  : 
-homework : los-deberes :  :  :  :  : 
+homework:tarea:::::
+homework:los-deberes:::::

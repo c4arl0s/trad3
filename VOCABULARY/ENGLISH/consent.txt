@@ -1,1 +1,1 @@
-consent : consentimiento :  :  :  :  : 
+consent:consentimiento:::::

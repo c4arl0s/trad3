@@ -1,1 +1,1 @@
-growth : crecimiento :  :  :  :  : 
+growth:crecimiento:::::

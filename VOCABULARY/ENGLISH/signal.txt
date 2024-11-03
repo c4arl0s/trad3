@@ -1,1 +1,1 @@
-signal : señal :  :  :  :  : 
+signal:señal:::::

@@ -1,1 +1,1 @@
-tear-up : arrancar :  :  :  :  : 
+tear-up:arrancar:::::

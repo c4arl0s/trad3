@@ -1,1 +1,1 @@
-bathroom : baño :  :  :  :  : 
+bathroom:baño:::::

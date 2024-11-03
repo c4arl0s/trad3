@@ -1,1 +1,1 @@
-deploy : desplegar :  :  :  :  : 
+deploy:desplegar:::::

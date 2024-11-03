@@ -1,1 +1,1 @@
-breaks : descansos :  :  :  :  : 
+breaks:descansos:::::

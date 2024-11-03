@@ -1,1 +1,1 @@
-head : cabeza :  :  :  :  : 
+head:cabeza:::::

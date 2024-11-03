@@ -1,1 +1,1 @@
-male : masculino :  :  :  :  : 
+male:masculino:::::

@@ -1,2 +1,2 @@
-file : archivo :  :  :  :  : 
-file : carpeta :  :  :  :  : 
+file:archivo:::::
+file:carpeta:::::

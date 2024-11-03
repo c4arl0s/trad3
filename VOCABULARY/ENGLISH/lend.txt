@@ -1,1 +1,1 @@
-lend : prestar :  : lent : lent : lending : 
+lend:prestar::lent:lent:lending:

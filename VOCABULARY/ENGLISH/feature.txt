@@ -1,1 +1,1 @@
-feature : característica :  :  :  :  : 
+feature:característica:::::

@@ -1,1 +1,1 @@
-dictionary : diccionario :  :  :  :  : 
+dictionary:diccionario:::::

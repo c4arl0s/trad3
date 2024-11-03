@@ -1,1 +1,1 @@
-stiffness : rigidez :  :  :  :  : 
+stiffness:rigidez:::::

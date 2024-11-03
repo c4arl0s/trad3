@@ -1,2 +1,2 @@
-screwdriver : destornillador :  :  :  :  : 
-screwdriver : desarmador :  :  :  :  : 
+screwdriver:destornillador:::::
+screwdriver:desarmador:::::

@@ -1,2 +1,2 @@
-adding : Añadiendo :  :  :  :  : 
-Adding : agregando :  :  :  :  : 
+adding:Añadiendo:::::
+Adding:agregando:::::

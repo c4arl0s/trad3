@@ -1,2 +1,2 @@
-supply : suministrar : proveer :  :  :  : 
-supply : suministrar :  :  :  :  : 
+supply:suministrar:proveer::::
+supply:suministrar:::::

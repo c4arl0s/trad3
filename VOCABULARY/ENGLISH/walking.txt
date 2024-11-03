@@ -1,1 +1,1 @@
-walking : caminando :  :  :  :  : 
+walking:caminando:::::

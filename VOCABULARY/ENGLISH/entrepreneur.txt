@@ -1,2 +1,2 @@
-entrepreneur : empresario :  :  :  :  : 
+entrepreneur:empresario:::::
 entrepreneur:emprendedor:::::

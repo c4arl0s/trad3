@@ -1,1 +1,1 @@
-choices : Elecciones :  :  :  :  : 
+choices:Elecciones:::::

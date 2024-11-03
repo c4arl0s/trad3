@@ -1,1 +1,1 @@
-rate : tasa :  :  :  :  : 
+rate:tasa:::::

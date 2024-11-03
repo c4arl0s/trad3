@@ -1,1 +1,1 @@
-seek : buscar :  :  :  :  : 
+seek:buscar:::::

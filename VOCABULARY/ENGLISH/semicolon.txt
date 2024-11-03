@@ -1,1 +1,1 @@
-semicolon : punto-y-coma :  :  :  :  : 
+semicolon:punto-y-coma:::::

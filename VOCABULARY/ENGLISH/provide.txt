@@ -1,1 +1,1 @@
-provide : proporcionar :  :  :  :  : 
+provide:proporcionar:::::

@@ -1,1 +1,1 @@
-phone : teléfono :  :  :  :  : 
+phone:teléfono:::::

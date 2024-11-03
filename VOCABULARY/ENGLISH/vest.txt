@@ -1,1 +1,1 @@
-vest : chaleco :  :  :  :  : 
+vest:chaleco:::::

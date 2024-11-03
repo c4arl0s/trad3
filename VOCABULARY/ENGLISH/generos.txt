@@ -1,1 +1,1 @@
-generos : generoso :  :  :  :  : 
+generos:generoso:::::

@@ -1,1 +1,1 @@
-examination : examen :  :  :  :  : 
+examination:examen:::::

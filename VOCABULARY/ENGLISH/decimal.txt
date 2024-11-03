@@ -1,1 +1,1 @@
-decimal : decimal :  :  :  :  : 
+decimal:decimal:::::

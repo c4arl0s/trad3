@@ -1,1 +1,1 @@
-pressure : presión :  :  :  :  : 
+pressure:presión:::::

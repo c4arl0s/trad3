@@ -1,1 +1,1 @@
-set-up : configuración :  :  :  :  : 
+set-up:configuración:::::

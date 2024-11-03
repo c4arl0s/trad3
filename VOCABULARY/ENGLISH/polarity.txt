@@ -1,1 +1,1 @@
-polarity : polaridad :  :  :  :  : 
+polarity:polaridad:::::

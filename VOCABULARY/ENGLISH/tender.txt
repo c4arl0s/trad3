@@ -1,1 +1,1 @@
-tender : oferta :  :  :  :  : 
+tender:oferta:::::

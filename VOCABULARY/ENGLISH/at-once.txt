@@ -1,2 +1,2 @@
-at-once : en seguida :  :  :  :  : 
-at-once : una vez : : : : :
+at-once:en seguida:::::
+at-once:una vez:::: :

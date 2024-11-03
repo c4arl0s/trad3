@@ -1,1 +1,1 @@
-throw-away : tirar :  :  :  :  : 
+throw-away:tirar:::::

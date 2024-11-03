@@ -1,1 +1,1 @@
-patrol : patrulla :  :  :  :  : 
+patrol:patrulla:::::

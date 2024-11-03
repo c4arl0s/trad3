@@ -1,1 +1,1 @@
-tree : árbol :  :  :  :  : 
+tree:árbol:::::

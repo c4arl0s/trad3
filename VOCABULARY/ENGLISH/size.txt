@@ -1,1 +1,1 @@
-size : tamaño :  :  :  :  : 
+size:tamaño:::::

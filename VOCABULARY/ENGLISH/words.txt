@@ -1,1 +1,1 @@
-words : palabras :  :  :  :  : 
+words:palabras:::::

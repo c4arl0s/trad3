@@ -1,1 +1,1 @@
-remove : retirar :  :  :  :  : 
+remove:retirar:::::

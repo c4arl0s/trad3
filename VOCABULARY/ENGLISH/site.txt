@@ -1,2 +1,2 @@
-site : sitio :  :  :  :  : 
-site : place :  :  :  :  : 
+site:sitio:::::
+site:place:::::

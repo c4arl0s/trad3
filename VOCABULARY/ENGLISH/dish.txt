@@ -1,1 +1,1 @@
-dish : plato :  :  :  :  : 
+dish:plato:::::

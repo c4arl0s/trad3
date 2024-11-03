@@ -1,1 +1,1 @@
-box : caja :  :  :  :  : 
+box:caja:::::

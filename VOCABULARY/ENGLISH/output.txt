@@ -1,1 +1,1 @@
-output : salida :  :  :  :  : 
+output:salida:::::

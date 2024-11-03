@@ -1,1 +1,1 @@
-heartbeat : latido :  :  :  :  : 
+heartbeat:latido:::::

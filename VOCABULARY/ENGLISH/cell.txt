@@ -1,1 +1,1 @@
-cell : celda :  :  :  :  : 
+cell:celda:::::

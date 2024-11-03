@@ -1,1 +1,1 @@
-alarm : alarma :  :  :  :  : 
+alarm:alarma:::::

@@ -1,1 +1,1 @@
-picked-up : recogido :  :  :  :  : 
+picked-up:recogido:::::

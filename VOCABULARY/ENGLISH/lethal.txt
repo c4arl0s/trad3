@@ -1,1 +1,1 @@
-lethal : letal :  :  :  :  : weapon
+lethal:letal:::::weapon

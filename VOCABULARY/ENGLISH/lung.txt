@@ -1,1 +1,1 @@
-lung : pulmon :  :  :  :  : 
+lung:pulmon:::::

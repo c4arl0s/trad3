@@ -1,1 +1,1 @@
-stop : detener :  :  :  :  : 
+stop:detener:::::

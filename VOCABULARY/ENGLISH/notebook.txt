@@ -1,1 +1,1 @@
-notebook : cuaderno :  :  :  :  : 
+notebook:cuaderno:::::

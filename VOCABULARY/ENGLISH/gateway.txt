@@ -1,1 +1,1 @@
-gateway : puerta :  :  :  :  : 
+gateway:puerta:::::

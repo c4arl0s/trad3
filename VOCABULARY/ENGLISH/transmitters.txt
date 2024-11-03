@@ -1,1 +1,1 @@
-transmitters : transmisores :  :  :  :  : 
+transmitters:transmisores:::::

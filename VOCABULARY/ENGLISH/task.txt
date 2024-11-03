@@ -1,1 +1,1 @@
-task : tarea :  :  :  :  : 
+task:tarea:::::

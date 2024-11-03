@@ -1,1 +1,1 @@
-part : parte :  :  :  :  : 
+part:parte:::::

@@ -1,1 +1,1 @@
-factor : factor :  :  :  :  : 
+factor:factor:::::

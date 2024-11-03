@@ -1,2 +1,2 @@
-wood : fogata :  :  :  :  : 
-wood : madera :  :  :  :  : 
+wood:fogata:::::
+wood:madera:::::

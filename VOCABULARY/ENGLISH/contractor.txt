@@ -1,1 +1,1 @@
-contractor : contratista :  :  :  :  : 
+contractor:contratista:::::

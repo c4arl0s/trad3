@@ -1,1 +1,1 @@
-wide : ancho :  :  :  :  : 
+wide:ancho:::::

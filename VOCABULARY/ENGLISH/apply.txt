@@ -1,2 +1,2 @@
-apply : aplicar :  :  :  :  : 
+apply:aplicar:::::
 apply:aplicar:::::

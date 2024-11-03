@@ -1,1 +1,1 @@
-pregnant : embarazada :  :  :  :  : 
+pregnant:embarazada:::::

@@ -1,1 +1,1 @@
-abstract : abstracto :  :  :  :  : 
+abstract:abstracto:::::

@@ -1,1 +1,1 @@
-adder : sumador :  :  :  :  : 
+adder:sumador:::::

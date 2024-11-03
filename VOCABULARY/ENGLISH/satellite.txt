@@ -1,1 +1,1 @@
-satellite : satélite :  :  :  :  : 
+satellite:satélite:::::

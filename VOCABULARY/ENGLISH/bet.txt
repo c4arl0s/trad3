@@ -1,2 +1,2 @@
-bet : apostar :  : bet/betted : bet/betted : betting : 
+bet:apostar::bet/betted:bet/betted:betting:
 bet:apuesta:::::

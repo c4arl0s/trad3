@@ -1,1 +1,1 @@
-mechanism : mecanismo :  :  :  :  : 
+mechanism:mecanismo:::::

@@ -1,2 +1,2 @@
-station : estación :  :  :  :  : 
-station : estación :  :  :  :  : 
+station:estación:::::
+station:estación:::::

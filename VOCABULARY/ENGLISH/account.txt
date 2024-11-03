@@ -1,1 +1,1 @@
-account : cuenta :  :  :  :  : 
+account:cuenta:::::

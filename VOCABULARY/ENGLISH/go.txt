@@ -1,1 +1,1 @@
-go : ir :  : went : gone : going : 
+go:ir::went:gone:going:

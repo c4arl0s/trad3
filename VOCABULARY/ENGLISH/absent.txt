@@ -1,1 +1,1 @@
-absent : ausente :  :  :  :  : 
+absent:ausente:::::

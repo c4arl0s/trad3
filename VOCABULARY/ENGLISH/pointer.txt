@@ -1,1 +1,1 @@
-pointer : puntero :  :  :  :  : 
+pointer:puntero:::::

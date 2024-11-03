@@ -1,1 +1,1 @@
-bag : bolso :  :  :  :  : 
+bag:bolso:::::

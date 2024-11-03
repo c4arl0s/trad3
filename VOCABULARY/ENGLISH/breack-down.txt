@@ -1,1 +1,1 @@
-breack-down : Descompostura : averiarse :  :  :  : My car broke down on the way to Mexico
+breack-down:Descompostura:averiarse::::My car broke down on the way to Mexico

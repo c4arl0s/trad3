@@ -1,1 +1,1 @@
-progress : Progreso :  :  :  :  : 
+progress:Progreso:::::

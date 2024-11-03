@@ -1,1 +1,1 @@
-wheel : rueda :  :  :  :  : 
+wheel:rueda:::::

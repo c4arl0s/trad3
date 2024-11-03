@@ -1,1 +1,1 @@
-look-for : buscar : (search for, seek :  :  :  : I am looking for a full text-article
+look-for:buscar:(search for, seek::::I am looking for a full text-article

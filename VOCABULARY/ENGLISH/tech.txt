@@ -1,1 +1,1 @@
-tech : Tecnología :  :  :  :  : 
+tech:Tecnología:::::

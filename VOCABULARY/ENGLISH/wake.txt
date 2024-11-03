@@ -1,2 +1,2 @@
-wake : despertarse :  : woke : woken : waking : 
-wake : despertar :  :  :  :  : 
+wake:despertarse::woke:woken:waking:
+wake:despertar:::::

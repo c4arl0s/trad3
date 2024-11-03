@@ -1,1 +1,1 @@
-depending : dependiendo :  :  :  :  : 
+depending:dependiendo:::::

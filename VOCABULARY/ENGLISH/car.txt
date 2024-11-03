@@ -1,1 +1,1 @@
-car : coche :  :  :  :  : 
+car:coche:::::

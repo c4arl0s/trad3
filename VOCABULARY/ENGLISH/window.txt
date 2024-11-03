@@ -1,1 +1,1 @@
-window : ventana :  :  :  :  : 
+window:ventana:::::

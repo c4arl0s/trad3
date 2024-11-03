@@ -1,1 +1,1 @@
-template : plantilla :  :  :  :  : 
+template:plantilla:::::

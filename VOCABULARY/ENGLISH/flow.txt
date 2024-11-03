@@ -1,2 +1,2 @@
-flow : fluir :  :  :  :  : 
-flow : flujo :  :  :  :  : 
+flow:fluir:::::
+flow:flujo:::::

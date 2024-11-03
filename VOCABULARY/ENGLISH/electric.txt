@@ -1,1 +1,1 @@
-electric : electrico :  :  :  :  : 
+electric:electrico:::::

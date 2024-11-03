@@ -1,1 +1,1 @@
-ask : pedir :  : asked : asked : asking : 
+ask:pedir::asked:asked:asking:

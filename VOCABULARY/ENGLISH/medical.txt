@@ -1,1 +1,1 @@
-medical : médico :  :  :  :  : 
+medical:médico:::::

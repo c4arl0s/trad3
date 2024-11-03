@@ -1,1 +1,1 @@
-status : estado :  :  :  :  : 
+status:estado:::::

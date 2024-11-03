@@ -1,1 +1,1 @@
-stick : palo :  :  :  :  : 
+stick:palo:::::

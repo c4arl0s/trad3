@@ -1,1 +1,1 @@
-able : capaz : [person] :  :  :  : 
+able:capaz:[person]::::

@@ -1,1 +1,1 @@
-throughput : Rendimiento :  :  :  :  : 
+throughput:Rendimiento:::::

@@ -1,1 +1,1 @@
-bursts : Estallidos :  :  :  :  : 
+bursts:Estallidos:::::

@@ -1,1 +1,1 @@
-bolts : pernos :  :  :  :  : 
+bolts:pernos:::::

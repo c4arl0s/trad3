@@ -1,2 +1,2 @@
 
-call-up : llamar :  :  :  :  : 
+call-up:llamar:::::

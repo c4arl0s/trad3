@@ -1,1 +1,1 @@
-encode : codificar :  :  :  :  : 
+encode:codificar:::::

@@ -1,2 +1,2 @@
-full : completo :  :  :  :  : 
-full : lleno :  :  :  :  : 
+full:completo:::::
+full:lleno:::::

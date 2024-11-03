@@ -1,2 +1,2 @@
-translation : traducción :  :  :  :  : 
-translation : traduccion :  :  :  :  : 
+translation:traducción:::::
+translation:traduccion:::::

@@ -1,1 +1,1 @@
-steal : robar :  : stole : stolen : stealing : 
+steal:robar::stole:stolen:stealing:

@@ -1,2 +1,2 @@
 
-take-aside : apartar : llevar a un lado :  :  :  : they took him aside to have a quiet word with him, lo apartaron para poder hablar tranquilamente con él.
+take-aside:apartar:llevar a un lado::::they took him aside to have a quiet word with him, lo apartaron para poder hablar tranquilamente con él.

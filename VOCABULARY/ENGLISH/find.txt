@@ -1,1 +1,1 @@
-find : encontrar :  : found : found : finding : 
+find:encontrar::found:found:finding:

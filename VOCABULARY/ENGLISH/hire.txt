@@ -1,1 +1,1 @@
-hire : alquiler :  :  :  :  : 
+hire:alquiler:::::

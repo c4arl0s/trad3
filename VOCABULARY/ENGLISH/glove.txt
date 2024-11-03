@@ -1,1 +1,1 @@
-glove : guante :  :  :  :  : 
+glove:guante:::::

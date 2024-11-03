@@ -1,1 +1,1 @@
-auth : autenticación :  :  :  :  : 
+auth:autenticación:::::

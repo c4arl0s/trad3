@@ -1,1 +1,1 @@
-resources : Recursos :  :  :  :  : 
+resources:Recursos:::::

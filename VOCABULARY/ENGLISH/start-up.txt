@@ -1,1 +1,1 @@
-start-up : puesta-en-marcha :  :  :  :  : 
+start-up:puesta-en-marcha:::::

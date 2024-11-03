@@ -1,1 +1,1 @@
-finder : descubridor :  :  :  :  : 
+finder:descubridor:::::

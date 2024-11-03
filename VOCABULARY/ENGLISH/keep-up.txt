@@ -1,1 +1,1 @@
-keep-up : seguir-el-ritmo : He walked so fast that I could barely keep up. : Caminaba tan rápido que apenas podía seguirle el ritmo. :  :  : 
+keep-up:seguir-el-ritmo:He walked so fast that I could barely keep up.:Caminaba tan rápido que apenas podía seguirle el ritmo.:::
