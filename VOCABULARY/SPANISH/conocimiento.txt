@@ -1,1 +1,2 @@
 conocimiento:knowledge:::::
+conocimiento:insight:::::
