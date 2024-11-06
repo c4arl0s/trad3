@@ -1,3 +1,4 @@
-inteligente : inteligent :  :  :  :  : 
-inteligente : smart :  :  :  :  : 
-inteligente : intelligent :  :  :  :  : 
+inteligente:inteligent:::::
+inteligente:smart:::::
+inteligente:intelligent:::::
+inteligente:clever:::::

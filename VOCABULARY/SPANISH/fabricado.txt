@@ -1,0 +1,1 @@
+fabricado:manufactured:The product is manufactured in accordance with DMR protocol.::::
