@@ -1,1 +1,1 @@
-tell:decir::told:told:telling:
+tell:decir::told:told:telling:I told you!
