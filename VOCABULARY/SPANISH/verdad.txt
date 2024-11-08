@@ -1,1 +1,2 @@
 verdad:TRUE:::::
+verdad:truth:::::
