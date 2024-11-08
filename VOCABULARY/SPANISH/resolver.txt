@@ -1,1 +1,2 @@
 resolver : settle :  :  :  :  : 
+resolver:solve:::::
