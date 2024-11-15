@@ -1,1 +1,2 @@
 fuerza : strength :  :  :  :  : 
+fuerza:force:::::
