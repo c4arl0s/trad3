@@ -1,1 +1,2 @@
 centro:hub:::::
+centro:center:::::
