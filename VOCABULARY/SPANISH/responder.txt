@@ -1,2 +1,1 @@
-responder : answer :  :  :  :  : 
-responder : respond :  :  :  :  : 
+responder:answer:::::
