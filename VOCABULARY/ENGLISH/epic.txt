@@ -1,0 +1,1 @@
+epic:épico:(Software Development) An epic consist of multiple user stories that describe common functionality.::::Epic #1: Note creating and editing.

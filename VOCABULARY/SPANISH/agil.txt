@@ -1,0 +1,1 @@
+agil:agile:(Software Development) Agile is a way of thinking.::::Scrum and Kanban are examples of discrete methodlogies that implement the Agile approach.
