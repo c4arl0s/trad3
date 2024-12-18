@@ -12,7 +12,7 @@ last_word_found=
 
 if [ $# -ne 0 ]; then
   echo -e "${NO_ARGUMENTS_MSG}"
-  exit 1 
+  return 1 
 fi
 
 while : ;do
