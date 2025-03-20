@@ -11,6 +11,7 @@ TEMPORAL_DIRECTORY_PATH="${TRAD3_PATH}/vocabulary"
 . ${TRAD3_PATH}/helper-functions/clean_english_file.sh
 . ${TRAD3_PATH}/helper-functions/colors.sh
 . ${TRAD3_PATH}/helper-functions/clean_spanish_file.sh
+. ${TRAD3_PATH}/helper-functions/delete_empty_files.sh
 
 # trad-functions
 
