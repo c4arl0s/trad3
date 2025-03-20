@@ -72,37 +72,60 @@ last_word_found=
 
 if [ $# -ne 0 ]; then
   echo -e "${NO_ARGUMENTS_MSG}"
-  exit 1 
+  return 1 
 fi
 
-while : ;do
+process_english_word() {
+  local word=$1
+  printf ${AVAILABILITY_MSG}
+  reproduce_english_audio_file_if_available ${word}
+  display_english_translation ${word}
+  last_word_found=${word}
+}
+
+process_spanish_word() {
+  local word=$1
+  printf ${DOES_NOT_EXIST_SPN_MSG}
+  spanish_word=${word}
+  clean_spanish_file ${spanish_word}
+  display_spanish_translation ${spanish_word}
+  clean_english_word=$(echo "${INGLES}" | xargs)
+  reproduce_english_audio_file_if_available ${clean_english_word}
+  last_word_found=${clean_english_word}
+}
+
+process_unknown_word() {
+  local word=$1
+  printf ${GOOGLE_MSG}
+  search_word_using_google_script ${word}
+  reproduce_english_audio_file_if_available ${ingles} 
+  display_option_to_add_new_word
+  display_menu
+}
+
+process_empty_word() {
+  echo -e "${RED}Empty word"        
+  reproduce_last_word_found_if_available ${last_word_found}
+}
+
+while : ; do
   print_title $(basename $0)
   echo -e "${WHITE}"
   printf "%s" "Type a word: "; read word
+  
+  if [ -z "${word}" ]; then
+    process_empty_word
+    continue
+  fi
+  
   if $(is_retrievable_english_word ${word}); then
-    printf ${AVAILABILITY_MSG}
-    reproduce_english_audio_file_if_available ${word}
-    display_english_translation ${word}
-    last_word_found=${word}
-  elif [ -z "${word}" ]; then
-    echo -e "${RED}Empty word"        
-    reproduce_last_word_found_if_available ${last_word_found}
+    process_english_word "${word}"
   else
     printf ${DOES_NOT_EXIST_ENG_MSG}
     if $(is_retrievable_spanish_word ${word}); then
-      printf ${DOES_NOT_EXIST_SPN_MSG}
-      spanish_word=${word}
-      clean_spanish_file ${spanish_word}
-      display_spanish_translation ${spanish_word}
-      clean_english_word=$(echo "${INGLES}" | xargs)
-      reproduce_english_audio_file_if_available  ${clean_english_word}
-      last_word_found=${clean_english_word}
+      process_spanish_word "${word}"
     else
-      printf ${GOOGLE_MSG}
-      search_word_using_google_script ${word}
-      reproduce_english_audio_file_if_available ${ingles} 
-      display_option_to_add_new_word
-      display_menu
+      process_unknown_word "${word}"
     fi
   fi
 done
@@ -116,69 +139,110 @@ done
 
 . ${TRAD3_PATH}/directory_paths.sh
 
-if [ $# -ne 0 ]; then
-   echo -e "\nYou should not provide any argument in this script, you just type add3"
-   return 
-fi
-
-while :
-do
-  print_header $(basename $0)
-  if $(is_retrievable_english_word ${ENGLISH}); then
+handle_existing_word() {
     echo "${GREEN}$ENGLISH exist"
     echo -e "${WHITE}"
     cat ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt
     echo -e "${RED}"
     printf "%s" "Do you wish to add another meaning? type: [yes/no/edit]?: "; read option
+    
     case ${option} in
-    "yes") echo -e "${RED}"
-           read_inputs
-           echo "${GREEN}these are your changes: "
-           print_inputs
-           printf "%s" "Type yes to confirm: "; read option
-           case ${option} in 
-               "yes") echo -e "${RED}Saving ${ENGLISH} ..."
-                      save_english_translation
-                      clean_english_file ${ENGLISH}
-                      save_spanish_translation 
-                      save_verb ${PAST} ${PASTPARTICIPE} ${GERUND}
-                      clean_spanish_file ${SPANISH}
-                      cat ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt;;
-                "no") echo -e "${RED}"
-                      echo -e "${RED}You cancelled operation";;
-                *) echo -e "${RED}Type correct key";;
-          esac;;
-    "no") echo -e "Create a task when you say no";;
-    "edit") vim ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt
-            vim ${SPANISH_DIRECTORY_PATH}/${SPANISH}.txt;;
-    *) echo -e "${RED}type correct key";;
+        "yes") 
+            handle_add_meaning
+            ;;
+        "no") 
+            echo -e "Create a task when you say no"
+            ;;
+        "edit") 
+            vim ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt
+            vim ${SPANISH_DIRECTORY_PATH}/${SPANISH}.txt
+            ;;
+        *) 
+            echo -e "${RED}type correct key"
+            ;;
     esac
-  elif [ -z "${ENGLISH}" ]; then 
-    echo -e "${CYAN}Empty word"
-  else
+}
+
+handle_add_meaning() {
+    echo -e "${RED}"
+    read_inputs
+    echo "${GREEN}these are your changes: "
+    print_inputs
+    printf "%s" "Type yes to confirm: "; read option
+    
+    case ${option} in 
+        "yes") 
+            echo -e "${RED}Saving ${ENGLISH} ..."
+            save_english_translation
+            clean_english_file ${ENGLISH}
+            save_spanish_translation 
+            save_verb ${PAST} ${PASTPARTICIPE} ${GERUND}
+            clean_spanish_file ${SPANISH}
+            cat ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt
+            ;;
+        "no") 
+            echo -e "${RED}"
+            echo -e "${RED}You cancelled operation"
+            ;;
+        *) 
+            echo -e "${RED}Type correct key"
+            ;;
+    esac
+}
+
+handle_new_word() {
     echo -e "file does not exist ... read inputs from standard input"
     read_inputs
     echo -e "this information will be added: "
     echo -e "${WHITE}"
     print_inputs
     echo -e "Select a number: "
+    
     select confirmation in yes no quit; do
-    case ${confirmation} in
-    yes) echo -e "${ROSA}adding word:${WHITE} ${ENGLISH} .... "
-           create_english_file
-           save_english_translation
-           create_spanish_file
-           save_spanish_translation        
-           save_verb ${PAST} ${PASTPARTICIPE} ${GERUND}
-           cat ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt
-           cat ${SPANISH_DIRECTORY_PATH}/${SPANISH}.txt
-           break;;
-    no) echo -e "${RED}you said no"
-        break;;
-    quit) break;;
-    *) echo -e "${RED}Wrong keys";;
-    esac
+        case ${confirmation} in
+            yes) 
+                echo -e "${ROSA}adding word:${WHITE} ${ENGLISH} .... "
+                create_english_file
+                save_english_translation
+                create_spanish_file
+                save_spanish_translation        
+                save_verb ${PAST} ${PASTPARTICIPE} ${GERUND}
+                cat ${ENGLISH_DIRECTORY_PATH}/${ENGLISH}.txt
+                cat ${SPANISH_DIRECTORY_PATH}/${SPANISH}.txt
+                break
+                ;;
+            no) 
+                echo -e "${RED}you said no"
+                break
+                ;;
+            quit) 
+                break
+                ;;
+            *) 
+                echo -e "${RED}Wrong keys"
+                ;;
+        esac
     done
-  fi
-done
+}
+
+main() {
+    if [ $# -ne 0 ]; then
+        echo -e "\nYou should not provide any argument in this script, you just type add3"
+        return 
+    fi
+
+    while true; do
+        print_header $(basename $0)
+        
+        if $(is_retrievable_english_word ${ENGLISH}); then
+            handle_existing_word
+        elif [ -z "${ENGLISH}" ]; then 
+            echo -e "${CYAN}Empty word"
+        else
+            handle_new_word
+        fi
+    done
+}
+
+main "$@"
 ```

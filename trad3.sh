@@ -15,34 +15,57 @@ if [ $# -ne 0 ]; then
   return 1 
 fi
 
-while : ;do
+process_english_word() {
+  local word=$1
+  printf ${AVAILABILITY_MSG}
+  reproduce_english_audio_file_if_available ${word}
+  display_english_translation ${word}
+  last_word_found=${word}
+}
+
+process_spanish_word() {
+  local word=$1
+  printf ${DOES_NOT_EXIST_SPN_MSG}
+  spanish_word=${word}
+  clean_spanish_file ${spanish_word}
+  display_spanish_translation ${spanish_word}
+  clean_english_word=$(echo "${INGLES}" | xargs)
+  reproduce_english_audio_file_if_available ${clean_english_word}
+  last_word_found=${clean_english_word}
+}
+
+process_unknown_word() {
+  local word=$1
+  printf ${GOOGLE_MSG}
+  search_word_using_google_script ${word}
+  reproduce_english_audio_file_if_available ${ingles} 
+  display_option_to_add_new_word
+  display_menu
+}
+
+process_empty_word() {
+  echo -e "${RED}Empty word"        
+  reproduce_last_word_found_if_available ${last_word_found}
+}
+
+while : ; do
   print_title $(basename $0)
   echo -e "${WHITE}"
   printf "%s" "Type a word: "; read word
+  
+  if [ -z "${word}" ]; then
+    process_empty_word
+    continue
+  fi
+  
   if $(is_retrievable_english_word ${word}); then
-    printf ${AVAILABILITY_MSG}
-    reproduce_english_audio_file_if_available ${word}
-    display_english_translation ${word}
-    last_word_found=${word}
-  elif [ -z "${word}" ]; then
-    echo -e "${RED}Empty word"        
-    reproduce_last_word_found_if_available ${last_word_found}
+    process_english_word "${word}"
   else
     printf ${DOES_NOT_EXIST_ENG_MSG}
     if $(is_retrievable_spanish_word ${word}); then
-      printf ${DOES_NOT_EXIST_SPN_MSG}
-      spanish_word=${word}
-      clean_spanish_file ${spanish_word}
-      display_spanish_translation ${spanish_word}
-      clean_english_word=$(echo "${INGLES}" | xargs)
-      reproduce_english_audio_file_if_available  ${clean_english_word}
-      last_word_found=${clean_english_word}
+      process_spanish_word "${word}"
     else
-      printf ${GOOGLE_MSG}
-      search_word_using_google_script ${word}
-      reproduce_english_audio_file_if_available ${ingles} 
-      display_option_to_add_new_word
-      display_menu
+      process_unknown_word "${word}"
     fi
   fi
 done
