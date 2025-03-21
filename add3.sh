@@ -94,6 +94,8 @@ main() {
         echo -e "\nYou should not provide any argument in this script, you just type add3"
         return 
     fi
+    
+    delete_empty_files
 
     while true; do
         print_header $(basename $0)
