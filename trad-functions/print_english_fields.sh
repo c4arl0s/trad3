@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-print_english_fields()
-{
+print_english_fields() {
+    # Imprimir siempre la traducción principal
     echo -e "${WHITE}$ENGLISH:${PINK} ${SPANISH}"
-    echo -e "${WHITE}Extra:${GREEN} ${EXTRA}"
-    if [[ ! -z "${P}" ]] && [[ ! -z "${PP}" ]] && [[ ! -z "${G}" ]] && [[ ! -z "${E}" ]]; then
-      echo -e "${WHITE}Past:${GREEN} $P"
-      echo -e "${WHITE}Past Participe:${GREEN} ${PP}"
-      echo -e "${WHITE}Gerund:${GREEN} ${G}"
-    fi
-    echo -e "${WHITE}Example:${GREEN} ${E}"
+    
+    # Imprimir solo las variables que no estén vacías
+    [[ -n "${EXTRA}" ]] && echo -e "${WHITE}Extra:${GREEN} ${EXTRA}"
+    [[ -n "${P}" ]] && echo -e "${WHITE}Past:${GREEN} ${P}"
+    [[ -n "${PP}" ]] && echo -e "${WHITE}Past Participe:${GREEN} ${PP}"
+    [[ -n "${G}" ]] && echo -e "${WHITE}Gerund:${GREEN} ${G}"
+    [[ -n "${E}" ]] && echo -e "${WHITE}Example:${GREEN} ${E}"
 }

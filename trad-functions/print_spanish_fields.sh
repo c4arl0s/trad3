@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
 print_spanish_fields() {
+  # Imprimir siempre la traducción principal
   echo -e "${INGLES}:${ESPANOL}"
-  echo ""
-  echo -e "${WHITE}Extra:${GREEN} ${EXTRA}"
-  echo -e "${WHITE}Past:${GREEN} ${P}"
-  echo -e "${WHITE}Past Participe:${GREEN} ${PP}"
-  echo -e "${WHITE}Gerund:${GREEN} ${G}"
-  echo -e "${WHITE}Example:${GREEN} ${E}"
+  
+  # Imprimir solo las variables que no estén vacías
+  [[ -n "${EXTRA}" ]] && echo -e "${WHITE}Extra:${GREEN} ${EXTRA}"
+  [[ -n "${P}" ]] && echo -e "${WHITE}Past:${GREEN} ${P}"
+  [[ -n "${PP}" ]] && echo -e "${WHITE}Past Participe:${GREEN} ${PP}"
+  [[ -n "${G}" ]] && echo -e "${WHITE}Gerund:${GREEN} ${G}"
+  [[ -n "${E}" ]] && echo -e "${WHITE}Example:${GREEN} ${E}"
 }
