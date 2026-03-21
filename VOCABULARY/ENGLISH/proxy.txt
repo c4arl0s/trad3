@@ -1,0 +1,1 @@
+proxy:proxy:In the XCTest framework for iOS UI testing, a proxy object is a stand-in object that represents and controls the application or its UI elements from a separate test runner process::::proxy object

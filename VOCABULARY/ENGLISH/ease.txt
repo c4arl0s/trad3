@@ -1,0 +1,1 @@
+ease:facilidad:Some say that the most important tests you can do are to check how your units work together. Although the end-to-end tests fill that need, we do need to balance between their effectiveness to the speed and ease of unit tests.::::
