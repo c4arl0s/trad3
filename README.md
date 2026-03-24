@@ -51,46 +51,30 @@ brew install sox
 
 ## Installation
 
-### Using `installer.sh`
+### Using `install.sh`
 
-`installer.sh` installs global `trad3` and `add3` commands by creating symbolic links from `trad3.sh` and `add3.sh` in the repository to `/usr/local/bin/trad3` and `/usr/local/bin/add3`.
+`install.sh` installs global `trad3` and `add3` commands by creating symbolic links from `trad3.sh` and `add3.sh` in the repository to `/usr/local/bin/trad3` and `/usr/local/bin/add3`.
 
-1. From a terminal, `cd` into the cloned repository (the directory that contains `installer.sh`, `trad3.sh`, and `add3.sh`).
-2. Ensure the installer can run: `chmod +x installer.sh` (once).
+1. From a terminal, `cd` into the cloned repository (the directory that contains `install.sh`, `trad3.sh`, and `add3.sh`).
+2. Ensure the installer can run: `chmod +x install.sh` (once).
 3. Run the installer:
 
 ```console
-./installer.sh
+./install.sh
 ```
 
 The script resolves the repository path automatically, makes both scripts executable, and runs `ln -sf` for each link. If your user cannot write to `/usr/local/bin`, the script uses `sudo` for those steps.
 
-After a successful run, you can run `trad3` or `add3` from any directory (as long as `/usr/local/bin` is on your `PATH`). The installer also reminds you to export `TRAD3_PATH` to the absolute repository root in your shell profile so the scripts can load `directory_paths.sh` and the rest of the project.
+After a successful run, you can run `trad3` or `add3` from any directory (as long as `/usr/local/bin` is on your `PATH`). No `TRAD3_PATH` environment variable is required.
 
 ## How to invoke the scripts
 
-The scripts source `directory_paths.sh` using `${TRAD3_PATH}`. You can either:
-
-**Option A — Shell functions** (typical for `trad3` / `add3` without symlinks):
-
-```console
-trad3() {
-  . "${TRAD3_PATH}/trad3.sh"
-}
-
-add3() {
-  . "${TRAD3_PATH}/add3.sh"
-}
-```
-
-**Option B — Run the symlinks** if you used `installer.sh`:
+Run the symlinks created by `install.sh`:
 
 ```console
 trad3
 add3
 ```
-
-(Always with `TRAD3_PATH` set in your environment.)
 
 Do **not** pass arguments to these scripts; they are interactive only.
 
@@ -102,10 +86,10 @@ The codebase follows a small, consistent pattern:
    Scripts start with `#!/usr/bin/env bash` and load shared paths and helpers with:
 
    ```bash
-   . ${TRAD3_PATH}/directory_paths.sh
+   . "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/directory_paths.sh"
    ```
 
-   `directory_paths.sh` sets vocabulary directory variables and dot-sources shared modules (`helper-functions/*.sh`, `trad-functions/*.sh`, `add-functions/*.sh`).
+   `directory_paths.sh` computes `REPO_DIR` from its own location, sets vocabulary directory variables from that base path, and dot-sources shared modules (`helper-functions/*.sh`, `trad-functions/*.sh`, `add-functions/*.sh`).
 
 2. **Modular functions**  
    Behavior is split into **lowercase functions with underscores** (for example `process_english_word`, `handle_new_word`, `is_retrievable_english_word`). `trad3.sh` uses small processors for each case; `add3.sh` uses `handle_*` helpers and a `main` that dispatches the loop.
