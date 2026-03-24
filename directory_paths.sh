@@ -13,6 +13,7 @@ TEMPORAL_DIRECTORY_PATH="$REPO_DIR/vocabulary"
 . $REPO_DIR/helper-functions/clean_english_file.sh
 . $REPO_DIR/helper-functions/colors.sh
 . $REPO_DIR/helper-functions/clean_spanish_file.sh
+. $REPO_DIR/helper-functions/delete_file_if_empty_or_blank.sh
 . $REPO_DIR/helper-functions/delete_empty_files.sh
 
 # trad-functions
