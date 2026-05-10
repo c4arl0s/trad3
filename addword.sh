@@ -1,7 +1,14 @@
 #!/usr/bin/env bash
 # script to add new english words to my personal dictionary
 
-. ${TRAD3_PATH}/directory_paths.sh
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ]; do
+  DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE"
+done
+REPO_DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
+. "${REPO_DIR}/directory_paths.sh"
 
 handle_existing_word() {
   echo "${GREEN}$ENGLISH exist"

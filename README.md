@@ -28,26 +28,11 @@ So: **`lookup`** = search and translate; **`addWord`** = maintain the dictionary
 
 ## Dependencies
 
-- **gawk**
+The `install.sh` script will automatically attempt to install the following dependencies for you:
 
-```console
-brew install gawk
-```
-
-- **`trans`** (command-line translator; used by the trad workflow)
-
-```console
-wget git.io/trans
-chmod +x ./trans
-```
-
-Move or symlink `trans` somewhere on your `PATH` if you rely on that feature.
-
-- **sox** (audio tooling used by the project)
-
-```console
-brew install sox
-```
+- **gawk** (installed via Homebrew)
+- **sox** (audio tooling, installed via Homebrew)
+- **`trans`** (command-line translator, downloaded directly)
 
 ## Installation
 
