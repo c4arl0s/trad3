@@ -27,6 +27,33 @@ fi
 
 chmod +x "${TRAD3_SOURCE}" "${ADD3_SOURCE}"
 
+echo "Checking and installing dependencies..."
+
+if ! command -v gawk >/dev/null 2>&1 || ! command -v sox >/dev/null 2>&1; then
+  if command -v brew >/dev/null 2>&1; then
+    echo "Installing required packages via Homebrew (gawk, sox)..."
+    brew install gawk sox
+  else
+    echo "Warning: Homebrew not found. Please install gawk and sox manually." >&2
+  fi
+else
+  echo "gawk and sox are already installed."
+fi
+
+if ! command -v trans >/dev/null 2>&1; then
+  echo "Installing trans..."
+  if [[ -w "${BIN_DIR}" ]]; then
+    curl -sL https://git.io/trans -o "${BIN_DIR}/trans"
+    chmod +x "${BIN_DIR}/trans"
+  else
+    sudo curl -sL https://git.io/trans -o "${BIN_DIR}/trans"
+    sudo chmod +x "${BIN_DIR}/trans"
+  fi
+  echo "trans installed to ${BIN_DIR}/trans."
+else
+  echo "trans is already installed."
+fi
+
 create_symlink() {
   local source=$1
   local target=$2
