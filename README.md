@@ -15,6 +15,48 @@ Interactive command-line tools for looking up and maintaining a personal English
 
 Supporting logic (colors, audio, file layout, menus) lives in `directory_paths.sh` and the files it sources under `helper-functions/`, `trad-functions/`, and `add-functions/`.
 
+### Execution Flowchart
+
+```mermaid
+flowchart TD
+    Start([Start]) --> ArgumentsCheck{Has Arguments?}
+    
+    ArgumentsCheck -- Yes --> Error[Display Error & Exit]
+    ArgumentsCheck -- No --> LoopStart((Main Loop))
+    
+    LoopStart --> PrintTitle[Print Title]
+    PrintTitle --> ReadWord[/Prompt User: Type a word/]
+    
+    ReadWord --> IsEmpty{Is word empty?}
+    IsEmpty -- Yes --> ProcessEmptyWord[Process Empty Word]
+    ProcessEmptyWord --> PlayLast[Play Audio of Last Found Word]
+    PlayLast --> LoopStart
+    
+    IsEmpty -- No --> CheckEnglish{Is it a retrievable\nEnglish word?}
+    
+    CheckEnglish -- Yes --> ProcessEnglishWord[Process English Word]
+    ProcessEnglishWord --> PlayAudioEN[Play English Audio]
+    PlayAudioEN --> DisplayTranslEN[Display English Translation]
+    DisplayTranslEN --> SetLastWordEN[Save as last found word]
+    SetLastWordEN --> LoopStart
+    
+    CheckEnglish -- No --> CheckSpanish{Is it a retrievable\nSpanish word?}
+    
+    CheckSpanish -- Yes --> ProcessSpanishWord[Process Spanish Word]
+    ProcessSpanishWord --> CleanSpanish[Clean Spanish File]
+    CleanSpanish --> DisplayTranslES[Display Spanish Translation]
+    DisplayTranslES --> PlayAudioES[Play Equivalent English Audio]
+    PlayAudioES --> SetLastWordES[Save as last found word]
+    SetLastWordES --> LoopStart
+    
+    CheckSpanish -- No --> ProcessUnknown[Process Unknown Word]
+    ProcessUnknown --> GoogleTranslate[Translate using Google script]
+    GoogleTranslate --> PlayAudioUnk[Play English Audio]
+    PlayAudioUnk --> OptionAdd[Display option to add new word]
+    OptionAdd --> DisplayMenu[Display Interactive Menu]
+    DisplayMenu --> LoopStart
+```
+
 ## What `addWord.sh` does
 
 `addWord.sh` is the **editor** for new or existing entries. It is meant to be run with no arguments. It:
@@ -25,6 +67,48 @@ Supporting logic (colors, audio, file layout, menus) lives in `directory_paths.s
 4. If the word is new, it walks you through prompts (`read_inputs`) for Spanish text, extra notes, verb forms, examples, then creates or updates the English and Spanish files and related verb data.
 
 So: **`lookup`** = search and translate; **`addWord`** = maintain the dictionary files.
+
+### Execution Flowchart
+
+```mermaid
+flowchart TD
+    Start([Start]) --> ArgumentsCheck{Has Arguments?}
+    
+    ArgumentsCheck -- Yes --> Error[Display Error & Exit]
+    ArgumentsCheck -- No --> DeleteEmpty[Delete Empty Files]
+    DeleteEmpty --> LoopStart((Main Loop))
+    
+    LoopStart --> PrintHeader[/Print Header & Prompt User: Type an English word/]
+    
+    PrintHeader --> CheckExisting{Does English word exist?}
+    
+    CheckExisting -- Yes --> HandleExisting[Handle Existing Word]
+    HandleExisting --> DisplayWord[Display current meanings]
+    DisplayWord --> PromptAddMeaning{Add another meaning?\n[yes/no/edit]}
+    
+    PromptAddMeaning -- yes --> HandleAddMeaning[Handle Add Meaning]
+    HandleAddMeaning --> ReadInputs[Read Spanish, Verb forms, Notes]
+    ReadInputs --> PrintInputs[Print Inputs]
+    PrintInputs --> ConfirmAdd{Confirm?\n[yes/no]}
+    ConfirmAdd -- yes --> SaveExisting[Save Translations & Verbs\nClean Files] --> LoopStart
+    ConfirmAdd -- no --> CancelAdd[Cancel] --> LoopStart
+    
+    PromptAddMeaning -- no --> LogTask[Log Task] --> LoopStart
+    PromptAddMeaning -- edit --> OpenVim[Open files in Vim] --> LoopStart
+    PromptAddMeaning -- other --> WrongKey1[Wrong Key Error] --> LoopStart
+    
+    CheckExisting -- No --> IsEmpty{Is word empty?}
+    IsEmpty -- Yes --> PrintEmpty[Print Empty Word Error] --> LoopStart
+    
+    IsEmpty -- No --> HandleNew[Handle New Word]
+    HandleNew --> ReadInputsNew[Read Spanish, Verb forms, Notes]
+    ReadInputsNew --> PrintInputsNew[Print Inputs]
+    PrintInputsNew --> SelectConfirm{Select option:\n[yes/no/quit]}
+    
+    SelectConfirm -- yes --> SaveNew[Create Files\nSave Translations & Verbs] --> LoopStart
+    SelectConfirm -- no --> CancelNew[Cancel] --> LoopStart
+    SelectConfirm -- quit --> LoopStart
+```
 
 ## Dependencies
 
