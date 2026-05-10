@@ -5,18 +5,18 @@ set -euo pipefail
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BIN_DIR="/usr/local/bin"
 
-TRAD3_SOURCE="${REPO_DIR}/trad3.sh"
-TRAD3_LINK="${BIN_DIR}/trad3"
-ADD3_SOURCE="${REPO_DIR}/add3.sh"
-ADD3_LINK="${BIN_DIR}/add3"
+TRAD3_SOURCE="${REPO_DIR}/lookup.sh"
+TRAD3_LINK="${BIN_DIR}/lookup"
+ADD3_SOURCE="${REPO_DIR}/addword.sh"
+ADD3_LINK="${BIN_DIR}/addword"
 
 if [[ ! -f "${TRAD3_SOURCE}" ]]; then
-  echo "Error: trad3.sh not found in ${REPO_DIR}" >&2
+  echo "Error: lookup.sh not found in ${REPO_DIR}" >&2
   exit 1
 fi
 
 if [[ ! -f "${ADD3_SOURCE}" ]]; then
-  echo "Error: add3.sh not found in ${REPO_DIR}" >&2
+  echo "Error: addword.sh not found in ${REPO_DIR}" >&2
   exit 1
 fi
 
