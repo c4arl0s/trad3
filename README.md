@@ -68,6 +68,48 @@ flowchart TD
 
 So: **`lookup`** = search and translate; **`addWord`** = maintain the dictionary files.
 
+### Execution Flowchart
+
+```mermaid
+flowchart TD
+    Start([Start]) --> ArgumentsCheck{Has Arguments?}
+    
+    ArgumentsCheck -- Yes --> Error[Display Error & Exit]
+    ArgumentsCheck -- No --> DeleteEmpty[Delete Empty Files]
+    DeleteEmpty --> LoopStart((Main Loop))
+    
+    LoopStart --> PrintHeader[/Print Header & Prompt User: Type an English word/]
+    
+    PrintHeader --> CheckExisting{Does English word exist?}
+    
+    CheckExisting -- Yes --> HandleExisting[Handle Existing Word]
+    HandleExisting --> DisplayWord[Display current meanings]
+    DisplayWord --> PromptAddMeaning{Add another meaning?\n[yes/no/edit]}
+    
+    PromptAddMeaning -- yes --> HandleAddMeaning[Handle Add Meaning]
+    HandleAddMeaning --> ReadInputs[Read Spanish, Verb forms, Notes]
+    ReadInputs --> PrintInputs[Print Inputs]
+    PrintInputs --> ConfirmAdd{Confirm?\n[yes/no]}
+    ConfirmAdd -- yes --> SaveExisting[Save Translations & Verbs\nClean Files] --> LoopStart
+    ConfirmAdd -- no --> CancelAdd[Cancel] --> LoopStart
+    
+    PromptAddMeaning -- no --> LogTask[Log Task] --> LoopStart
+    PromptAddMeaning -- edit --> OpenVim[Open files in Vim] --> LoopStart
+    PromptAddMeaning -- other --> WrongKey1[Wrong Key Error] --> LoopStart
+    
+    CheckExisting -- No --> IsEmpty{Is word empty?}
+    IsEmpty -- Yes --> PrintEmpty[Print Empty Word Error] --> LoopStart
+    
+    IsEmpty -- No --> HandleNew[Handle New Word]
+    HandleNew --> ReadInputsNew[Read Spanish, Verb forms, Notes]
+    ReadInputsNew --> PrintInputsNew[Print Inputs]
+    PrintInputsNew --> SelectConfirm{Select option:\n[yes/no/quit]}
+    
+    SelectConfirm -- yes --> SaveNew[Create Files\nSave Translations & Verbs] --> LoopStart
+    SelectConfirm -- no --> CancelNew[Cancel] --> LoopStart
+    SelectConfirm -- quit --> LoopStart
+```
+
 ## Dependencies
 
 The `install.sh` script will automatically attempt to install the following dependencies for you:
