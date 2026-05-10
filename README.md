@@ -19,41 +19,41 @@ Supporting logic (colors, audio, file layout, menus) lives in `directory_paths.s
 
 ```mermaid
 flowchart TD
-    Start([Start]) --> ArgumentsCheck{Has Arguments?}
+    Start([Start]) --> ArgumentsCheck{"Has Arguments?"}
     
-    ArgumentsCheck -- Yes --> Error[Display Error & Exit]
-    ArgumentsCheck -- No --> LoopStart((Main Loop))
+    ArgumentsCheck -- Yes --> Error["Display Error & Exit"]
+    ArgumentsCheck -- No --> LoopStart(("Main Loop"))
     
-    LoopStart --> PrintTitle[Print Title]
-    PrintTitle --> ReadWord[/Prompt User: Type a word/]
+    LoopStart --> PrintTitle["Print Title"]
+    PrintTitle --> ReadWord[/"Prompt User: Type a word"/]
     
-    ReadWord --> IsEmpty{Is word empty?}
-    IsEmpty -- Yes --> ProcessEmptyWord[Process Empty Word]
-    ProcessEmptyWord --> PlayLast[Play Audio of Last Found Word]
+    ReadWord --> IsEmpty{"Is word empty?"}
+    IsEmpty -- Yes --> ProcessEmptyWord["Process Empty Word"]
+    ProcessEmptyWord --> PlayLast["Play Audio of Last Found Word"]
     PlayLast --> LoopStart
     
-    IsEmpty -- No --> CheckEnglish{Is it a retrievable\nEnglish word?}
+    IsEmpty -- No --> CheckEnglish{"Is it a retrievable\nEnglish word?"}
     
-    CheckEnglish -- Yes --> ProcessEnglishWord[Process English Word]
-    ProcessEnglishWord --> PlayAudioEN[Play English Audio]
-    PlayAudioEN --> DisplayTranslEN[Display English Translation]
-    DisplayTranslEN --> SetLastWordEN[Save as last found word]
+    CheckEnglish -- Yes --> ProcessEnglishWord["Process English Word"]
+    ProcessEnglishWord --> PlayAudioEN["Play English Audio"]
+    PlayAudioEN --> DisplayTranslEN["Display English Translation"]
+    DisplayTranslEN --> SetLastWordEN["Save as last found word"]
     SetLastWordEN --> LoopStart
     
-    CheckEnglish -- No --> CheckSpanish{Is it a retrievable\nSpanish word?}
+    CheckEnglish -- No --> CheckSpanish{"Is it a retrievable\nSpanish word?"}
     
-    CheckSpanish -- Yes --> ProcessSpanishWord[Process Spanish Word]
-    ProcessSpanishWord --> CleanSpanish[Clean Spanish File]
-    CleanSpanish --> DisplayTranslES[Display Spanish Translation]
-    DisplayTranslES --> PlayAudioES[Play Equivalent English Audio]
-    PlayAudioES --> SetLastWordES[Save as last found word]
+    CheckSpanish -- Yes --> ProcessSpanishWord["Process Spanish Word"]
+    ProcessSpanishWord --> CleanSpanish["Clean Spanish File"]
+    CleanSpanish --> DisplayTranslES["Display Spanish Translation"]
+    DisplayTranslES --> PlayAudioES["Play Equivalent English Audio"]
+    PlayAudioES --> SetLastWordES["Save as last found word"]
     SetLastWordES --> LoopStart
     
-    CheckSpanish -- No --> ProcessUnknown[Process Unknown Word]
-    ProcessUnknown --> GoogleTranslate[Translate using Google script]
-    GoogleTranslate --> PlayAudioUnk[Play English Audio]
-    PlayAudioUnk --> OptionAdd[Display option to add new word]
-    OptionAdd --> DisplayMenu[Display Interactive Menu]
+    CheckSpanish -- No --> ProcessUnknown["Process Unknown Word"]
+    ProcessUnknown --> GoogleTranslate["Translate using Google script"]
+    GoogleTranslate --> PlayAudioUnk["Play English Audio"]
+    PlayAudioUnk --> OptionAdd["Display option to add new word"]
+    OptionAdd --> DisplayMenu["Display Interactive Menu"]
     DisplayMenu --> LoopStart
 ```
 
@@ -72,41 +72,41 @@ So: **`lookup`** = search and translate; **`addWord`** = maintain the dictionary
 
 ```mermaid
 flowchart TD
-    Start([Start]) --> ArgumentsCheck{Has Arguments?}
+    Start([Start]) --> ArgumentsCheck{"Has Arguments?"}
     
-    ArgumentsCheck -- Yes --> Error[Display Error & Exit]
-    ArgumentsCheck -- No --> DeleteEmpty[Delete Empty Files]
-    DeleteEmpty --> LoopStart((Main Loop))
+    ArgumentsCheck -- Yes --> Error["Display Error & Exit"]
+    ArgumentsCheck -- No --> DeleteEmpty["Delete Empty Files"]
+    DeleteEmpty --> LoopStart(("Main Loop"))
     
-    LoopStart --> PrintHeader[/Print Header & Prompt User: Type an English word/]
+    LoopStart --> PrintHeader[/"Print Header & Prompt User: Type an English word"/]
     
-    PrintHeader --> CheckExisting{Does English word exist?}
+    PrintHeader --> CheckExisting{"Does English word exist?"}
     
-    CheckExisting -- Yes --> HandleExisting[Handle Existing Word]
-    HandleExisting --> DisplayWord[Display current meanings]
-    DisplayWord --> PromptAddMeaning{Add another meaning?\n[yes/no/edit]}
+    CheckExisting -- Yes --> HandleExisting["Handle Existing Word"]
+    HandleExisting --> DisplayWord["Display current meanings"]
+    DisplayWord --> PromptAddMeaning{"Add another meaning?\n[yes/no/edit]"}
     
-    PromptAddMeaning -- yes --> HandleAddMeaning[Handle Add Meaning]
-    HandleAddMeaning --> ReadInputs[Read Spanish, Verb forms, Notes]
-    ReadInputs --> PrintInputs[Print Inputs]
-    PrintInputs --> ConfirmAdd{Confirm?\n[yes/no]}
-    ConfirmAdd -- yes --> SaveExisting[Save Translations & Verbs\nClean Files] --> LoopStart
-    ConfirmAdd -- no --> CancelAdd[Cancel] --> LoopStart
+    PromptAddMeaning -- yes --> HandleAddMeaning["Handle Add Meaning"]
+    HandleAddMeaning --> ReadInputs["Read Spanish, Verb forms, Notes"]
+    ReadInputs --> PrintInputs["Print Inputs"]
+    PrintInputs --> ConfirmAdd{"Confirm?\n[yes/no]"}
+    ConfirmAdd -- yes --> SaveExisting["Save Translations & Verbs\nClean Files"] --> LoopStart
+    ConfirmAdd -- no --> CancelAdd["Cancel"] --> LoopStart
     
-    PromptAddMeaning -- no --> LogTask[Log Task] --> LoopStart
-    PromptAddMeaning -- edit --> OpenVim[Open files in Vim] --> LoopStart
-    PromptAddMeaning -- other --> WrongKey1[Wrong Key Error] --> LoopStart
+    PromptAddMeaning -- no --> LogTask["Log Task"] --> LoopStart
+    PromptAddMeaning -- edit --> OpenVim["Open files in Vim"] --> LoopStart
+    PromptAddMeaning -- other --> WrongKey1["Wrong Key Error"] --> LoopStart
     
-    CheckExisting -- No --> IsEmpty{Is word empty?}
-    IsEmpty -- Yes --> PrintEmpty[Print Empty Word Error] --> LoopStart
+    CheckExisting -- No --> IsEmpty{"Is word empty?"}
+    IsEmpty -- Yes --> PrintEmpty["Print Empty Word Error"] --> LoopStart
     
-    IsEmpty -- No --> HandleNew[Handle New Word]
-    HandleNew --> ReadInputsNew[Read Spanish, Verb forms, Notes]
-    ReadInputsNew --> PrintInputsNew[Print Inputs]
-    PrintInputsNew --> SelectConfirm{Select option:\n[yes/no/quit]}
+    IsEmpty -- No --> HandleNew["Handle New Word"]
+    HandleNew --> ReadInputsNew["Read Spanish, Verb forms, Notes"]
+    ReadInputsNew --> PrintInputsNew["Print Inputs"]
+    PrintInputsNew --> SelectConfirm{"Select option:\n[yes/no/quit]"}
     
-    SelectConfirm -- yes --> SaveNew[Create Files\nSave Translations & Verbs] --> LoopStart
-    SelectConfirm -- no --> CancelNew[Cancel] --> LoopStart
+    SelectConfirm -- yes --> SaveNew["Create Files\nSave Translations & Verbs"] --> LoopStart
+    SelectConfirm -- no --> CancelNew["Cancel"] --> LoopStart
     SelectConfirm -- quit --> LoopStart
 ```
 
