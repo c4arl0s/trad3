@@ -15,6 +15,48 @@ Interactive command-line tools for looking up and maintaining a personal English
 
 Supporting logic (colors, audio, file layout, menus) lives in `directory_paths.sh` and the files it sources under `helper-functions/`, `trad-functions/`, and `add-functions/`.
 
+### Execution Flowchart
+
+```mermaid
+flowchart TD
+    Start([Start]) --> ArgumentsCheck{Has Arguments?}
+    
+    ArgumentsCheck -- Yes --> Error[Display Error & Exit]
+    ArgumentsCheck -- No --> LoopStart((Main Loop))
+    
+    LoopStart --> PrintTitle[Print Title]
+    PrintTitle --> ReadWord[/Prompt User: Type a word/]
+    
+    ReadWord --> IsEmpty{Is word empty?}
+    IsEmpty -- Yes --> ProcessEmptyWord[Process Empty Word]
+    ProcessEmptyWord --> PlayLast[Play Audio of Last Found Word]
+    PlayLast --> LoopStart
+    
+    IsEmpty -- No --> CheckEnglish{Is it a retrievable\nEnglish word?}
+    
+    CheckEnglish -- Yes --> ProcessEnglishWord[Process English Word]
+    ProcessEnglishWord --> PlayAudioEN[Play English Audio]
+    PlayAudioEN --> DisplayTranslEN[Display English Translation]
+    DisplayTranslEN --> SetLastWordEN[Save as last found word]
+    SetLastWordEN --> LoopStart
+    
+    CheckEnglish -- No --> CheckSpanish{Is it a retrievable\nSpanish word?}
+    
+    CheckSpanish -- Yes --> ProcessSpanishWord[Process Spanish Word]
+    ProcessSpanishWord --> CleanSpanish[Clean Spanish File]
+    CleanSpanish --> DisplayTranslES[Display Spanish Translation]
+    DisplayTranslES --> PlayAudioES[Play Equivalent English Audio]
+    PlayAudioES --> SetLastWordES[Save as last found word]
+    SetLastWordES --> LoopStart
+    
+    CheckSpanish -- No --> ProcessUnknown[Process Unknown Word]
+    ProcessUnknown --> GoogleTranslate[Translate using Google script]
+    GoogleTranslate --> PlayAudioUnk[Play English Audio]
+    PlayAudioUnk --> OptionAdd[Display option to add new word]
+    OptionAdd --> DisplayMenu[Display Interactive Menu]
+    DisplayMenu --> LoopStart
+```
+
 ## What `addWord.sh` does
 
 `addWord.sh` is the **editor** for new or existing entries. It is meant to be run with no arguments. It:
