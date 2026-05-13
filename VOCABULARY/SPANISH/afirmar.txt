@@ -1,1 +1,2 @@
 afirmar:assert:::::
+afirmar:claim:::::

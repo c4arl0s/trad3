@@ -1,3 +1,4 @@
 buscar : search :  :  :  :  : 
 buscar : fetch :  :  :  :  : 
 buscar : look-up :  :  :  :  : 
+buscar:lookup:::::
