@@ -22,6 +22,7 @@ TEMPORAL_DIRECTORY_PATH="$REPO_DIR/vocabulary"
 . $REPO_DIR/trad-functions/print_title.sh
 . $REPO_DIR/trad-functions/is_retrievable_english_word.sh
 . $REPO_DIR/trad-functions/is_retrievable_english_audio.sh
+. $REPO_DIR/trad-functions/download_word_audio.sh
 . $REPO_DIR/trad-functions/download_audio_from_google.sh
 . $REPO_DIR/trad-functions/convert_mp3_to_wav.sh
 . $REPO_DIR/trad-functions/is_retrievable_spanish_word.sh
