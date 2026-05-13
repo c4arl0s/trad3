@@ -6,7 +6,7 @@ reproduce_english_audio_file_if_available() {
   then
     reproduce_audio ${WORD}
   else
-    printf "${RED}Audio file does not exist\n"
+    printf "\n${RED}Audio file does not exist\n"
     download_word_audio -w ${WORD}
     convert_mp3_to_wav ${WORD}
     reproduce_audio ${WORD}
