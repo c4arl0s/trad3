@@ -1,1 +1,2 @@
 frase : sentence :  :  :  :  : 
+frase:phrase:::::
