@@ -9,6 +9,9 @@ done
 REPO_DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
 . "${REPO_DIR}/directory_paths.sh"
 
+# The history logic and loop are moved into a subshell below to prevent
+# script commands from being recorded and to avoid polluting the environment.
+
 readonly NO_ARGUMENTS_MSG="\n${WHITE}You should not provide any argument in this script, you just type trad3"
 readonly AVAILABILITY_MSG="\n${WHITE}${WORD} ${GREEN}is available in english data base" 
 readonly DOES_NOT_EXIST_ENG_MSG="\n${WHITE}${WORD} ${RED}does not exist on english data base .... now looking into spanish data base"
@@ -55,24 +58,41 @@ process_empty_word() {
   reproduce_last_word_found_if_available ${last_word_found}
 }
 
-while : ; do
-  print_title $(basename $0)
-  echo -e "${WHITE}"
-  printf "%s" "Type a word: "; read word
-  
-  if [ -z "${word}" ]; then
-    process_empty_word
-    continue
-  fi
-  
-  if $(is_retrievable_english_word ${word}); then
-    process_english_word "${word}"
-  else
-    printf ${DOES_NOT_EXIST_ENG_MSG}
-    if $(is_retrievable_spanish_word ${word}); then
-      process_spanish_word "${word}"
-    else
-      process_unknown_word "${word}"
+(
+  # History setup local to this subshell session
+  set -o history
+  HISTFILE="$HOME/.lookup_history"
+  HISTSIZE=1000
+  touch "$HISTFILE"
+  history -r "$HISTFILE"
+  # Disable automatic recording of commands executed within this script
+  set +o history
+
+  while : ; do
+    print_title $(basename $0)
+    echo -e "${WHITE}"
+    read -e -p "Type a word: " word
+    
+    if [ -n "$word" ]; then
+      # Manually add only the typed word to history
+      history -s "$word"
+      history -w "$HISTFILE"
     fi
-  fi
-done
+    
+    if [ -z "${word}" ]; then
+      process_empty_word
+      continue
+    fi
+    
+    if $(is_retrievable_english_word ${word}); then
+      process_english_word "${word}"
+    else
+      printf ${DOES_NOT_EXIST_ENG_MSG}
+      if $(is_retrievable_spanish_word ${word}); then
+        process_spanish_word "${word}"
+      else
+        process_unknown_word "${word}"
+      fi
+    fi
+  done
+)
