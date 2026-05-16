@@ -2,3 +2,4 @@ dejar : leave : abandonar (persona) : left : left : leaving :
 dejar : let :  : let : let : letting : 
 dejar : lay-off :  :  :  :  : 
 dejar : quiting :  :  :  :  : 
+dejar:drop-off:::::definition":"A space reserved outside a bus or railway station for vehicles stopping to drop off passengers for onward transit.
